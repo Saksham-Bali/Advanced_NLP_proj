@@ -73,7 +73,7 @@ def get_prediction(clause_text: str, clause_type: str) -> str:
     prompt = build_prompt(clause_text, clause_type)
 
     response = ollama.chat(
-        model="mistral:7b-instruct",
+        model="llama3.1:8b",
         messages=[
             {
                 "role": "user",
@@ -186,11 +186,8 @@ print(confusion.to_string(index=False))
 
 # ============================================================
 # STEP 9 — Report Table
-# Copy this directly into your slides / report
 # ============================================================
-print("\n--- COPY THIS INTO YOUR REPORT ---")
 print(f"| Model                   | Accuracy | Macro F1 |")
 print(f"|-------------------------|----------|----------|")
 print(f"| Zero-shot LLaMA 3.1 8B  | {accuracy*100:.1f}%    | {f1_macro:.3f}    |")
-print(f"| Fine-tuned (no role)    | TBD      | TBD      |")
 print(f"| Ours (role-conditioned) | TBD      | TBD      |")
