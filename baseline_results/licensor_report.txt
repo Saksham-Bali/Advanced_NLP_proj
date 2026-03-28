@@ -1,0 +1,70 @@
+================================================================
+  BASELINE  ·  LICENSOR PERSPECTIVE  ·  Llama 8B  (zero-shot)
+================================================================
+
+  Model               : llama3.1:8b
+  Clauses evaluated   : 117
+  Parse failures      : 0  (defaulted to 'low')
+
+  Overall accuracy    : 0.231
+  Balanced accuracy   : 0.449  (macro-averaged recall)
+
+  Note: if balanced accuracy << overall accuracy, the model is
+  leaning on the majority class rather than learning risk signals.
+
+── Per-class metrics ───────────────────────────────────────────
+
+              precision    recall  f1-score   support
+
+         Low      1.000     0.067     0.126        89
+      Medium      0.180     0.947     0.303        19
+        High      0.273     0.333     0.300         9
+
+    accuracy                          0.231       117
+   macro avg      0.484     0.449     0.243       117
+weighted avg      0.811     0.231     0.168       117
+
+── Confusion matrix ────────────────────────────────────────────
+
+             pred_low  pred_medium  pred_high
+true_low            6           76          7
+true_medium         0           18          1
+true_high           0            6          3
+
+  Rows = ground truth   Columns = model prediction
+
+── Misclassification breakdown ─────────────────────────────────
+
+ground_truth predicted  count
+         low    medium     76
+         low      high      7
+        high    medium      6
+      medium      high      1
+
+── High ↔ Low flip errors  (7 found) ─────────────────────
+  These are the highest-priority errors — model called a High-risk
+  clause Low (or vice versa). Prioritise these in fine-tuning.
+
+  clause 115  gt=low  pred=high
+  text   : (b) Sublicense Rights. The licenses granted to Vyera under this Agreement shall not be transferrable and/or sublicensabl...
+  reason : The clause only gives CytoDyn the right to approve transfers or sublicenses, which is a protection, not a cost.
+
+  clause  14  gt=low  pred=high
+  text   : (c) contest, challenge or otherwise make any claim or take any action adverse to Licensor’s interest in the Licensed Dom...
+  reason : The clause only gives the Licensor a right to demand the Licensee stop prohibited uses, which is a protection, not a cost.
+
+  clause 100  gt=low  pred=high
+  text   : a. WPT shall indemnify, defend, and hold harmless Zynga and its Affiliates, and the respective directors, officers and e...
+  reason : Zynga only receives a protection to be indemnified; it faces no new cost or restriction.
+
+  clause 107  gt=low  pred=high
+  text   : All rights granted to WPT by Zynga shall immediately revert to Zynga, and WPT shall promptly cease any and all marketing...
+  reason : Zynga only gains the right to take back its IP and stop WPT's use, which is a protection, not a cost.
+
+  clause  40  gt=low  pred=high
+  text   : 8.2. Indemnification by Licensee. Licensee shall defend, indemnify and hold harmless Licensor and its Affiliates, and th...
+  reason : The Licensor mainly receives indemnification and only has minor duties to give notice, cooperate, and not block settlements, which do not cr
+
+  ... and 2 more (see predictions JSON)
+
+================================================================
