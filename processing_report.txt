@@ -1,0 +1,26 @@
+============================================================
+LEGAL CLAUSE DATASET — PROCESSING REPORT
+============================================================
+
+Input file : complete_annotation.jsonl
+Output file: processed_dataset.jsonl
+
+Total raw records  : 630
+Rejected (errors)  : 162
+Clean records      : 468
+Balanced output    : 117
+
+  Records with api_error removed: 162
+
+── Pre-Balance Clause Class Distribution ────────────
+  (High if either party=High, Medium if either=Medium, else Low)
+  Low     :  302
+  Medium  :  127
+  High    :   39
+
+── Post-Balance Clause Class Distribution ───────────
+  Low     :   39
+  Medium  :   39
+  High    :   39
+
+============================================================
