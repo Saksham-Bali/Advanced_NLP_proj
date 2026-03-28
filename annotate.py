@@ -27,120 +27,253 @@ The clause comes from a License Agreement, where:
 - "Licensor" is the party that owns the intellectual property (IP) and grants usage rights
 - "Licensee" is the party that receives the right to use the IP
 
-Use these exact party roles in your output.
-
 ----------------------------------------
 CORE DECISION RULE
 ----------------------------------------
-IF any HIGH trigger is present → High  
-ELSE IF any MEDIUM trigger is present → Medium  
-ELSE → Low  
+IF any HIGH trigger is present → High
+ELSE IF any MEDIUM trigger is present → Medium
+ELSE → Low
 
 Always choose the highest applicable risk.
-
-Risk is always evaluated from the perspective of what the clause COSTS or 
-RESTRICTS that party.
-
-A clause that protects a party is Low risk for that party, even if it contains 
-a trigger that harms the other party.
-
-If a clause creates no cost or restriction for a party, always label that 
-party Low regardless of what triggers affect the other party.
+Risk = what the clause COSTS or RESTRICTS that party.
+A clause that protects a party is Low for that party.
+A clause that GRANTS a party a right or option is Low for that party —
+risk only flows to the party SUBJECT TO the obligation or consequence.
 
 ----------------------------------------
 HIGH RISK TRIGGERS
 ----------------------------------------
-- Uncapped / unlimited liability  
-- One-sided indemnification  
-- Unilateral termination without cause  
-- IP ownership assigned entirely to one party (especially if created by the other party)
-- License revocable at will without protection or compensation for the Licensee  
-- Usage restrictions that prevent the Licensee from conducting their core business
-  or that apply indefinitely beyond the contract term without compensation
-- Automatic renewal with no reasonable opt-out  
-- Unilateral amendment rights  
+- Uncapped / unlimited liability or indemnification
+- Unilateral termination without cause or compensation
+- License revocable at will with no protection for Licensee
+- IP ownership assigned to one party for work created by the other
+- Usage restrictions that prevent Licensee's core business operations
+- Unilateral amendment rights with no notice or protection
+- Automatic renewal with no reasonable opt-out
+- Immediate cessation of use with no wind-down, where Licensee's
+  operations depend on the licensed IP
 
 ----------------------------------------
 MEDIUM RISK TRIGGERS
 ----------------------------------------
-- Liability with a defined cap  
-- Termination with notice (early/unilateral termination only — NOT fixed-term expiry)
-- Confidentiality beyond contract term  
-- Governing law in a distant jurisdiction  
-- Royalty / payment obligations with a defined rate or cap  
-- Audit rights  
-- Post-termination obligations (e.g., destroy materials, cease use)
-- Change of control clause  
-
-----------------------------------------
-TRIGGER CLARIFICATIONS
-----------------------------------------
-- Uncapped liability requires explicit liability with no financial limit.
-  A liability cap is Medium risk only for the party whose recovery is limited,
-  not for the party being protected.
-
-- Termination with notice applies only to early or unilateral termination.
-  A fixed-term license that naturally expires is Low risk.
-
-- If the Licensee builds or improves IP but ownership goes entirely to the Licensor,
-  this is HIGH risk for the Licensee.
-
-- Royalty obligations with a defined rate or cap = Medium.
-  Royalty obligations that are open-ended, escalating, or have no defined limit
-  = High under uncapped liability.
-
-- Audit rights are Medium risk only for the party whose books are being audited,
-  not for the party conducting the audit.
-
-- Immediate cessation of use with no wind-down period after termination is High
-  risk for Licensee if their core operations depend on the licensed IP.
-  A reasonable wind-down period = Medium risk.
-
-- Unilateral policy change rights are High only when there is NO notice 
-  requirement and NO equal-treatment protection. If the clause requires 
-  written notice in advance AND gives the Licensee the same implementation 
-  time as the Licensor's own affiliates, classify as Medium, not High.
-
-----------------------------------------
-LICENSE-SPECIFIC INTERPRETATION
-----------------------------------------
-When analyzing risk, consider:
-
-- Licensor controls the IP and can restrict usage
-- Licensee depends on the license to operate, sell, or build products
-
-Risk increases when:
-
-For Licensee:
-- License can be revoked easily or without compensation
-- Usage rights are unclear, narrow, or easily restricted
-- Strong payment or royalty obligations exist
-- Improvements or derivative works are owned fully by Licensor
-
-For Licensor:
-- Liability or indemnity obligations are imposed
-- IP control is weakened or transferred
-- Revenue is capped or restricted unfairly
-
-IMPORTANT:
-- Ownership staying with Licensor is NORMAL and NOT a risk by default
-- Only classify as risk if there is imbalance, restriction, or cost based on triggers
-- Do NOT assume risk unless a defined trigger is present
+- Liability with a defined cap (Medium for the party whose recovery
+  is limited, Low for the party being protected)
+- Early or unilateral termination with notice (NOT fixed-term expiry)
+- Compliance obligation where failure is a "material breach"
+  (exposes that party to license termination)
+- Confidentiality obligations that extend beyond the contract term
+- Governing law in a distant or unfamiliar jurisdiction
+- Royalty or payment obligations with a defined rate or cap
+- Audit rights (Medium for the party being audited only)
+- Post-termination obligations (cease use, destroy materials)
+- Change of control clause
+- Wind-down period after termination (reasonable transition = Medium)
+- Full warranty disclaimer (eliminates Licensee's right to recourse
+  if licensed IP is defective — Medium for Licensee, Low for Licensor)
+- Waiver of a default legal protection (e.g. rule that ambiguous
+  terms are read against the drafter — removes Licensee's safety net)
 
 ----------------------------------------
 INSTRUCTIONS
 ----------------------------------------
-- Evaluate BOTH parties: "Licensor" and "Licensee"
-- Do NOT invent new triggers
-- Be consistent and deterministic
-- Write explanations in plain, simple English that a non-lawyer can understand
-- Avoid legal jargon
-- Focus on real-world consequences
-- Keep explanations to 1–2 sentences maximum
+You MUST follow this two-step process for every clause:
+
+STEP 1 — SCRATCHPAD (required, plain text)
+Write your reasoning before producing any JSON. Answer these four
+questions explicitly:
+  1. What does this clause specifically cost or restrict the Licensor?
+     If it only gives the Licensor a right or protection, say so.
+  2. What does this clause specifically cost or restrict the Licensee?
+     If it only gives the Licensee a right or protection, say so.
+  3. Which triggers apply to each party?
+  4. Are there any safeguards (notice requirements, equal treatment,
+     wind-down periods, caps) that downgrade a trigger?
+
+STEP 2 — JSON OUTPUT
+Only after completing the scratchpad, produce the JSON output.
+Your JSON labels must be consistent with your scratchpad reasoning.
+If your scratchpad says a clause gives a party a right, that party
+cannot be High or Medium in the JSON.
+
+Additional rules:
+- Evaluate each party INDEPENDENTLY. After finishing the Licensor,
+  reset your reasoning before evaluating the Licensee. Do not let
+  your conclusion for one party influence the other.
+- Do NOT classify a clause as Low because it looks like a familiar
+  clause type. Always evaluate the specific consequences in the text.
+- Keep explanations to 1–2 plain English sentences. No legal jargon.
 
 ----------------------------------------
-OUTPUT FORMAT (STRICT JSON ONLY — no extra text, no markdown backticks)
+EXAMPLES
 ----------------------------------------
+
+Example 1 — One-sided indemnification (Licensee bears risk):
+
+Clause: "Licensee shall indemnify Licensor against any and all claims
+arising from use of the licensed IP."
+
+SCRATCHPAD:
+1. Licensor: no cost — they are fully protected by the indemnity.
+2. Licensee: must pay all damages and legal costs if any claim arises.
+3. Licensee triggers: uncapped indemnification → High.
+   Licensor triggers: none — clause protects them.
+4. No safeguards present.
+
+OUTPUT:
+{
+  "parties": {
+    "Licensor": {
+      "risk": "Low",
+      "explanation": "The Licensor is fully covered — if any claim arises, the Licensee pays all costs."
+    },
+    "Licensee": {
+      "risk": "High",
+      "explanation": "The Licensee must cover all damages and legal costs if anything goes wrong, with no limit on the amount."
+    }
+  }
+}
+
+---
+
+Example 2 — Right vs. burden (termination on insolvency):
+
+Clause: "Either Party may immediately terminate this Agreement if the
+other Party becomes insolvent or unable to pay its debts as they mature."
+
+SCRATCHPAD:
+1. Licensor: this clause gives the Licensor a right to exit if the
+   Licensee becomes insolvent. Holding a right is not a cost or
+   restriction — it is a protection.
+2. Licensee: can lose the license immediately if it becomes insolvent,
+   disrupting its operations.
+3. Licensor triggers: none — the clause grants them a right, not an
+   obligation.
+   Licensee triggers: event-triggered termination → Medium.
+4. No safeguards reduce the Licensee's exposure.
+
+OUTPUT:
+{
+  "parties": {
+    "Licensor": {
+      "risk": "Low",
+      "explanation": "This clause gives the Licensor the right to exit if the Licensee can't pay its bills — having that right is a protection, not a risk."
+    },
+    "Licensee": {
+      "risk": "Medium",
+      "explanation": "If the Licensee becomes insolvent, the Licensor can end the agreement immediately, meaning the Licensee could lose access to the IP at the worst possible time."
+    }
+  }
+}
+
+---
+
+Example 3 — Mutual obligation evaluated independently:
+
+Clause: "Each Party shall maintain in confidence all Confidential
+Information of the other Party and shall not disclose it to any third
+party. This obligation survives termination of this Agreement."
+
+SCRATCHPAD:
+1. Licensor: is also a Recipient — must keep the Licensee's
+   confidential information secret even after the contract ends.
+   This is a real ongoing obligation, not a protection.
+2. Licensee: is also a Recipient — the exact same obligation applies.
+   Evaluated independently of the Licensor.
+3. Both parties: confidentiality beyond contract term → Medium for both.
+4. No caps or time limit on survival — no downgrade applies.
+
+OUTPUT:
+{
+  "parties": {
+    "Licensor": {
+      "risk": "Medium",
+      "explanation": "The Licensor must keep the Licensee's confidential information secret indefinitely, even after the agreement ends — this is an ongoing obligation with no end date."
+    },
+    "Licensee": {
+      "risk": "Medium",
+      "explanation": "The Licensee must also keep the Licensor's confidential information secret indefinitely after the agreement ends — the same ongoing burden applies."
+    }
+  }
+}
+
+---
+
+Example 4 — Safeguard downgrades a trigger:
+
+Clause: "Licensee agrees to use the Licensed Domain Names only in
+accordance with such content distribution policy that Licensor uses in
+connection with its own business, and as may be established by Licensor
+and communicated in writing in advance to Licensee, provided that
+Licensee shall be afforded the same period of time to implement any
+such policy as is afforded to Licensor's Affiliates and other third
+parties."
+
+SCRATCHPAD:
+1. Licensor: can update its own policies normally — no new cost or
+   restriction imposed on them.
+2. Licensee: must follow Licensor's changing policies — surface risk
+   of a unilateral change right.
+3. Licensee triggers: unilateral policy change → initially looks High.
+   Licensor triggers: none.
+4. Safeguards present: written notice required in advance AND equal
+   implementation time as Licensor's own affiliates → downgrade
+   from High to Medium.
+
+OUTPUT:
+{
+  "parties": {
+    "Licensor": {
+      "risk": "Low",
+      "explanation": "The Licensor can update its policies as part of running its own business and faces no new cost or restriction."
+    },
+    "Licensee": {
+      "risk": "Medium",
+      "explanation": "The Licensor can change the rules the Licensee must follow, but must give written notice in advance and give the Licensee the same time to adapt as its own affiliates — so the risk is real but limited."
+    }
+  }
+}
+
+---
+
+Example 5 — Material breach designation:
+
+Clause: "Licensee shall remove any offending Content from the websites
+as soon as possible after becoming aware of it. Licensee's failure to
+comply with this Section shall be deemed a material breach of this
+Agreement."
+
+SCRATCHPAD:
+1. Licensor: only gains a monitoring and enforcement right — no cost
+   or restriction imposed on them.
+2. Licensee: must comply with a content removal obligation. Failure
+   is explicitly called a material breach, which can trigger
+   termination of the entire agreement.
+3. Licensee triggers: compliance obligation + material breach
+   designation → Medium (termination exposure).
+   Licensor triggers: none — clause gives them a right.
+4. No safeguards reduce the Licensee's exposure.
+
+OUTPUT:
+{
+  "parties": {
+    "Licensor": {
+      "risk": "Low",
+      "explanation": "The Licensor gains the right to enforce content standards — this is a protection, not a cost."
+    },
+    "Licensee": {
+      "risk": "Medium",
+      "explanation": "The Licensee must remove problematic content quickly, and failing to do so counts as a serious breach that could result in losing the license."
+    }
+  }
+}
+
+----------------------------------------
+OUTPUT FORMAT (STRICT — follow exactly)
+----------------------------------------
+First write your SCRATCHPAD as plain text.
+Then produce the JSON block below with no extra text and no markdown
+backticks around it.
+
 {
   "clause_text": "<original clause>",
   "parties": {
@@ -151,74 +284,6 @@ OUTPUT FORMAT (STRICT JSON ONLY — no extra text, no markdown backticks)
     "Licensee": {
       "risk": "High | Medium | Low",
       "explanation": "<plain language explanation>"
-    }
-  }
-}
-
-----------------------------------------
-EXAMPLES
-----------------------------------------
-Example 1 — Licensee bears risk:
-
-Clause:
-"Licensee shall indemnify Licensor against any and all claims arising from use of the licensed IP."
-
-Output:
-{
-  "clause_text": "Licensee shall indemnify Licensor against any and all claims arising from use of the licensed IP.",
-  "parties": {
-    "Licensor": {
-      "risk": "Low",
-      "explanation": "The Licensor is fully protected — if anyone makes a claim, the Licensee has to cover all the costs."
-    },
-    "Licensee": {
-      "risk": "High",
-      "explanation": "If anything goes wrong when using the IP, the Licensee has to pay for all damages and legal costs, which could be very expensive."
-    }
-  }
-}
-
-Example 2 — Licensor bears risk:
-
-Clause:
-"Licensor shall indemnify Licensee against any third-party claims alleging that the licensed IP infringes any patent or copyright."
-
-Output:
-{
-  "clause_text": "Licensor shall indemnify Licensee against any third-party claims alleging that the licensed IP infringes any patent or copyright.",
-  "parties": {
-    "Licensor": {
-      "risk": "High",
-      "explanation": "If someone claims the IP belongs to them or infringes their rights, the Licensor has to pay all legal costs — even if the case is expensive or drawn out."
-    },
-    "Licensee": {
-      "risk": "Low",
-      "explanation": "The Licensee is protected here — if there is an IP ownership dispute, the Licensor covers all costs, not the Licensee."
-    }
-  }
-}
-
-Example 3 — Unilateral change right with protective safeguard:
-
-Clause:
-"Licensee agrees to use the Licensed Domain Names only in accordance with 
-such content distribution policy that Licensor uses in connection with its 
-own business, and as may be established by Licensor and communicated in 
-writing in advance to Licensee from time to time, provided that Licensee 
-shall be afforded the same period of time to implement any such policy as 
-is afforded to Licensor's Affiliates and other third parties."
-
-Output:
-{
-  "clause_text": "...",
-  "parties": {
-    "Licensor": {
-      "risk": "Low",
-      "explanation": "The Licensor can update its own policies normally and faces no new cost or restriction."
-    },
-    "Licensee": {
-      "risk": "Medium",
-      "explanation": "The Licensor can change the rules the Licensee must follow, but must give written notice in advance and give the Licensee the same time to adapt as its own affiliates get — so the risk is real but limited."
     }
   }
 }
