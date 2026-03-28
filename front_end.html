@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ContractGuard — Risk Analyzer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+  * { font-family: 'IBM Plex Sans', sans-serif; }
+  code, .mono { font-family: 'IBM Plex Mono', monospace; }
+
+  .badge-high  { background:#FEE2E2; color:#991B1B; }
+  .badge-med   { background:#FEF3C7; color:#92400E; }
+  .badge-low   { background:#D1FAE5; color:#065F46; }
+  .border-high { border-left: 3px solid #EF4444; }
+  .border-med  { border-left: 3px solid #F59E0B; }
+  .border-low  { border-left: 3px solid #10B981; }
+
+  .drop-zone { border: 2px dashed #D1D5DB; transition: all 0.2s; }
+  .drop-zone.drag-over { border-color: #6366F1; background: #EEF2FF; }
+  .drop-zone.has-file  { border-color: #10B981; background: #F0FDF4; border-style: solid; }
+
+  .btn-primary { background: #1E1E2E; color: #fff; transition: opacity 0.15s; }
+  .btn-primary:hover { opacity: 0.85; }
+  .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .clause-card { transition: box-shadow 0.15s; }
+  .clause-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+
+  .spinner { animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .progress-bar { transition: width 0.4s ease; }
+
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .chevron { transform: rotate(90deg); }
+  .chevron { transition: transform 0.2s; display: inline-block; }
+
+  .tab-btn { border-bottom: 2px solid transparent; transition: all 0.15s; }
+  .tab-btn.active { border-bottom-color: #1E1E2E; color: #1E1E2E; font-weight: 500; }
+
+  .stat-num { font-size: 2rem; font-weight: 600; line-height: 1; }
+
+  /* scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }
+</style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+<!-- ── TOP BAR ─────────────────────────────────────────────────── -->
+<header class="bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 z-10">
+  <div class="flex items-center gap-2">
+    <div class="w-2 h-2 rounded-full bg-emerald-600"></div>
+    <span class="font-semibold text-sm tracking-wide">ContractGuard</span>
+    <span class="text-gray-300 text-sm">|</span>
+    <span class="text-gray-400 text-xs">NLP Project · Contract Risk Analyzer</span>
+  </div>
+  <div id="status-pill" class="hidden text-xs px-3 py-1 rounded-full bg-gray-100 text-gray-500 flex items-center gap-2">
+    <svg class="spinner w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+    <span id="status-text">Analyzing…</span>
+  </div>
+</header>
+
+<!-- ── MAIN LAYOUT ──────────────────────────────────────────────── -->
+<div class="flex h-[calc(100vh-49px)]">
+
+  <!-- SIDEBAR -->
+  <aside class="w-72 bg-white border-r border-gray-200 flex flex-col p-5 gap-5 overflow-y-auto flex-shrink-0">
+    <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest">Configuration</h2>
+
+    <!-- Upload -->
+    <div>
+      <label class="block text-xs font-medium text-gray-600 mb-1.5">Contract file</label>
+      <div id="drop-zone" class="drop-zone rounded-xl p-5 text-center cursor-pointer" onclick="document.getElementById('file-input').click()" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)" ondrop="handleDrop(event)">
+        <input type="file" id="file-input" accept=".pdf,.docx" class="hidden" onchange="handleFileSelect(event)"/>
+        <div id="drop-content">
+          <svg class="w-8 h-8 mx-auto mb-2 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"/></svg>
+          <p class="text-xs text-gray-400">Drop PDF or DOCX here</p>
+          <p class="text-xs text-gray-300 mt-0.5">or click to browse</p>
+        </div>
+        <div id="file-info" class="hidden">
+          <svg class="w-6 h-6 mx-auto mb-1 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+          <p class="text-xs font-medium text-emerald-700" id="file-name">file.pdf</p>
+          <p class="text-xs text-gray-400" id="file-size">—</p>
+          <button class="mt-1 text-xs text-gray-400 underline" onclick="event.stopPropagation(); clearFile()">Remove</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Role -->
+    <div>
+      <label class="block text-xs font-medium text-gray-600 mb-1.5">User role</label>
+      <select id="role" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:border-indigo-400">
+        <option value="Licensee">Licensee</option>
+        <option value="Licensor">Licensor</option>
+        <option value="Tenant">Tenant</option>
+        <option value="Employer">Employer</option>
+        <option value="Employee">Employee</option>
+        <option value="Freelancer">Freelancer</option>
+        <option value="Consumer">Consumer</option>
+      </select>
+    </div>
+
+    <!-- Risk tolerance -->
+    <div>
+      <label class="block text-xs font-medium text-gray-600 mb-1.5">Risk tolerance</label>
+      <select id="tolerance" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:border-indigo-400">
+        <option value="Low">Low — flag everything</option>
+        <option value="Medium" selected>Medium — balanced</option>
+        <option value="High">High — only critical risks</option>
+      </select>
+    </div>
+
+    <!-- Domain -->
+    <div>
+      <label class="block text-xs font-medium text-gray-600 mb-1.5">Contract domain</label>
+      <select id="domain" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:border-indigo-400">
+        <option value="License Agreement">License Agreement</option>
+        <option value="Lease Agreement">Lease Agreement</option>
+        <option value="Employment Contract">Employment Contract</option>
+        <option value="Service Agreement">Service Agreement</option>
+      </select>
+    </div>
+
+    <div class="flex-1"></div>
+
+    <!-- Analyze button -->
+    <button id="analyze-btn" class="btn-primary w-full py-3 rounded-xl text-sm font-medium flex items-center justify-center gap-2" onclick="runAnalysis()">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 1-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+      Analyze Contract
+    </button>
+
+    <!-- Progress bar -->
+    <div id="progress-wrap" class="hidden">
+      <div class="w-full bg-gray-100 rounded-full h-1.5">
+        <div id="progress-bar" class="progress-bar bg-emerald-500 h-1.5 rounded-full" style="width:0%"></div>
+      </div>
+      <p class="text-xs text-gray-400 mt-1 text-center" id="progress-label">Parsing document…</p>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="flex-1 overflow-y-auto">
+
+    <!-- EMPTY STATE -->
+    <div id="empty-state" class="flex flex-col items-center justify-center h-full gap-3 text-gray-300">
+      <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z"/></svg>
+      <p class="text-sm">Upload a contract and click <strong class="text-gray-400">Analyze Contract</strong> to begin</p>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results" class="hidden p-6 flex flex-col gap-6">
+
+      <!-- Summary cards -->
+      <div>
+        <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Analysis Summary</h2>
+        <div class="grid grid-cols-4 gap-3">
+          <div class="bg-white rounded-xl border border-gray-100 p-4">
+            <p class="text-xs text-gray-400 mb-1">Total clauses</p>
+            <p class="stat-num text-gray-800" id="stat-total">—</p>
+          </div>
+          <div class="bg-red-50 rounded-xl border border-red-100 p-4">
+            <p class="text-xs text-red-400 mb-1">High risk</p>
+            <p class="stat-num text-red-700" id="stat-high">—</p>
+          </div>
+          <div class="bg-amber-50 rounded-xl border border-amber-100 p-4">
+            <p class="text-xs text-amber-500 mb-1">Medium risk</p>
+            <p class="stat-num text-amber-700" id="stat-med">—</p>
+          </div>
+          <div class="bg-emerald-50 rounded-xl border border-emerald-100 p-4">
+            <p class="text-xs text-emerald-500 mb-1">Low risk</p>
+            <p class="stat-num text-emerald-700" id="stat-low">—</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clause list -->
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest">Clause Breakdown</h2>
+          <div class="flex gap-1">
+            <button class="tab-btn active text-xs px-3 py-1.5 text-gray-500" onclick="filterClauses('all', this)">All</button>
+            <button class="tab-btn text-xs px-3 py-1.5 text-gray-500" onclick="filterClauses('High', this)">High</button>
+            <button class="tab-btn text-xs px-3 py-1.5 text-gray-500" onclick="filterClauses('Medium', this)">Medium</button>
+            <button class="tab-btn text-xs px-3 py-1.5 text-gray-500" onclick="filterClauses('Low', this)">Low</button>
+          </div>
+        </div>
+        <div id="clause-list" class="flex flex-col gap-2"></div>
+      </div>
+
+      <!-- RAG Q&A -->
+      <div id="rag-section">
+        <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">Cross-Questioning</h2>
+        <div class="bg-white border border-gray-100 rounded-xl p-4 flex flex-col gap-3">
+          <p class="text-xs text-gray-400">Ask a question about this contract — the system will search relevant clauses to answer.</p>
+          <div class="flex gap-2">
+            <input id="qa-input" type="text" placeholder="e.g. What are my termination rights?" class="flex-1 border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-400" onkeydown="if(event.key==='Enter') askQuestion()"/>
+            <button onclick="askQuestion()" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+              Ask
+            </button>
+          </div>
+          <div id="qa-answer" class="hidden bg-gray-50 rounded-lg p-3 text-sm text-gray-600 leading-relaxed border border-gray-100"></div>
+          <div id="qa-sources" class="hidden flex flex-wrap gap-1.5"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<!-- ── ERROR TOAST ──────────────────────────────────────────────── -->
+<div id="toast" class="hidden fixed bottom-5 right-5 bg-red-600 text-white text-sm px-4 py-3 rounded-xl shadow-lg max-w-sm z-50"></div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────
+// Change this to your FastAPI server URL if different
+const API_BASE = "http://localhost:8000";
+
+// ── STATE ───────────────────────────────────────────────────────
+let uploadedFile = null;
+let allClauses = [];
+let activeFilter = 'all';
+
+// ── FILE HANDLING ───────────────────────────────────────────────
+function handleDragOver(e) {
+  e.preventDefault();
+  document.getElementById('drop-zone').classList.add('drag-over');
+}
+function handleDragLeave(e) {
+  document.getElementById('drop-zone').classList.remove('drag-over');
+}
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById('drop-zone').classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (file) setFile(file);
+}
+function handleFileSelect(e) {
+  const file = e.target.files[0];
+  if (file) setFile(file);
+}
+function setFile(file) {
+  const allowed = ['application/pdf','application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+  if (!allowed.includes(file.type) && !file.name.match(/\.(pdf|docx)$/i)) {
+    showToast('Please upload a PDF or DOCX file.');
+    return;
+  }
+  uploadedFile = file;
+  const zone = document.getElementById('drop-zone');
+  zone.classList.remove('drag-over');
+  zone.classList.add('has-file');
+  document.getElementById('drop-content').classList.add('hidden');
+  document.getElementById('file-info').classList.remove('hidden');
+  document.getElementById('file-name').textContent = file.name;
+  document.getElementById('file-size').textContent = formatBytes(file.size);
+}
+function clearFile() {
+  uploadedFile = null;
+  document.getElementById('file-input').value = '';
+  const zone = document.getElementById('drop-zone');
+  zone.classList.remove('has-file');
+  document.getElementById('drop-content').classList.remove('hidden');
+  document.getElementById('file-info').classList.add('hidden');
+}
+function formatBytes(b) {
+  if (b < 1024) return b + ' B';
+  if (b < 1024*1024) return (b/1024).toFixed(1) + ' KB';
+  return (b/1024/1024).toFixed(1) + ' MB';
+}
+
+// ── MAIN ANALYSIS ───────────────────────────────────────────────
+async function runAnalysis() {
+  if (!uploadedFile) { showToast('Please upload a contract file first.'); return; }
+
+  setLoading(true);
+  try {
+    const formData = new FormData();
+    formData.append('file', uploadedFile);
+    formData.append('role', document.getElementById('role').value);
+    formData.append('risk_tolerance', document.getElementById('tolerance').value);
+    formData.append('domain', document.getElementById('domain').value);
+
+    animateProgress();
+
+    const res = await fetch(`${API_BASE}/analyze`, {
+      method: 'POST',
+      body: formData
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || `Server error ${res.status}`);
+    }
+
+    const data = await res.json();
+    // Expected format: { clauses: [ {clause_text, risk_level, explanation, clause_index?}, ... ] }
+    allClauses = data.clauses || [];
+    renderResults();
+
+  } catch (err) {
+    showToast('Error: ' + err.message);
+    console.error(err);
+  } finally {
+    setLoading(false);
+  }
+}
+
+// ── RENDERING ───────────────────────────────────────────────────
+function renderResults() {
+  const high   = allClauses.filter(c => c.risk_level === 'High').length;
+  const medium = allClauses.filter(c => c.risk_level === 'Medium').length;
+  const low    = allClauses.filter(c => c.risk_level === 'Low').length;
+
+  document.getElementById('stat-total').textContent = allClauses.length;
+  document.getElementById('stat-high').textContent  = high;
+  document.getElementById('stat-med').textContent   = medium;
+  document.getElementById('stat-low').textContent   = low;
+
+  document.getElementById('empty-state').classList.add('hidden');
+  document.getElementById('results').classList.remove('hidden');
+
+  filterClauses(activeFilter);
+}
+
+function filterClauses(filter, btnEl) {
+  activeFilter = filter;
+  if (btnEl) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btnEl.classList.add('active');
+  }
+
+  const list = document.getElementById('clause-list');
+  list.innerHTML = '';
+
+  const filtered = filter === 'all'
+    ? allClauses
+    : allClauses.filter(c => c.risk_level === filter);
+
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="text-center py-8 text-gray-300 text-sm">No ${filter.toLowerCase() !== 'all' ? filter.toLowerCase() + ' risk ' : ''}clauses found.</div>`;
+    return;
+  }
+
+  // Sort: High first, then Medium, then Low
+  const order = {High:0, Medium:1, Low:2};
+  const sorted = [...filtered].sort((a,b) => (order[a.risk_level]||2) - (order[b.risk_level]||2));
+
+  sorted.forEach((clause, i) => {
+    const rl = clause.risk_level || 'Low';
+    const badgeClass = rl === 'High' ? 'badge-high' : rl === 'Medium' ? 'badge-med' : 'badge-low';
+    const borderClass = rl === 'High' ? 'border-high' : rl === 'Medium' ? 'border-med' : 'border-low';
+    const idx = clause.clause_index != null ? `#${clause.clause_index + 1}` : `#${i+1}`;
+
+    const card = document.createElement('details');
+    card.className = `clause-card bg-white border border-gray-100 rounded-xl ${borderClass} overflow-hidden`;
+    card.innerHTML = `
+      <summary class="flex items-center gap-3 px-4 py-3 select-none">
+        <span class="chevron text-gray-300 text-xs">›</span>
+        <span class="mono text-xs text-gray-300">${idx}</span>
+        <span class="${badgeClass} text-xs font-medium px-2.5 py-0.5 rounded-full">${rl} risk</span>
+        <span class="flex-1 text-sm text-gray-700 truncate">${getClauseTitle(clause.clause_text)}</span>
+      </summary>
+      <div class="px-4 pb-4 pt-1 border-t border-gray-50">
+        <div class="bg-gray-50 rounded-lg p-3 text-xs text-gray-500 italic leading-relaxed mb-3 mono">
+          "${truncate(clause.clause_text, 300)}"
+        </div>
+        <div class="flex items-start gap-2">
+          <div class="w-1.5 h-1.5 rounded-full mt-1.5 flex-shrink-0 ${rl==='High'?'bg-red-400':rl==='Medium'?'bg-amber-400':'bg-emerald-400'}"></div>
+          <p class="text-sm text-gray-600 leading-relaxed">${clause.explanation || 'No explanation provided.'}</p>
+        </div>
+      </div>`;
+    list.appendChild(card);
+  });
+}
+
+function getClauseTitle(text) {
+  if (!text) return 'Clause';
+  // Try to extract a title from first sentence / first few words
+  const first = text.split(/[.:\n]/)[0].trim();
+  return first.length > 60 ? first.substring(0, 60) + '…' : first;
+}
+function truncate(str, n) {
+  if (!str) return '';
+  return str.length > n ? str.substring(0, n) + '…' : str;
+}
+
+// ── RAG Q&A ─────────────────────────────────────────────────────
+async function askQuestion() {
+  const q = document.getElementById('qa-input').value.trim();
+  if (!q) return;
+  if (allClauses.length === 0) { showToast('Run an analysis first.'); return; }
+
+  const answerBox = document.getElementById('qa-answer');
+  const sourcesBox = document.getElementById('qa-sources');
+  answerBox.classList.remove('hidden');
+  answerBox.textContent = 'Searching relevant clauses…';
+  sourcesBox.classList.add('hidden');
+
+  try {
+    const res = await fetch(`${API_BASE}/ask`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        question: q,
+        role: document.getElementById('role').value,
+        domain: document.getElementById('domain').value
+      })
+    });
+    if (!res.ok) throw new Error(`Server error ${res.status}`);
+    const data = await res.json();
+    // Expected: { answer: "...", sources: ["clause text 1", ...] }
+    answerBox.textContent = data.answer || 'No answer returned.';
+    if (data.sources && data.sources.length > 0) {
+      sourcesBox.classList.remove('hidden');
+      sourcesBox.innerHTML = '<span class="text-xs text-gray-400 w-full">Referenced clauses:</span>' +
+        data.sources.map(s => `<span class="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded">${truncate(s, 60)}</span>`).join('');
+    }
+  } catch (err) {
+    answerBox.textContent = 'Error reaching server: ' + err.message;
+  }
+}
+
+// ── UI HELPERS ───────────────────────────────────────────────────
+function setLoading(on) {
+  const btn = document.getElementById('analyze-btn');
+  const pill = document.getElementById('status-pill');
+  const wrap = document.getElementById('progress-wrap');
+  btn.disabled = on;
+  btn.textContent = on ? 'Analyzing…' : 'Analyze Contract';
+  pill.classList.toggle('hidden', !on);
+  wrap.classList.toggle('hidden', !on);
+  if (!on) document.getElementById('progress-bar').style.width = '0%';
+}
+
+function animateProgress() {
+  const bar = document.getElementById('progress-bar');
+  const label = document.getElementById('progress-label');
+  const stages = [
+    [10, 'Parsing document…'],
+    [30, 'Segmenting clauses…'],
+    [55, 'Running risk classification…'],
+    [80, 'Generating explanations…'],
+    [95, 'Finalizing results…'],
+  ];
+  let i = 0;
+  const iv = setInterval(() => {
+    if (i >= stages.length) { clearInterval(iv); return; }
+    bar.style.width = stages[i][0] + '%';
+    label.textContent = stages[i][1];
+    i++;
+  }, 600);
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.remove('hidden');
+  setTimeout(() => t.classList.add('hidden'), 4000);
+}
+
+// ── DEMO MODE (remove when backend is ready) ─────────────────────
+// Uncomment the line below to test without a backend
+// window.API_BASE = 'DEMO';
+const _origFetch = window.fetch;
+window.fetch = async (url, opts) => {
+  if (url.includes('DEMO') || window.API_BASE === 'DEMO') {
+    return mockFetch(url, opts);
+  }
+  return _origFetch(url, opts);
+};
+
+function mockFetch(url, opts) {
+  if (url.includes('/analyze')) {
+    return new Promise(resolve => setTimeout(() => resolve({
+      ok: true,
+      json: () => Promise.resolve({ clauses: MOCK_CLAUSES })
+    }), 2500));
+  }
+  if (url.includes('/ask')) {
+    return new Promise(resolve => setTimeout(() => resolve({
+      ok: true,
+      json: () => Promise.resolve({
+        answer: "Based on the retrieved clauses, your termination obligations include: returning or destroying all confidential information within 30 days, ceasing use of the licensed software immediately, and maintaining confidentiality for 5 years post-termination. Notably, your indemnification obligations survive termination with no time limit, which represents a significant ongoing exposure.",
+        sources: ["Confidentiality obligations shall survive termination…", "Licensee shall indemnify and hold harmless…"]
+      })
+    }), 1500));
+  }
+};
+
+const MOCK_CLAUSES = [
+  {clause_index:0, clause_text:"Licensee shall indemnify and hold harmless Licensor from any and all claims, damages, or liabilities arising from Licensee's use of the licensed software, without any limitation on the amount of liability.", risk_level:"High", explanation:"As a Licensee, this clause exposes you to unlimited financial liability with no cap. Uncapped indemnification is a High risk trigger under the rubric — you bear all financial risk from third-party claims."},
+  {clause_index:1, clause_text:"Licensor reserves the right to terminate this Agreement at any time, without cause, upon 30 days written notice to Licensee.", risk_level:"High", explanation:"The Licensor can end the contract without any reason. This is a unilateral termination-without-cause clause — a High risk trigger — leaving your business operations dependent on IP access vulnerable."},
+  {clause_index:2, clause_text:"Any modifications, improvements, derivative works or enhancements to the Software created by Licensee shall be the sole and exclusive property of Licensor.", risk_level:"High", explanation:"All improvements you build become Licensor's property. IP ownership assigned to the non-creating party is a High risk trigger — you invest development effort but gain no ownership rights."},
+  {clause_index:3, clause_text:"Licensor shall have the right, upon 10 business days written notice, to audit Licensee's records no more than once per calendar year to verify compliance.", risk_level:"Medium", explanation:"Audit rights with advance notice and an annual frequency cap. This is a Medium risk obligation — the notice requirement and cap provide partial protection but you must maintain compliance records."},
+  {clause_index:4, clause_text:"Confidentiality obligations under this Agreement shall survive termination or expiration for a period of five (5) years.", risk_level:"Medium", explanation:"Post-termination confidentiality persisting 5 years is a Medium risk trigger — ongoing obligations after contract end require active compliance management."},
+  {clause_index:5, clause_text:"In no event shall either party's total liability exceed the aggregate fees paid by Licensee during the twelve (12) months immediately preceding the claim.", risk_level:"Medium", explanation:"Liability is capped at 12 months of fees. Capped liability is a Medium risk profile — the cap provides protection but could still represent significant exposure depending on fee amount."},
+  {clause_index:6, clause_text:"All payments shall be made within thirty (30) days of invoice. Overdue amounts accrue interest at 1.5% per month.", risk_level:"Medium", explanation:"Standard payment terms with a defined late-payment penalty. The interest rate warrants Medium attention but the structure is commercially reasonable."},
+  {clause_index:7, clause_text:"Licensor hereby grants Licensee a non-exclusive, non-transferable, revocable license to use the Software solely for internal business purposes during the Term.", risk_level:"Low", explanation:"Standard limited license grant — non-exclusive, non-transferable, and scope-limited to internal use. No unusual restrictions. Low risk for Licensee given it reflects typical commercial licensing terms."},
+  {clause_index:8, clause_text:"This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, warranties, and understandings.", risk_level:"Low", explanation:"Standard merger/integration clause. Protects both parties from undocumented prior discussions being used as binding obligations. Low risk."},
+  {clause_index:9, clause_text:"All notices must be in writing and delivered via certified mail or email with read receipt confirmation.", risk_level:"Low", explanation:"Procedural notice requirement with reasonable delivery methods. Low risk — routine compliance obligation with no onerous requirements."},
+];
+</script>
+</body>
+</html>
