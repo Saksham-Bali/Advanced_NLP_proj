@@ -11,11 +11,12 @@ USAGE:
     Or set GROQ_API_KEY as environment variable and omit --api_key
 
 RESUME:    Skips clauses already in final.json (matched by clause_index).
-RETRY:     Rate-limit -> waits 15 s, retries once. Second rate-limit -> skip, no write.
+RETRY:     Rate-limit -> waits 15 s, retries once. Second rate-limit -> stops execution entirely.
 SKIP:      Context-too-long -> prints full prompt to terminal, skips clause, no write.
 """
 
 import os
+import sys
 import json
 import time
 import argparse
@@ -283,8 +284,6 @@ def is_context_length_error(exc):
 
 # ─────────────────────────────────────────────
 # EXTRACT JSON FROM MODEL RESPONSE
-# The model outputs SCRATCHPAD text followed by a JSON block.
-# We walk backwards from the end to find the last top-level { } block.
 # ─────────────────────────────────────────────
 
 def extract_json(raw_text):
@@ -318,7 +317,7 @@ def extract_json(raw_text):
 def annotate_clause(client, clause_text, clause_index):
     """
     Returns a result dict, or None if the clause should be skipped entirely
-    (rate-limit double-fail or context-too-long).
+    (context-too-long). Exits program on double rate-limit.
     """
     user_message = f"NOW ANALYZE:\n\n{clause_text}"
     raw = ""
@@ -360,8 +359,8 @@ def annotate_clause(client, clause_text, clause_index):
                     time.sleep(15)
                     continue
                 else:
-                    print(f"  [!] Rate limit again on clause {clause_index}. Skipping (not written).")
-                    return None
+                    print(f"  [CRITICAL] Rate limit again on clause {clause_index}. Stopping execution entirely.")
+                    sys.exit(1) # Stops doing anything
 
             if is_context_length_error(e):
                 full_prompt = SYSTEM_PROMPT + "\n\nNOW ANALYZE:\n\n" + clause_text
