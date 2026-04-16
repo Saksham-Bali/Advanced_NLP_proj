@@ -1,0 +1,92 @@
+[
+  {
+    "clause_text": "This JOINT CONTENT LICENSE AGREEMENT (the “Agreement”), dated February 1, 2018 (the “Effective Date”), is made by and between WPT Enterprises, Inc., a Delaware corporation, with offices located at 1920 Main Street, Suite 1150, Irvine, CA 92614 (“WPT”), and ZYNGA INC., a Delaware corporation with offices located at 699 8th Street, San Francisco CA, 94103 (“Zynga US”) and ZYNGA GAME IRELAND LIMITED, a limited company organized under the laws of Ireland, resident in Ireland and having its registered office located at The Oval, Building One, Third Floor 160 Shelbourne Road Ballsbridge 4 Co. Dublin Ireland (“Zynga Ireland,” and together with Zynga US and their respective Affiliates, “Zynga”). In addition to the Definitions set forth in Section 1 of the Additional Provisions (attached and incorporated by reference), all capitalized terms used herein shall have the meanings set forth below. In consideration of the mutual promises herein contained and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereby agree as follows:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only identifies the Licensor and acknowledges consideration; it imposes no cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only identifies the Licensee and acknowledges consideration; it imposes no cost or restriction."
+      }
+    },
+    "clause_index": 1,
+    "status": "success"
+  },
+  {
+    "clause_text": "Joint Content License Relationship. Among other games, Zynga produces and distributes the ZYNGA POKER® game on a number of global platforms, including Apple iOS, Google Android, Facebook and the zynga.com website. The ZYNGA POKER® game features a Zynga Poker Tournaments Mode that Zynga can customize. Among other things, WPT is the creator of the World Poker Tour, WPT Tournaments and the WPT Invitational Tournaments. WPT Tournaments and WPT Invitational Tournaments are televised poker tournaments where a partner can promote its brand. The parties desire to work cooperatively, but independently, to use commercially reasonable efforts to engage in the marketing and promotional activities described in Exhibit A, including, but not limited to Zynga promoting the WPT brand in a WPT-branded Zynga Poker Tournament Mode, and WPT promoting the Zynga brand in WPT Tournaments and WPT Invitational Tournaments. This Agreement describes the terms of a content license and cooperative marketing relationship under which each party will independently or cooperatively engage in mutually agreed activities to promote each other’s products and services throughout the Territory (as defined below).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to have its brand promoted; it does not impose any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only requires the Licensee to cooperate in marketing; it does not create any cost, liability, or restriction."
+      }
+    },
+    "clause_index": 2,
+    "status": "success"
+  },
+  {
+    "clause_text": "2. Territory. The Territory for this Agreement is worldwide, but not including Asian countries (including, but not limited to, Bangladesh, Bhutan, Brunei, Cambodia, East Timor, Hong Kong, India, Indonesia, Japan, Laos, Macau, Malaysia, Maldives, Mongolia, Myanmar, Nepal, North Korea, Pakistan, People’s Republic of China, Philippines, Singapore, South Korea, Sri Lanka, Taiwan, Thailand, Vietnam). The parties acknowledge and agree that the rights granted hereunder by Zynga (a) with respect to the United States are granted to, held and exercised by Zynga US and (b) with respect to all other parts of the Territory are granted to, held and exercised by Zynga Ireland. 1 Source: ALLIED ESPORTS ENTERTAINMENT, INC., 8-K, 8/15/2019",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines where the Licensor grants rights and lets the Licensor keep rights in Asian countries, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause bars the Licensee from using the IP in many Asian countries, a usage restriction that could block the Licensee’s core business activities."
+      }
+    },
+    "clause_index": 3,
+    "status": "success"
+  },
+  {
+    "clause_text": "3. Term. This Agreement will be in effect for three (3) years from the Effective Date (“Initial Term”) unless terminated earlier in accordance with this Agreement. This Agreement shall automatically extend for an additional two (2) years on the same terms herein (“Renewal Term”) provided WPT receives payments greater than twelve million U.S. dollars ($12,000,000) within the Initial Term. The Initial Term and any such Renewal Term are collectively referred to as the “Term.”",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor an automatic renewal if it receives a certain amount, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee is automatically bound to a two‑year renewal once the payment threshold is met, with no right to opt out, creating a significant restriction."
+      }
+    },
+    "clause_index": 4,
+    "status": "success"
+  },
+  {
+    "clause_text": "4. Annual Minimum Guarantee. Zynga will pay WPT three million U.S. dollars ($3,000,000) per year according to the following schedule (which the parties may alter upon mutual agreement) (the “Annual Minimum Guarantee”).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WPT only gains the right to receive the guaranteed payment and has no cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Zynga must make a fixed $3,000,000 payment each year, creating a defined financial obligation."
+      }
+    },
+    "clause_index": 5,
+    "status": "success"
+  },
+  {
+    "clause_text": "Within thirty (30) days of executing this Agreement: $1.5M",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor simply receives a fixed payment, which is a right, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay $1.5 M within 30 days, a defined payment obligation."
+      }
+    },
+    "clause_index": 6,
+    "status": "success"
+  }
+]
