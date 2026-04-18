@@ -67,7 +67,8 @@ MEDIUM RISK TRIGGERS
 - Compliance obligation where failure is a "material breach"
   (exposes that party to license termination)
 - Confidentiality obligations that extend beyond the contract term
-- Governing law in a distant or unfamiliar jurisdiction
+- Governing law in a jurisdiction that is ACTUALLY distant or
+  unfamiliar to one party (NOT when both parties are in the same state)
 - Royalty or payment obligations with a defined rate or cap
 - Audit rights (Medium for the party being audited only)
 - Post-termination obligations (cease use, destroy materials)
@@ -77,6 +78,30 @@ MEDIUM RISK TRIGGERS
   if licensed IP is defective -- Medium for Licensee, Low for Licensor)
 - Waiver of a default legal protection (e.g. rule that ambiguous
   terms are read against the drafter -- removes Licensee's safety net)
+
+----------------------------------------
+ALWAYS LOW — DO NOT UPGRADE THESE
+----------------------------------------
+The following clause types are ALWAYS Low for both parties.
+Do NOT apply Medium or High triggers to them:
+- Pure definitions ("X means ...", "shall have the meaning ...")
+- Severability clauses (invalid terms are severed or replaced)
+- Signature blocks and execution formalities
+- Headings / interpretation rules
+- Counterparts clauses
+- Entire agreement / merger clauses
+- Standard confidentiality EXCEPTIONS (information already known,
+  already public, independently developed, disclosed by third party,
+  compelled by court order, or disclosed with consent). These are
+  carve-outs that REDUCE obligations, not create them.
+- No-agency / independent contractor clauses
+- Notices (address and delivery method)
+
+CONSISTENCY RULE FOR MIRROR CLAUSES:
+If a clause is mutual (imposes the SAME obligation on both parties),
+both parties MUST receive the SAME risk level. Do not rate one party
+higher than the other unless the clause text gives one party a
+materially different obligation or consequence.
 
 ----------------------------------------
 INSTRUCTIONS
