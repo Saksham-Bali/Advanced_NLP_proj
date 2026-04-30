@@ -1,0 +1,1059 @@
+{
+  "party": "Licensor",
+  "predictions": [
+    {
+      "clause_index": 199,
+      "clause": "(b) Vyera has the financial capacity to meet its obligations under this Agreement, including, without limitation, the payment of the amounts due under Article 8 and the investments required under the Minimum Requirements.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only receives a guarantee that Vyera can pay, which is a benefit and imposes no cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 118,
+      "clause": "(b) Inventions. All right, title and interest in and to any and all Inventions that would be necessary or useful to Develop, Manufacture or Commercialize a Licensed Product (and/or an improvement, modification or line extension thereof) will be owned by CytoDyn. To the fullest extent permitted by la",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "CytoDyn only gains ownership of inventions and faces no new cost or restriction."
+    },
+    {
+      "clause_index": 133,
+      "clause": "2. ENFORCEMENT OF INTELLECTUAL PROPERTY. If legally able and without breaching any confidentiality provisions of a contract with a third party, in the event that Licensee becomes aware that any third party is infringing the Licensed Mark, Licensee shall promptly notify Licensor and provide pertinent",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to sue infringers and to request assistance, which are protections, not costs."
+    },
+    {
+      "clause_index": 84,
+      "clause": "b. License by Zynga. Subject to the terms and conditions of this Agreement, Zynga grants to WPT a non-exclusive, non- assignable, non-sublicensable, royalty-free, paid up, limited worldwide license to use and display Zynga\u2019s Licensed Property solely as necessary to perform WPT\u2019s obligations under th",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "Zynga only grants a license and faces no new cost or restriction."
+    },
+    {
+      "clause_index": 187,
+      "clause": "(f) To CytoDyn\u2019s Knowledge as of the Effective Date and without any additional independent investigation by its outside patent counsel other than such freedom to operate analysis as have previously been performed and shared with CytoDyn, the Commercialization of the Licensed Product in the Field in ",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor must guarantee non\u2011infringement, exposing it to unlimited liability if a third\u2011party claim arises, despite the knowledge limitation."
+    },
+    {
+      "clause_index": 194,
+      "clause": "(m) Neither CytoDyn nor any of its Affiliates, nor any of its or their respective officers, employees, agents, advisors, consultants or other representatives has made an untrue statement of material fact or fraudulent statement to the FDA or any other Regulatory Authority with respect to the Develop",
+      "ground_truth": "medium",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "The Licensor must guarantee it has not made false or fraudulent regulatory statements; a breach could be deemed a material breach and may trigger termination."
+    },
+    {
+      "clause_index": 8,
+      "clause": "3.2. Content Distribution. Licensor shall make available to Licensee the Licensed Content in substantially the same manner and with substantially the same speed and efficiency as such Licensed Content was made available to SINA Leju prior to the Effective Date, namely through Licensor\u2019s content data",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor must provide the content at least as fast and efficiently as it does for its own use, which is a cost but carries no high or medium risk triggers."
+    },
+    {
+      "clause_index": 170,
+      "clause": "8.11 Audit. Vyera shall maintain, and shall cause its Affiliates to maintain, complete and accurate records in sufficient detail to permit CytoDyn to confirm the accuracy of the calculation of royalties and milestones due under this Agreement. Upon reasonable prior notice, but not more than once per",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn only gains the right to audit and receive any underpayment; it faces no new cost or restriction."
+    },
+    {
+      "clause_index": 6,
+      "clause": "2.3. Fees. In the event E-House Research and Training Institute becomes entitled to charge, invoice, or otherwise receive from, Licensee any royalties, fees or other remuneration for use of the E-House Licensed Data and Information pursuant to amendments to the Master Transaction Agreement or throug",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause lets the Licensor receive fees, which is a benefit, and only requires good\u2011faith negotiation with a cap, so it does not impose a cost or restriction."
+    },
+    {
+      "clause_index": 22,
+      "clause": "6.2. Termination for Bankruptcy. Either Party may immediately terminate this Agreement in the event that the other Party (a) becomes insolvent or unable to pay its debts as they mature; (b) makes an assignment for the benefit of its creditors; (c) seeks relief, or if proceedings are commenced agains",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to end the agreement if the other party goes bankrupt, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 141,
+      "clause": "5.1 Licensor represents and warrants to Licensee that Licensor\u2019s performance of its obligations under this Agreement is not in conflict with, and will not result in a breach of or constitute a default under, any other contract, instrument, rule of law or order of any court or governmental agency to ",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor must guarantee its performance does not conflict with any other obligations, exposing it to unlimited liability if a breach occurs."
+    },
+    {
+      "clause_index": 48,
+      "clause": "10.6. Entire Agreement. This Agreement constitutes the entire agreement of the Parties hereto with respect to the subject matter hereof and supersedes all prior agreements and understandings, both written and oral, with respect to the subject matter hereof and thereto (including the Original Agreeme",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only confirms this contract replaces any earlier agreements, which does not add a cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 45,
+      "clause": "10.3. Notices. All notices, requests, claims, demands and other communications hereunder shall be in writing and shall be deemed duly given, made or received (i) on the date of delivery if delivered in person or by messenger service, (ii) on the date of confirmation of receipt of transmission by fac",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only has to follow the specified notice procedures, which imposes a routine administrative task but no substantive cost or restriction."
+    },
+    {
+      "clause_index": 184,
+      "clause": "(c) The Patents set forth on Attachment A represent all Patents that CytoDyn or any of its Affiliates Controls that Cover or that disclose any Invention necessary or useful for the Commercialization of the Licensed Product in the Territory in the Field as of the Effective Date. CytoDyn is the sole a",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only confirms CytoDyn's ownership and licensing rights; it imposes no new cost or restriction on CytoDyn."
+    },
+    {
+      "clause_index": 168,
+      "clause": "8.9 Third Party Financial Obligations. CytoDyn will be solely responsible for, and shall indemnify Vyera for, the payment of any royalties, sublicense revenues, milestones or other payments due to Third Party(ies) under Existing Licenses arising with respect to the Commercialization, under the licen",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "Vyera only receives a right to be indemnified for third\u2011party payments, which is a protection and imposes no cost."
+    },
+    {
+      "clause_index": 151,
+      "clause": "6.1 Supply of Licensed Product. Vyera shall purchase all of its requirements for supply of Licensed Product exclusively from CytoDyn in accordance with the terms and conditions of the Supply Agreement. For clarity, in the event of a termination of the Supply Agreement, this Section 6.1 shall no long",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause gives CytoDyn an exclusive buyer but does not impose any cost or restriction on them."
+    },
+    {
+      "clause_index": 157,
+      "clause": "1 PURPOSE OF THE AGREEMENT",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only states the agreement's purpose and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 35,
+      "clause": "(b) By Licensor. Licensor represents and warrants that:",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor must ensure its statements are true, exposing it to potentially unlimited liability if a warranty is breached."
+    },
+    {
+      "clause_index": 4,
+      "clause": "1.4 \u201cAGC Agreement\u201d has the meaning set forth in Section 9.2(o).",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 192,
+      "clause": "(k) There are no material claims, judgments or settlements against, or material amounts with respect thereto owed by, CytoDyn, or any of its Affiliates relating to the CytoDyn Know-How and the CytoDyn Patents. No claim or litigation has been brought or, to CytoDyn\u2019s Knowledge, threatened by any Pers",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor must guarantee that no claims exist; if the warranty is false they face unlimited breach liability."
+    },
+    {
+      "clause_index": 111,
+      "clause": "1.112 \u201cVyera Indemnitee\u201d has the meaning set forth in Section 13.2.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 103,
+      "clause": "a. Each party shall have the right at any time to terminate this Agreement without prejudice to any rights which it may have, whether pursuant to the provisions of this Agreement or otherwise in law or in equity or otherwise, upon the occurrence of any one or more of the following events:",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensee can terminate the agreement at any time upon certain events, which could leave the Licensor without the licensed IP and without compensation."
+    },
+    {
+      "clause_index": 9,
+      "clause": "1.9 \u201cNet Sales\u201d means, with respect to the Product, the gross invoiced sales price payable to ArTara and/or its Affiliates and their respective licensees and sublicensees for sales anywhere in the world of the Product to a third party, less:",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and gives the Licensor a basis for royalties, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 157,
+      "clause": "7.4 Licensed Product Withdrawals and Recalls. In the event that either Party: (a) becomes aware of an event, incident or circumstance that has occurred which may result in the need for a recall or other removal of a Licensed Product or any lot or lots thereof from the market; (b) becomes aware that ",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn may have to pay unlimited recall costs when the product itself or manufacturing defects cause a recall, with no cap on liability."
+    },
+    {
+      "clause_index": 56,
+      "clause": "(c) Any award of the arbitration tribunal established pursuant to this Section 10.12 shall be final and binding upon the Parties, and enforceable in any court of competent jurisdiction. The Parties shall use their best efforts to effect the prompt execution of any such award and shall render whateve",
+      "ground_truth": "high",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "If the Licensor loses arbitration, it may have to pay the Licensee\u2019s unlimited arbitration costs and attorney fees, creating uncapped liability."
+    },
+    {
+      "clause_index": 111,
+      "clause": "e. Notwithstanding any termination of this Agreement, any Approved Content that includes Zynga\u2019s Licensed Property may remain in perpetuity in any media in which such Licensed Property was integrated into during the Term (e.g., televised WPT Tournaments or WPT Invitational Tournaments, social media ",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "Zynga cannot stop the Licensee from continuing to use its property after termination, limiting Zynga's control over its IP."
+    },
+    {
+      "clause_index": 115,
+      "clause": "(b) Sublicense Rights. The licenses granted to Vyera under this Agreement shall not be transferrable and/or sublicensable without CytoDyn\u2019s written consent, which it may grant, condition or withhold in its sole discretion.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives CytoDyn the right to approve transfers or sublicenses, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 14,
+      "clause": "(c) contest, challenge or otherwise make any claim or take any action adverse to Licensor\u2019s interest in the Licensed Domain Names, (d) register any trademarks, trade names or company names that consist of, in whole or in part, or are confusingly similar to the term \u201cSINA\u201d in the name of Licensee or ",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to demand the Licensee stop prohibited uses, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 40,
+      "clause": "3.4 Royalty Reduction. In the event the Regulatory Authorities determine that the Program Data is not sufficient for Regulatory Approvals on its own and additional pediatric efficacy and safety clinical studies are required, Royalties set forth above will be reduced by [\u2026***\u2026] percent ([\u2026 ***\u2026]%).",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor\u2019s royalty payments can be cut by a set percentage if regulators require extra studies, limiting their revenue."
+    },
+    {
+      "clause_index": 128,
+      "clause": "(b) Vyera shall not Commercialize nor shall it authorize the Commercialization of any Licensed Product outside of the Field or outside of the Territory. Vyera shall not, itself or through other Persons, directly or indirectly, solicit, advertise, sell, distribute, ship, consign, or otherwise transfe",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only protects the Licensor by limiting where the product can be sold; it does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 39,
+      "clause": "8.1. Indemnification by Licensor. Licensor shall defend, indemnify and hold harmless Licensee and its Affiliates, and their respective officers, directors, employees, agents, shareholders, successors and assigns, (collectively, the \u201cLicensee Parties\u201d) from and against any claim, suit, demand or acti",
+      "ground_truth": "high",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": true,
+      "gt_explanation": "The Licensor must pay unlimited damages and legal costs for any third\u2011party claim caused by its breach, with no monetary cap."
+    },
+    {
+      "clause_index": 39,
+      "clause": "3.3 Royalties. Royalties will be payable by ArTara on Net Sales of Product in the Indication. ArTara will, no later than [\u2026***\u2026] following the close of each calendar quarter, pay tiered Royalties based on annual Net Sales of Product in the Indication as set forth below: Annual Net Sales of Product f",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor the right to receive royalty payments and imposes no cost or restriction on them."
+    },
+    {
+      "clause_index": 172,
+      "clause": "8.13 Equity Investment. Within seven (7) days of the Effective Date, Vyera shall make an equity investment of $4,000,000 in CytoDyn (the \u201cEquity Investment\u201d), pursuant to that certain Subscription Agreement substantially in the form attached hereto as Attachment E and that certain Warrant Agreement ",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "Vyera must pay a fixed $4M equity investment within 7 days, creating a defined financial burden."
+    },
+    {
+      "clause_index": 183,
+      "clause": "6.3 The rights and responsibilities under this section shall survive any termination or cancellation of this Agreement for 2 years.",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must continue to fulfill its responsibilities from this section for two years after the agreement ends, creating a post\u2011termination burden."
+    },
+    {
+      "clause_index": 53,
+      "clause": "1.54 \u201cGAAP\u201d means generally accepted accounting principles current in the U.S.",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause merely defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 101,
+      "clause": "1.102 \u201cSubsequent Indication\u201d means each indication in the Field other than the Initial Indication, including the Monotherapy Indication; provided that Subsequent Indications must be distinct indications and broadening the use of a Licensed Product for a particular indication shall not be deemed a n",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines terms and limits the license scope, which protects the Licensor and imposes no new cost or restriction."
+    },
+    {
+      "clause_index": 121,
+      "clause": "g. Governing Law and Forum. This Agreement will for all purposes be governed by and interpreted in accordance with the laws of the State of California without giving effect to any conflict of laws principles that require the application of the laws of a different state. Each of the parties hereto (i",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must litigate under California law in Northern California courts, which may be inconvenient and costly if it is not based there."
+    },
+    {
+      "clause_index": 86,
+      "clause": "1.87 \u201cRegulatory Approval\u201d means any and all approvals (including supplements, amendments, pre- and post-approvals), licenses, registrations or authorizations of any national, regional, state or local Regulatory Authority, department, bureau, commission, council or other governmental entity, that ar",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 176,
+      "clause": "5.4 LICENSOR warrants that Content does not infringe an intellectual property right enforceable in the agreed country of delivery or use. LICENSOR indemnifies and holds harmless plan_b against all claims that Content infringes any of the above mentioned rights of a third Party. LICENSOR shall pay al",
+      "ground_truth": "high",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": true,
+      "gt_explanation": "The Licensor must guarantee non\u2011infringement, indemnify the Licensee for any third\u2011party claim, and pay all damages awarded, with no cap, creating unlimited liability."
+    },
+    {
+      "clause_index": 15,
+      "clause": "1.15 \u201cBreaching Party\u201d has the meaning set forth in Section 11.4.",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 18,
+      "clause": "1.18 \u201cCalendar Year\u201d means the twelve-month period ending on December 31\u037e provided, however, that (a) the first Calendar Year of the Term shall begin on the Effective Date and end on December 31, 2019\u037e and (b) the last Calendar Year of the Term shall end on the effective date of expiration or termin",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 24,
+      "clause": "1.24 \u201cCommercialization\u201d means any and all pre-launch, launch and post-launch activities related to the marketing, promoting, distributing (to Third Parties), offering for sale and selling a Licensed Product in the Field in the Territory. For clarity, Commercialization does not include Development a",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 85,
+      "clause": "c. License by WPT. Subject to the terms and conditions of this Agreement, WPT grants to Zynga a non-exclusive, non-assignable, non-sublicensable, royalty-free, paid up, limited license in the Territory to use and display WPT\u2019s Licensed Property solely as necessary to perform Zynga\u2019s obligations unde",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "WPT gives a royalty\u2011free, limited license and cannot charge fees or assign the rights, which is a cost but involves no high or medium risk triggers."
+    },
+    {
+      "clause_index": 133,
+      "clause": "(d) The quorum for JC meetings shall be four (4) members, provided there are at least two (2) members from each of CytoDyn and Vyera present. The JC will render decisions by unanimous vote. The members of the JC shall act in good faith to cooperate with one another and to reach agreement with respec",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must have two representatives on the joint committee and cannot approve any decision without the Licensee's agreement, limiting its ability to act independently."
+    },
+    {
+      "clause_index": 181,
+      "clause": "6.1.4 the receiving party has independently developed without using material or information received from the other Party.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a protective representation and does not impose any cost or restriction on them."
+    },
+    {
+      "clause_index": 129,
+      "clause": "2.6 Competitive Products. Except as expressly required under this Agreement, Vyera hereby covenants not to Develop, Manufacture, Commercialize or otherwise exploit a Competitive Product in the Territory during the Royalty Term, including by means of an Affiliate. In the event that Vyera experiences ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only restricts the other party, giving the Licensor protection and no new cost or limitation."
+    },
+    {
+      "clause_index": 100,
+      "clause": "a. WPT shall indemnify, defend, and hold harmless Zynga and its Affiliates, and the respective directors, officers and employees of the foregoing (the \u201cZynga Indemnified Parties\u201d) from and against any and all third party claims, actions, suits, costs, liabilities, judgments, obligations, losses, pen",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "Zynga only receives a protection to be indemnified; it faces no new cost or restriction."
+    },
+    {
+      "clause_index": 132,
+      "clause": "(c) The JC shall hold meetings as mutually agreed by the Parties, but in no event less than quarterly unless Vyera and CytoDyn mutually agree in writing (which may include email), no later than thirty (30) days in advance of any meeting following the initial meeting of the JC, that no new business h",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only has to attend scheduled meetings and approve minutes, which is a routine administrative duty and does not limit its IP rights."
+    },
+    {
+      "clause_index": 55,
+      "clause": "1.56 \u201cGLP\u201d means the then-current standards, practices and procedures promulgated or endorsed by the FDA as set forth in 21 C.F.R. Part 58 (or any successor statute or regulation), including related regulatory requirements imposed by the FDA, as they may be updated from time to time, including appli",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 37,
+      "clause": "1.37 \u201cCytoDyn Patents\u201d means any and all Patents Controlled by CytoDyn either or both as of the Effective Date or during the Term that claim any CytoDyn Know-How or Inventions. The CytoDyn Patents as of the Effective Date include those set forth on Attachment A. CytoDyn may update Attachment A from ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives CytoDyn the ability to define and later add patents, which is a protective right, not a cost."
+    },
+    {
+      "clause_index": 178,
+      "clause": "(e) No Inconsistent Obligations. Neither Party is under any obligation, contractual or otherwise, to any Person that conflicts with or is inconsistent in any material respect with the terms of this Agreement, or that would impede the diligent and complete fulfillment of its obligations hereunder.",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must avoid any other obligations that conflict with this Agreement, creating a compliance burden that could lead to breach if such conflicts arise."
+    },
+    {
+      "clause_index": 78,
+      "clause": "1.79 \u201cParty(ies)\u201d has the meaning set forth in the introductory paragraph.",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 164,
+      "clause": "2.3 LICENSOR grants plan_b for the term of this Agreement the right to produce, market and distribute Content to End Users (in the territory specified in appendix 2) through its own and its partner's platform.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensee a right and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 107,
+      "clause": "All rights granted to WPT by Zynga shall immediately revert to Zynga, and WPT shall promptly cease any and all marketing and promotional activities using Zynga\u2019s Licensed Property.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "Zynga only gains the right to take back its IP and stop WPT's use, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 152,
+      "clause": "6.2 Supply Agreement. The Parties shall enter into a Supply Agreement(s) for the commercial supply of Licensed Product on the Effective Date. The Supply Agreement(s) shall be in the form attached as Attachment D, with such changes (if any) mutually agreed by the Parties in writing.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only has to sign a supply contract on the effective date; the clause gives them a standard business right and does not impose unilateral burdens."
+    },
+    {
+      "clause_index": 6,
+      "clause": "1.1 Contract name (for internal plan_b-ware use): Data Call Technologies, Inc. Top News Headlines Top Business Headlines Science/Health News Entertainment Headlines National Football League National Basketball Association National Hockey League Major League Baseball NCAA Football NCAA Men's Basketba",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only names the contract and lists topics; it does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 89,
+      "clause": "1.90 \u201cRegulatory Exclusivity\u201d means, with respect to any Licensed Product in the Territory, any additional market protection, other than patent protection, granted by a Regulatory Authority in the Territory which confers an exclusive Commercialization period during which Vyera or its Affiliates have",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a right for Vyera to have exclusive marketing during regulatory exclusivity, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 86,
+      "clause": "d. Trademark Guidelines. In its use of the Licensed Property of the other party (\u201cLicensee\u201d), each party (\u201cLicensor\u201d) will comply with any trademark usage guidelines that Licensor may communicate to Licensee from time to time. Each use of Licensor\u2019s marks by Licensee will be accompanied by the appro",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only gains rights to control trademark use and receive goodwill, which are protections, not burdens."
+    },
+    {
+      "clause_index": 122,
+      "clause": "h. Assignment. This Agreement shall bind and inure to the benefit of each party, its successors and assigns. Without the prior written consent of the other party, neither party shall assign or transfer any of its rights or obligations hereunder, in whole or in part, to any third party, and any purpo",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor cannot transfer its rights or obligations without the Licensee\u2019s consent, except for internal reorganizations or a sale of substantially all assets, which limits flexibility but includes carve\u2011outs."
+    },
+    {
+      "clause_index": 109,
+      "clause": "c. Notwithstanding the foregoing, for each end user that previously downloaded a Zynga game that includes WPT\u2019s Licensed Property, and stored such Zynga game within such end user\u2019s device, WPT grants a license and right to continue to use, activate, operate, perform, store, use and display that game",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "WPT only grants a perpetual, free\u2011of\u2011charge license to end users, which is a right they give away and does not impose a new cost or restriction on WPT."
+    },
+    {
+      "clause_index": 193,
+      "clause": "(l) Neither CytoDyn nor any of its Affiliates has previously entered into any agreement, whether written or oral, with respect to, or otherwise assigned, transferred, licensed, conveyed, or otherwise encumbered its right, title, or interest in or to CytoDyn Know-How and the CytoDyn Patents (includin",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause limits CytoDyn's ability to grant conflicting licenses, but it does not create a direct cost or liability."
+    },
+    {
+      "clause_index": 40,
+      "clause": "8.2. Indemnification by Licensee. Licensee shall defend, indemnify and hold harmless Licensor and its Affiliates, and their respective officers, directors, employees, agents, shareholders, successors and assigns, (collectively, the \u201cLicensor Parties\u201d) from and against any Action, and any and all dir",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor mainly receives indemnification and only has minor duties to give notice, cooperate, and not block settlements, which do not create a significant cost."
+    },
+    {
+      "clause_index": 17,
+      "clause": "1.13 \u201cProgram\u201d means collectively, the clinical research studies investigating the efficacy and safety of OK-432 for the Indication conducted by Principal Investigator in collaboration with multiple sites in the United States and the University expanded access program performed by Principal Investig",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 190,
+      "clause": "(i) CytoDyn has used Commercially Reasonable Efforts to maintain the confidentiality of the CytoDyn Know-How. To CytoDyn\u2019s Knowledge and without any additional independent investigation by CytoDyn, no breach of such confidentiality has been committed by any Third Party.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only restates CytoDyn's past confidentiality effort and does not add any new cost or restriction."
+    },
+    {
+      "clause_index": 143,
+      "clause": "5.1 General. Vyera shall have the exclusive right to implement, and subject to Section 5.5, final decision-making authority with respect to, Commercialization of all Licensed Products in the Field and the Territory. Vyera shall be solely and exclusively responsible for all costs and expenses associa",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only grants Vyera exclusive commercialization rights and does not impose any cost or restriction on CytoDyn."
+    },
+    {
+      "clause_index": 10,
+      "clause": "(a) Licensee Obligations. Licensee shall monitor and censor all Content on the websites associated with the Licensed Domain Names, including without limitation Content posted by end users. Licensor shall also have the right to monitor and censor Content of the websites associated with Licensed Domai",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to monitor and remove content, which is a protection and imposes no cost."
+    },
+    {
+      "clause_index": 164,
+      "clause": "8.5 Milestone Payment for [***]. With respect to any [***] for the Licensed Product within the Field other than the [***], the JC shall determine in good faith (which determination, for the avoidance of doubt, shall not be a Reserved Dispute of either Party) the amount of the payment, if any, payabl",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn only gains the right to receive milestone payments and can decide to pursue a [***] if the JC disagrees, so it faces no new cost or restriction."
+    },
+    {
+      "clause_index": 36,
+      "clause": "i. It has the right to grant the licenses granted to Licensee hereunder; and",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to grant the same licenses to others, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 4,
+      "clause": "(c) Notwithstanding anything in this Agreement to the contrary, Licensee has no right to sublicense any rights granted hereunder to any third party, or otherwise permit any third party to use any Licensed Domain Names or Licensed Content; provided, however, that any rights granted to Licensee hereun",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only limits the Licensee's ability to sublicense, which protects the Licensor and imposes no new cost or restriction on them."
+    },
+    {
+      "clause_index": 94,
+      "clause": "e. Audit Rights. Zynga shall keep full, complete and accurate books of account and records (collectively \u201crecords\u201d) covering all transactions relating to the subject matter of this Agreement in sufficient detail to enable the Royalties payable hereunder to be determined and verified. Zynga shall per",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives WPT the right to audit Zynga\u2019s records and receive adjustments, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 26,
+      "clause": "6.4. Termination for a Change of Control. Licensor may terminate this Agreement by providing prior written notice to Licensee upon the occurrence of a Change of Control.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a termination right and does not impose any cost or restriction on them."
+    },
+    {
+      "clause_index": 88,
+      "clause": "1.89 \u201cRegulatory Documentation\u201d means, with respect to each Licensed Product, all: (a) Regulatory Materials, including all data contained therein and all supporting documents created for, submitted to or received from an applicable governmental agency or Regulatory Authority relating to such Regulat",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not impose any new cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 113,
+      "clause": "8. CONFIDENTIALITY. The parties acknowledge and agree that the subject matter of this Agreement constitutes \u201cBusiness Purpose\u201d and this Agreement and any Exhibits hereunder are \u201cConfidential Information\u201d of the parties as defined as \u201cInformation\u201d in the Non- Disclosure Agreement between the parties ",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must keep the agreement and any disclosed information confidential under the NDA terms, creating an ongoing obligation."
+    },
+    {
+      "clause_index": 69,
+      "clause": "1.70 \u201cLicensed Product\u201d means any pharmaceutical product, including all forms, presentations, strengths, doses and formulations (including any method of delivery), that contains leronlimab (PRO-140) as defined by [***] that CytoDyn is currently evaluating in its clinical development program for the ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 125,
+      "clause": "(c) Any recovery obtained in connection with or as a result of any action to terminate any Licensed Product Infringement contemplated by this Section 2.4, whether by settlement or otherwise, shall be applied first in satisfaction of any costs and expenses incurred by CytoDyn in connection with the a",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives CytoDyn priority for its costs and lets it keep special damages, which is a benefit, not a cost."
+    },
+    {
+      "clause_index": 131,
+      "clause": "(b) The JC shall have the responsibility and authority to: (i) provide a forum for exchange of information related to the Development and Commercialization of Licensed Products in the Field in the Territory\u037e (ii) review and discuss any proposed material amendments or updates to the Development Plan ",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must route any material changes to the Development or Commercialization Plans through the Joint Committee and obtain board approval, limiting its ability to act alone."
+    },
+    {
+      "clause_index": 46,
+      "clause": "4.2 License. University hereby grants to ArTara an exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The University gives ArTara an exclusive license, which limits the University's ability to license the data to others, but no heavy burdens or liabilities are imposed."
+    },
+    {
+      "clause_index": 196,
+      "clause": "(p) CytoDyn has not breached in any material respect any agreements with any Third Party relating to the Licensed Product.",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "CytoDyn must ensure the statement is true; if it is false, that could be a material breach of the agreement, exposing them to termination or damages."
+    },
+    {
+      "clause_index": 50,
+      "clause": "10.8. Amendment. This Agreement may not be amended or modified except (a) by an instrument in writing signed by, or on behalf of, both Parties or (b) by a waiver in accordance with Section 10.9.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor can only change the agreement with the Licensee's written consent, which protects them rather than imposing a cost."
+    },
+    {
+      "clause_index": 63,
+      "clause": "1.64 \u201cJC\u201d has the meaning set forth in Section 3.1(a).",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 143,
+      "clause": "5.3 No Warranty. But for the warranty set forth in section 5.1., supra, Licensor, by this Agreement, makes no warranties or guarantees, either express or implied, arising by law or otherwise with regard to the Licensed Mark and/or the Licensed Products. In particular, Licensor assumes no obligation ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause disclaims all warranties, protecting the Licensor from liability for any defects or non\u2011compliance."
+    },
+    {
+      "clause_index": 11,
+      "clause": "(b) New Restrictions Imposed by Governmental Authority. In the event Licensor receives notice from any Governmental Authority that the websites associated with the Licensed Domain Names contain offending Content where (i) the basis or nature of such offense has not previously been identified by any ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only has to promptly inform the Licensee of a government notice, which is a simple reporting duty with no penalty."
+    },
+    {
+      "clause_index": 93,
+      "clause": "1.94 \u201cRoyalty Term\u201d means the time period beginning with the First Commercial Sale of the Licensed Product in the Territory and continuing until the latest of (a) the expiration of the last Valid Claim Covering the Licensed Product and included in a CytoDyn Patent licensed to Vyera under this Agreem",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only sets the period for receiving royalties, which is a benefit and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 10,
+      "clause": "(a) discounts (including cash, quantity and patient program discounts), retroactive price reductions, charge-back payments and rebates granted to managed health care organizations or to federal, state and local governments, their agencies, and purchasers and reimbursers or to trade customers;",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only describes discount types and does not create any new cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 148,
+      "clause": "(b) CytoDyn shall have the right to select all trade dress, logos, slogans, designs and copyrights used on and in connection with the Licensed Products in the Field in the Territory. CytoDyn will be the sole owner of all trade dress, logos, slogans, designs and copyrights specifically created by or ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn only gains selection rights and ownership of the IP, which are benefits, not burdens."
+    },
+    {
+      "clause_index": 72,
+      "clause": "f. July 1, 2020: $1.5M",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor the right to receive a payment, which is a benefit, not a cost."
+    },
+    {
+      "clause_index": 169,
+      "clause": "3.4 LICENSOR shall have the right to use a certified public accountant to inspect and audit all the related records and books of plan_b to ensure plan_b's compliance with the terms of this Agreement. In the event that any such audit reveals that plan_b has underpaid fees to the value of ten (10) per",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to audit and does not impose any cost or restriction on them."
+    },
+    {
+      "clause_index": 181,
+      "clause": "9.2 Additional Representations and Warranties of CytoDyn. CytoDyn represents and warrants as of the Effective Date, and hereinafter, as set forth below, covenants to Vyera that:",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn must ensure its statements are true, which is a duty but no uncapped liability or harsh consequence is specified."
+    },
+    {
+      "clause_index": 162,
+      "clause": "8.3 Milestone Payment for [***]. Vyera shall pay to CytoDyn [***] (the \u201c[***] Milestone Payment\u201d) in the event that [***] (a \u201c[***]\u201d) results in a [***]. Whether a [***] meets the criteria set forth in this Section 8.3 will be determined in good faith by the JC. The determination of whether a [***] ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn only gains the right to receive a milestone payment and to decide alone on pursuing a program; it faces no new cost or restriction."
+    },
+    {
+      "clause_index": 31,
+      "clause": "(b) Upon termination or expiration of the Agency Agreement (other than as described in Section 6.5), Licensee\u2019s rights under Section 2.1(b) are terminated and Licensee shall immediately discontinue all use of the Licensed Content, provided, however that in the event the Agency Agreement is amended o",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only protects the Licensor by requiring the Licensee to stop using the content when the agreement ends, imposing no cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 59,
+      "clause": "10.14. Specific Performance. The parties hereto acknowledge and agree that irreparable damage would occur if any of the provisions of this Agreement are not performed in accordance with their specific terms and that any breach of this Agreement could not be adequately compensated in all cases by mon",
+      "ground_truth": "high",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": true,
+      "gt_explanation": "The Licensor can be forced by the Licensee to comply with an injunction or specific performance order without any bond or wind\u2011down, which could immediately restrict its actions."
+    },
+    {
+      "clause_index": 134,
+      "clause": "3. INDEMNIFICATION. Licensee shall defend, indemnify and hold harmless Licensor and its officers, directors, employees, agents, corporate subsidiaries, parents, and affiliates (\u201cLicensor Indemnitees\u201d) from and against any and all demands, claims, actions or causes of action, assessments, deficiencie",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "The Licensor is protected from all third\u2011party claims and only has a minor duty to cooperate, which does not create a cost or significant restriction."
+    },
+    {
+      "clause_index": 14,
+      "clause": "1.14 \u201cBLA\u201d means a Biologics License Application (as defined in the FDCA), including all supplements, amendments, variations, extensions and renewals thereof.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause merely defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 5,
+      "clause": "2.2. Other Content. Licensee may desire to use Content other than Licensed Content, from time to time, in connection with the websites associated with the Licensed Domain Names (\u201cOperating Content\u201d). Licensee may independently enter into an agreement with the owner of the Operating Content to secure",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only incurs costs if it voluntarily procures content and is reimbursed; the only restriction is that it cannot use that content, which is limited and not a core business burden."
+    },
+    {
+      "clause_index": 63,
+      "clause": "1. Joint Content License Relationship. Among other games, Zynga produces and distributes the ZYNGA POKER\u00ae game on a number of global platforms, including Apple iOS, Google Android, Facebook and the zynga.com website. The ZYNGA POKER\u00ae game features a Zynga Poker Tournaments Mode that Zynga can custom",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives Zynga the right to promote WPT\u2019s brand and cooperate in marketing, with no new cost or restriction."
+    },
+    {
+      "clause_index": 3,
+      "clause": "10.1 This Agreement shall be governed and construed in accordance with the laws of the United States of America. The courts of competent jurisdiction at New York City, New York, shall have the exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+      "ground_truth": "medium",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": false,
+      "gt_explanation": "The Licensor must resolve any dispute under U.S. law in New York courts, which can be inconvenient and costly if they are not based in the United States."
+    },
+    {
+      "clause_index": 37,
+      "clause": "3.1 Funding. During the term of the Project in accordance with the Project Plan, ArTara will provide thirty thousand dollars (US $30,000) per year in funding for the Project, taking into consideration the time spent by University employees required for the Project. The Parties agree to discuss in go",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must pay a fixed $30,000 each year and only discuss extra funding, creating a defined payment obligation."
+    },
+    {
+      "clause_index": 65,
+      "clause": "3. Term. This Agreement will be in effect for three (3) years from the Effective Date (\u201cInitial Term\u201d) unless terminated earlier in accordance with this Agreement. This Agreement shall automatically extend for an additional two (2) years on the same terms herein (\u201cRenewal Term\u201d) provided WPT receive",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor an automatic extension if a payment threshold is met, which is a benefit and does not impose a cost or restriction."
+    },
+    {
+      "clause_index": 189,
+      "clause": "7.5 After termination of this contract, there shall be a sell-off period (defined in APPENDIX 2) following the date of termination of this contract.",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor cannot end the license instantly and must allow the sell\u2011off period, limiting its ability to fully terminate the agreement."
+    },
+    {
+      "clause_index": 186,
+      "clause": "7.2 Either Party shall be entitled to cancel this Agreement if the other Party is materially in breach of the terms of this Agreement. If the breach of contract is capable of being remedied, this Agreement can be cancelled only provided that the Party in breach has not rectified its breach within th",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor can cancel if the Licensee breaches (a protection), but the Licensor also faces termination if it breaches and does not cure within 30 days, creating a medium\u2011level risk."
+    },
+    {
+      "clause_index": 50,
+      "clause": "1.50 \u201cFinancial Statements\u201d means (a) the audited consolidated balance sheet of Vyera\u2019s parent company, Phoenixus AG and its subsidiaries, for the fiscal year ended December 31, 2018, and the related consolidated statement of operations, shareholders\u2019 equity and cash flows for the fiscal year then e",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 104,
+      "clause": "i. The other party breaches or fails to perform any of its material obligations provided for in this Agreement; ii. The other party is unable to pay its debts when due, or makes any assignment for the benefit of creditors, or files any petition under the bankruptcy or insolvency laws of any jurisdic",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor could be terminated by the Licensee if it breaches, becomes insolvent, or misuses IP, creating a cause\u2011based unilateral termination risk."
+    },
+    {
+      "clause_index": 127,
+      "clause": "(a) Nothing in this Agreement is intended to, nor shall it, prevent CytoDyn from (i) Developing, Manufacturing and or Commercializing leronlimab inside or outside of the Territory for use outside of the Field or (ii) Developing or Manufacturing leronlimab inside or outside of the Territory for Comme",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only confirms CytoDyn's right to continue its own development and commercialization activities, so it imposes no cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 27,
+      "clause": "6.5. Termination in the Event of Termination of Agency Agreement. In the event that the Agency Agreement is terminated pursuant to Section 9.02",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor a right to end the license if the Agency Agreement ends, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 87,
+      "clause": "e. Approvals. The Licensed Property shall be displayed or used only in such form and in such manner as has been approved in writing (which may be by email) by Licensor pursuant to this Section 2 and Licensee shall ensure its usage of the Licensed Property solely as approved. Throughout the Term, inc",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only gives the Licensor the right to approve usage and set standards, which is a protection, not a cost."
+    },
+    {
+      "clause_index": 126,
+      "clause": "2.5 Field and Territory Restrictions.",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause contains no operative language, so it does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 108,
+      "clause": "b. All rights granted to Zynga by WPT shall immediately revert to WPT, and Zynga shall promptly cease any and all marketing and promotional activities using WPT\u2019s Licensed Property.",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "The clause only gives WPT the right to have the license end and the IP stop being used, which is a protection."
+    },
+    {
+      "clause_index": 130,
+      "clause": "1.4 Licensee Cooperation. Licensee agrees to reasonably cooperate with Licensor in achieving registration of the Licensed Mark worldwide, and in maintaining and protecting existing registrations therefor at Licensor\u2019s sole expense. Licensee shall execute any and all documents which Licensor may reas",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only gains a right to request cooperation and bears the registration costs, so it faces no new cost or restriction."
+    },
+    {
+      "clause_index": 138,
+      "clause": "(b) the Parties\u2019 mutual objective is to maximize the clinical and commercial success of the Licensed Products in the Field in the Territory, consistent with sound and ethical business and scientific practices. The Parties shall each bear all expenses of their respective representatives on the JC, Al",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The Licensor only has to cover its own committee-related expenses, which is a simple cost and does not create high or medium risk."
+    },
+    {
+      "clause_index": 58,
+      "clause": "1.59 \u201cHIV\u201d has the meaning set forth in the Recitals to this Agreement.",
+      "ground_truth": "low",
+      "predicted": "low",
+      "raw_output": "Low",
+      "correct": true,
+      "gt_explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 101,
+      "clause": "b. Zynga shall indemnify, defend, and hold harmless WPT and its Affiliates, and the respective directors, officers and employees of the foregoing (the \u201cWPT Indemnified Parties\u201d) from and against any and all third party claims, actions, suits, costs, liabilities, judgments, obligations, losses, penal",
+      "ground_truth": "low",
+      "predicted": "high",
+      "raw_output": "High",
+      "correct": false,
+      "gt_explanation": "WPT receives a protective indemnity and faces no new cost or restriction."
+    },
+    {
+      "clause_index": 17,
+      "clause": "1.17 \u201cCalendar Quarter\u201d means the respective periods of three (3) consecutive calendar months ending on March 31, June 30, September 30 and December 31\u037e provided, however, that (a) the first Calendar Quarter of the Term shall extend from the Effective Date to the end of the first complete Calendar Q",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only defines a time period and does not impose any cost or restriction on the Licensor."
+    },
+    {
+      "clause_index": 42,
+      "clause": "3.6 Payments. All payments under Articles 3.2, 3.3 and 3.5 shall be sent to the following address: Checks will be sent to: The University of Iowa Research Foundation ATTN: Accounting 6 Gilmore Hall 112 North Capitol St. Iowa City, IA 52242-5500 Wire transfers will be sent to: [\u2026***\u2026] ArTara will inc",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only tells the Licensor where to receive payments and adds no cost or restriction for them."
+    },
+    {
+      "clause_index": 41,
+      "clause": "9.1. Confidential Information. In performing its obligations under this Agreement, either Party (the \u201cRecipient\u201d) may obtain certain Confidential Information of the other Party. For purposes of this Agreement, \u201cConfidential Information\u201d shall mean information, documents and other tangible things, pr",
+      "ground_truth": "medium",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": true,
+      "gt_explanation": "The Licensor must keep the Licensee\u2019s confidential information secret and may be required to return or destroy it, creating an ongoing obligation that can continue after the agreement ends."
+    },
+    {
+      "clause_index": 25,
+      "clause": "1.21 \u201cRegulatory Filings\u201d means collectively, IND\u2019s, Product License Applications, Drug Master Files, NDA\u2019s, Biological License Applications (\u201cBLAs\u201d) including supportive and annual filings and/or any other equivalent or comparable filings as may be required by Regulatory Authorities to obtain Regul",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only provides a definition and does not create any cost or restriction for the Licensor."
+    },
+    {
+      "clause_index": 123,
+      "clause": "(a) Each Party shall give the other Party notice, promptly after becoming aware, of any infringement of CytoDyn Patents, where such infringement concerns the Commercialization, manufacture, importation, use, offer for sale or sale of a Licensed Product in the Field in the Territory (a \u201cLicensed Prod",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "CytoDyn mainly gets the exclusive right to sue (a protection) and only has a modest notice duty and the cost of its own litigation, with settlement consent limited by a reasonableness safeguard."
+    },
+    {
+      "clause_index": 98,
+      "clause": "b. DISCLAIMER. EXCEPT AS EXPRESSLY STATED IN THIS AGREEMENT, NEITHER PARTY MAKES ANY REPRESENTATIONS OR WARRANTIES OF ANY KIND WITH RESPECT TO THE SUBJECT MATTER HEREOF, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR ANY LEVEL OF BUSINESS ",
+      "ground_truth": "low",
+      "predicted": "medium",
+      "raw_output": "Medium",
+      "correct": false,
+      "gt_explanation": "The clause only protects the Licensor by removing any warranty obligations, so it imposes no cost or restriction on them."
+    }
+  ],
+  "parse_failures": []
+}

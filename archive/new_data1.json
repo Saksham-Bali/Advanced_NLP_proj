@@ -1,0 +1,1517 @@
+[
+  {
+    "clause_text": "For any cause of action arising under this --------------- Agreement, Nortel's liability to Entrust, and Entrust's liability to Nortel shall not exceed U.S.$5,000,000.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "Nortel's liability to Entrust is capped at $5 million, limiting how much Nortel may have to pay if a claim arises."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Entrust's liability to Nortel is capped at $5 million, limiting how much Entrust may have to pay if a claim arises."
+      }
+    },
+    "clause_index": 1,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement grants ENVISION a non-exclusive and non-royalty bearing license to use the mark \"SierraSil\".",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must allow ENVISION to use the mark, which limits exclusive control but adds no liability or payment obligations."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "ENVISION receives a royalty‑free, non‑exclusive right to use the mark, which is a benefit and does not impose any cost."
+      }
+    },
+    "clause_index": 2,
+    "status": "success"
+  },
+  {
+    "clause_text": "In lieu of PACIFICAP ENTERTAINMENT granting a 10 year Exclusive Content License to THE HENRY FILM AND ENTERTAINMENT CORPORATION, THE HENRY FILM AND ENTERTAINMENT CORPORATION agrees to share a minimum of $50,000.00 annually for each year of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only receives a guaranteed payment and faces no new cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay at least $50,000 each year, creating a defined financial obligation."
+      }
+    },
+    "clause_index": 3,
+    "status": "success"
+  },
+  {
+    "clause_text": "COMWARE must purchase no less than $22,710.00 worth of Products, in any combination, by April 15, 2000.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor a guaranteed minimum purchase, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee is required to spend a set minimum amount on products by a deadline, creating a financial obligation."
+      }
+    },
+    "clause_index": 4,
+    "status": "success"
+  },
+  {
+    "clause_text": "Such agreement shall prohibit any further transfer of rights by such party or any use of the transferred Intellectual Property outside the scope of the license granted to SpinCo herein.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is only restricted from transferring additional rights, which is a modest limitation and not a high‑risk provision."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee may only use the IP within the granted scope, a typical usage restriction that does not create high or medium risk."
+      }
+    },
+    "clause_index": 5,
+    "status": "success"
+  },
+  {
+    "clause_text": "Improvements that (i) relate specifically to BII Confidential Information and Know-How, and (ii) do not relate to XENCOR Confidential Information and Know‑How (collectively, \"BII Intellectual Property\") will be exclusively owned by BII, and BII shall control patent prosecution and maintenance thereof.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives BII the exclusive right to own the improvements and control patents, which is a benefit."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause removes any ownership rights the Licensee might have in those improvements, assigning them entirely to BII."
+      }
+    },
+    "clause_index": 6,
+    "status": "success"
+  },
+  {
+    "clause_text": "Notwithstanding anything to the contrary herein, in the event Company incurs any expenses, damages or other liabilities (including, without limitation, reasonable attorneys' fees) in connection with the performance or non-performance of any term or provision hereof, Licensor's liability to Company shall not exceed the remuneration, excluding reimbursement of expenses, actually paid to Licensor by Company.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause caps the Licensor's liability, protecting it from larger damages."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee's recovery for any expenses or damages is limited to the fees it has paid, restricting its compensation."
+      }
+    },
+    "clause_index": 7,
+    "status": "success"
+  },
+  {
+    "clause_text": "Without the prior written consent of the other party, neither party shall assign or transfer any of its rights or obligations hereunder, in whole or in part, to any third party, and any purported assignment without such prior written consent shall be null and void and of no force and effect; except that notice, but no consent shall be required for such assignment or transfer in connection with an internal reorganization or sale of the transferring party, including by merger or other business combination, or a sale of substantially all of the assets of the transferring party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is restricted from assigning its rights without consent, but can do so with notice for internal reorganizations or sales, so the limitation is modest."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee faces the same assignment restriction, with the same notice‑only exception, resulting in a low level of risk."
+      }
+    },
+    "clause_index": 8,
+    "status": "success"
+  },
+  {
+    "clause_text": "The assignment of this Agreement, in whole or in part, to any Affiliates in the United States or to a successor organization by merger or acquisition does not require the consent of the other.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can assign the agreement without the Licensee's consent, exposing the Licensee to a new counter‑party."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can assign the agreement without the Licensor's consent, exposing the Licensor to a new counter‑party."
+      }
+    },
+    "clause_index": 9,
+    "status": "success"
+  },
+  {
+    "clause_text": "To the extent not already granted pursuant to the License Agreement, FCE grants ExxonMobil and its Affiliates a worldwide, non-exclusive, royalty-free, irrevocable, perpetual, sub-licensable, non-transferable (except pursuant to Article 14 (Assignment)) right and license to practice FCE Background Information and FCE Background Patents for Generation 2 Technology in Carbon Capture Applications and Hydrogen Applications",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "FCE must give a broad, royalty‑free, perpetual license, which limits its ability to charge or revoke, but no high or medium risk triggers are present."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "ExxonMobil receives a wide, royalty‑free license, which is a benefit and does not impose any cost or restriction."
+      }
+    },
+    "clause_index": 10,
+    "status": "success"
+  },
+  {
+    "clause_text": "The rights and obligations created by this Agreement may not be assigned by Company, in whole or in part, without first obtaining BP's written consent under this Agreement, such consent not to be unreasonably withheld.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Company cannot assign its rights or obligations without BP's consent, limiting its flexibility, though consent cannot be unreasonably withheld."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "BP gains a protective right to approve assignments, which does not impose a cost or restriction on BP."
+      }
+    },
+    "clause_index": 11,
+    "status": "success"
+  },
+  {
+    "clause_text": "The sum of the Quarterly Grant Numbers in each calendar year of the Term shall not exceed fifteen thousand (15,000). The options will expire five (5) years after each grant date.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only limits the Licensee's usage, which protects the Licensor and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause caps the number of Quarterly Grants to 15,000 per year and forces options to expire after five years, restricting the Licensee's ability to use the IP and potentially hindering its core business."
+      }
+    },
+    "clause_index": 12,
+    "status": "success"
+  },
+  {
+    "clause_text": "Buyer, for itself and its insurers, expressly waives any and all limitations or liability caps, if any, on Buyer's contribution liability to Seller, and any and all statutory or common law lien rights or Claims against Seller arising from any applicable workers compensation or disability acts, which Buyer might or could assert against Seller or Seller's insurers in the event of the personal injury or death of Buyer's employees, representatives or servants.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Seller protection by removing any liability caps the Buyer might have had."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Buyer waives all liability caps and lien rights, exposing it to unlimited contribution liability for employee injury or death claims."
+      }
+    },
+    "clause_index": 13,
+    "status": "success"
+  },
+  {
+    "clause_text": "Thereafter, this Agreement shall be effective month to month, until terminated by Transporter or Shipper upon the following written notice to the other specifying a termination date: sixty (60) days for interruptible transportation under Rate Schedule ITS and 180 days for firm transportation under Rate Schedule FTS.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can have the agreement ended by the other party with 60- or 180‑day notice, limiting its ability to continue the relationship."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee faces the same risk of termination by the other party on the same notice periods, restricting its continued use of the service."
+      }
+    },
+    "clause_index": 14,
+    "status": "success"
+  },
+  {
+    "clause_text": "During the Term, Supplier will promptly notify Customer in writing if at any time a Change of Control shall occur as to Supplier, such notification to be given no later than fifteen (15) days following such Change of Control.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Supplier must report any change of control within 15 days, creating an ongoing reporting obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Customer only receives the notification, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 15,
+    "status": "success"
+  },
+  {
+    "clause_text": "During the Term, Nexstar shall calculate BCF (the \"BCF Report\") for each calendar month. The last day of each calendar month is referred to herein as an \"End Date\". During the Term, Nexstar shall, within thirty (30) days of each End Date deliver to WYZZ-TV the BCF Report for the month ending on such End Date. Within ninety (90) days following each 3 calendar year during the Term, Nexstar shall notify WYZZ of the BCF for such year (the \"Final BCF Report\") and, subject to clause (h) of this Section 2, within thirty (30) days after such notification either Nexstar shall make a payment to WYZZ or WYZZ shall make a payment to Nexstar, as appropriate to \"true-up\" the payments made hereunder based on (i) the final determination of the BCF for the entire year, and (ii) the principle that the aggregate Section 2(a) Amount for the calendar year should be equal to (x) thirty-five percent (35%) of BCF for such calendar year up to the Minimum BCF for such year, plus (y) fifty percent (50%) of BCF for such calendar year in excess of the Minimum BCF for such year, minus (z) the sum of one hundred percent (100%) of any costs incurred by Nexstar during such calendar year in maintaining, replacing or purchasing capital equipment which is owned by WYZZ or which is used solely in connection with the operation of WYZZ-TV, and fifty percent (50%) of any costs incurred by Nexstar during such calendar year in maintaining, replacing or purchasing capital equipment which is not owned by WYZZ and which is used in connection with the combined operation of both Stations (in each case to the extent such costs were not otherwise deducted in the calculation of BCF).",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "The Licensor may have to make an uncapped payment to Nexstar after the true‑up, creating unlimited financial exposure."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee must provide regular reports and may have to make an uncapped payment to the Licensor, exposing it to unlimited liability."
+      }
+    },
+    "clause_index": 16,
+    "status": "success"
+  },
+  {
+    "clause_text": "Subject to Section 1.6, by Vendor (or successor to Vendor), upon written notice to Distributor of a change of control of Vendor and the election by Vendor (or successor to Vendor) to terminate this Agreement, where a \"change of control\" shall mean a change in ownership of the Vendor such that an unaffiliated third party acquires a majority of the voting power of Vendor;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives the Vendor the right to end the agreement after a change of control, which is a protection for the Vendor."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause lets the Vendor terminate the agreement unilaterally upon a change of control with only written notice, giving the Distributor no compensation or wind‑down period."
+      }
+    },
+    "clause_index": 17,
+    "status": "success"
+  },
+  {
+    "clause_text": "subsidiary or otherwise, or to any person, firm or corporation into which or with it might merge or consolidate.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor may be assigned to a subsidiary, affiliate, or merger partner without its consent, exposing it to a new counterpart."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can transfer its rights and obligations to a subsidiary, affiliate, or merger partner, which may affect the other party without notice."
+      }
+    },
+    "clause_index": 18,
+    "status": "success"
+  },
+  {
+    "clause_text": "Developer may cancel this Agreement if the total gross annual software revenue does not meet Developer's revenue forecast for the Distributor, such cancellation to be effected by written notice delivered to Distributor not later than 30 days after any Developer's Fiscal Year end (June 30).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Developer the right to cancel under certain conditions, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Distributor faces the risk that the Developer can terminate the agreement unilaterally based on revenue shortfall, with only a 30‑day notice and no compensation."
+      }
+    },
+    "clause_index": 19,
+    "status": "success"
+  },
+  {
+    "clause_text": "EXCEPT FOR BREACHES OF SECTION 11 OR BREACHES OF ANY LICENSE GRANT SET FORTH IN THIS AGREEMENT, IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, WHETHER OR NOT THAT PARTY HAS BEEN ADVISED OF, KNEW, OR SHOULD HAVE KNOWN OF, THE POSSIBILITY OF SUCH DAMAGE AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause protects the Licensor by limiting liability for special, incidental, indirect, or consequential damages, so it does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause protects the Licensee in the same way, limiting liability for those damages and therefore posing no risk."
+      }
+    },
+    "clause_index": 20,
+    "status": "success"
+  },
+  {
+    "clause_text": "except as specifically described elsewhere in this agreement, either ITS or COMWARE shall have the right to terminate this Agreement with 30 days written notice from the other party, for any reason whatsoever.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can be terminated by the other party with 30 days notice for any reason, forcing it to stop using the IP on short notice."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee faces the same risk of being terminated by the other party with 30 days notice for any reason, requiring it to cease use of the IP."
+      }
+    },
+    "clause_index": 21,
+    "status": "success"
+  },
+  {
+    "clause_text": "In the event that Zanotti fails to secure purchases amounting to the Minimum Order for any particular period, the exclusive supplier rights granted pursuant to this Article 2 shall become non- exclusive commencing immediately following such period in which the Minimum Order was not achieved and Aura shall have full discretion to purchase or otherwise obtain Product from sources other than Zanotti.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "Aura only gains the right to buy from other sources if Zanotti misses the order target, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Zanotti loses its exclusive supplier rights when it fails to meet the Minimum Order, restricting its business without notice."
+      }
+    },
+    "clause_index": 22,
+    "status": "success"
+  },
+  {
+    "clause_text": "Racing represents to the Sponsor that the Sponsor's aggregate obligation hereunder will not exceed the amount of the sponsorship fee set forth in Section 3 hereof (or such lesser amount as is payable by the Sponsor in the event that this Agreement is terminated pursuant to Section 14 hereof), plus, if applicable, collection costs that may be reasonably incurred by Racing in a legal proceeding to collect all or any part thereof (the \"Maximum Obligation\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "Racing's right to recover is capped at the sponsorship fee plus collection costs, limiting its potential recovery."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Sponsor's total payment obligation is limited to the fee (or less if terminated) plus reasonable collection costs, protecting it from higher liability."
+      }
+    },
+    "clause_index": 23,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) at any time following the second (2nd) anniversary of the First Commercial Sale of the Licensed Product, for any reason or no reason, upon one hundred eighty (180) days' written notice to CytoDyn.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can be terminated at will after two years with 180 days' notice, which may end its revenue stream and require it to stop using the licensed product."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensee the right to end the agreement at any time after the specified date, which is a protective right."
+      }
+    },
+    "clause_index": 24,
+    "status": "success"
+  },
+  {
+    "clause_text": "i-Escrow hereby grants to 2TheMart a worldwide, non-exclusive right to use, reproduce, distribute, publicly perform, publicly display and digitally perform the i-Escrow Content on or in conjunction with 2TheMart auctions.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "i‑Escrow must allow 2TheMart to use its content worldwide, which limits i‑Escrow’s exclusive control but imposes no further obligations."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "2TheMart receives a broad, non‑exclusive right to use the content, which is a benefit rather than a restriction."
+      }
+    },
+    "clause_index": 25,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement shall be binding on the respective transferees and successors of the parties hereto, except that neither this Agreement nor either party's rights or obligations hereunder shall be assigned or transferred by either party without the prior written consent of the other party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is only restricted from assigning its rights without the Licensee’s consent, which is a standard mutual limitation and does not create a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee faces the same mutual restriction on assignment, which is a standard protection and carries low risk."
+      }
+    },
+    "clause_index": 26,
+    "status": "success"
+  },
+  {
+    "clause_text": "The Parties agree that the license grant contained in this Section 11.3 is personal to Supplier only and shall be exercised by Supplier only,",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by preventing the license from being transferred; it does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause restricts the Licensee to using the licensed IP personally and forbids assignment or sublicensing, limiting how the Licensee can exploit the IP."
+      }
+    },
+    "clause_index": 27,
+    "status": "success"
+  },
+  {
+    "clause_text": "MA may not assign, sell, lease or otherwise transfer in whole or in party any of the rights granted pursuant to this Agreement without prior written approval of Company.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause protects the Licensor by requiring its approval before the Licensee can transfer the rights."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause limits the Licensee's ability to assign or transfer the rights, but the restriction is not severe enough to be considered high or medium risk."
+      }
+    },
+    "clause_index": 28,
+    "status": "success"
+  },
+  {
+    "clause_text": "of rights may occur after such [***] ([***]) day period without being deemed a breach of this Section 15.3.2 by Licensee), [***].",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only describes a timing rule and does not add any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensee a right to act after the specified period, which is a benefit, not a risk."
+      }
+    },
+    "clause_index": 29,
+    "status": "success"
+  },
+  {
+    "clause_text": "Distributor shall be entitled to advertise, promote, market or",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Distributor a marketing right and does not impose any new obligation or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause grants the Distributor the right to advertise, promote, and market, which is a benefit rather than a cost."
+      }
+    },
+    "clause_index": 30,
+    "status": "success"
+  },
+  {
+    "clause_text": "Except as otherwise set forth herein, neither party shall transfer, assign or cede any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of the other party, which consent may be withheld at the other party's reasonable business discretion; provided, however, that either party may transfer this Agreement without prior written consent of the other party to an Affiliate or in connection with a merger or sale of all or substantially all of the stock or assets of such party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor cannot assign the agreement without consent, except in a merger or sale of substantially all assets, which limits flexibility and creates a change‑of‑control risk."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee faces the same restriction on assignment, with the same merger/affiliate exception, creating a comparable change‑of‑control risk."
+      }
+    },
+    "clause_index": 31,
+    "status": "success"
+  },
+  {
+    "clause_text": "Sanofi shall transfer and assign, and shall ensure that its Affiliates transfer and assign, to RevMed, at no cost to RevMed, all Product Marks exclusively relating to any Termination Product, provided that such Product Marks do not contain the business entity names of Sanofi or its Affiliates or variations thereof, except as may otherwise be required by Applicable Law during a transition period to avoid any interruptions in supply of Termination Product to patients.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "Sanofi must give up ownership of certain product marks, which is a cost, but no high or medium risk triggers are present."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "RevMed receives the product marks for free, which is a benefit and does not create a risk."
+      }
+    },
+    "clause_index": 32,
+    "status": "success"
+  },
+  {
+    "clause_text": "The demand for liquidated damages and specific performance in respect of any breach during the Term of Cooperation are all remedies that the non-breaching Party shall have under this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "If the Licensor breaches, it may have to pay a pre‑set liquidated damages amount and may be forced to perform specifically, creating a defined cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "If the Licensee breaches, it faces the same liquidated damages and specific performance obligations, creating a defined cost."
+      }
+    },
+    "clause_index": 33,
+    "status": "success"
+  },
+  {
+    "clause_text": "Not later than the first Business Day of […***…] during the Profiling Term and Profiling Renewal Terms, Roche will provide FMI with a rolling forecast of its estimated requirements for Sample Profiling for the following […***…], the rolling forecast for the […***…] of which shall be deemed to be a binding order for sample volume (including specifications for the number of samples to be run using each of FMI's different tests) (\"Binding Orders\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "FMI receives a binding order for sample volume, which is a benefit and does not impose a cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Roche must provide a forecast that becomes a binding order, creating a restriction but no high or medium risk triggers are present."
+      }
+    },
+    "clause_index": 34,
+    "status": "success"
+  },
+  {
+    "clause_text": "Licensee may not assign, transfer, pledge, mortgage or otherwise encumber this Agreement or its right to use the Brand (or assume this Agreement in bankruptcy), in whole or in part, without the prior written consent of Licensor in its sole discretion, except for an assignment outside of bankruptcy to a successor organization that is solely the result of a name change by Licensee.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to approve assignments, which is a protection and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause limits the Licensee's ability to assign or encumber the agreement without consent, but no high or medium risk triggers are present."
+      }
+    },
+    "clause_index": 35,
+    "status": "success"
+  },
+  {
+    "clause_text": "Except for the subcontractors appointed by MMT as of the Effective Date as listed on Exhibit A attached hereto, MMT may not grant sublicenses of the rights and licenses granted to it in Section 2.1(a) to any Affiliate (including Pfizer or any Affiliate of Pfizer) or Third Party without the prior written approval of SIGA (such approval not to be unreasonably withheld).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "SIGA only gains a protective right to approve sublicenses, which does not impose any cost or restriction on SIGA."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "MMT is restricted from granting sublicenses without SIGA's approval, limiting its ability to use the licensed IP, though the approval must not be unreasonably withheld."
+      }
+    },
+    "clause_index": 36,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.1.1 The Liability Cap will not apply to any (1) material confidentiality breach under Section 5, and/or (2) indemnification obligations under Section 7.1. 9.1.2 The Liability Cap will not apply to intentional misconduct and/or gross negligence.",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "The Licensor could face unlimited liability for its own confidentiality breach, intentional misconduct, gross negligence, or any indemnification it must pay, because the liability cap does not apply to those events."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee could be liable without limit for its own confidentiality breach, intentional misconduct, gross negligence, and for uncapped indemnification obligations, since the liability cap is excluded for those."
+      }
+    },
+    "clause_index": 37,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement and/or any Study Order may not be assigned by either Party except as agreed upon in writing by the other Party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor cannot assign the agreement without the other Party’s written consent, a standard mutual restriction that does not create high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee also cannot assign the agreement without the other Party’s written consent, a standard mutual restriction with no high or medium risk."
+      }
+    },
+    "clause_index": 38,
+    "status": "success"
+  },
+  {
+    "clause_text": "This guaranty is personal to you and the obligations and duties imposed in it may not be delegated or assigned; provided, this guaranty shall be binding upon your successors, assigns, estates and personal representatives.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensor a personal guarantee that cannot be assigned and stays enforceable against the guarantor’s successors, which is a protection."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause restricts the Licensee from delegating or assigning the guaranty obligations and binds the guaranty to the Licensee’s successors, but this restriction does not trigger a High or Medium risk under the given rules."
+      }
+    },
+    "clause_index": 39,
+    "status": "success"
+  },
+  {
+    "clause_text": "The Agent hereby grants Monsanto an exclusive (even with respect to the Agent and its Affiliates), non- transferrable, royalty-free license and right to use the trademarks EcoSense and Path Clear (Trademark Application No. 1430287) in Canada (such trademarks, the \"Canada Marks\"), only in connection with Natural Products (as defined below) in the natural non-selective weedkiller category for Lawn & Garden Use during the term of this Agreement. Mon",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Agent must give up any right to use its own Canada Marks, limiting its ability to exploit its trademarks."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Monsanto receives an exclusive, royalty‑free license to use the marks, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 40,
+    "status": "success"
+  },
+  {
+    "clause_text": "The Contractor shall not assign this Agreement or any of its rights, powers, duties or obligations hereunder without the express prior written consent of the Company, which shall not be unreasonably withheld.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Company only gains a protective right to approve assignments, which does not impose a cost or restriction on it."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Contractor is limited from assigning the agreement without the Company's consent, restricting its business flexibility, though consent cannot be unreasonably withheld."
+      }
+    },
+    "clause_index": 41,
+    "status": "success"
+  },
+  {
+    "clause_text": "Consequently either this Agreement or any of the respective rights or obligations of the Parties hereunder may be assigned or otherwise transferred, in whole or in part, in any form whatsoever (including by way of change of Control), by either Party subject to the prior written consent of the other Party, which consent shall not be unreasonably withheld or delayed, and any attempt to do so without such consent shall be null and void.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor can only assign its rights with the other party’s reasonable consent, which limits but does not create a costly obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee faces the same restriction on assignment, requiring reasonable consent from the Licensor, but this does not impose a high or medium risk."
+      }
+    },
+    "clause_index": 42,
+    "status": "success"
+  },
+  {
+    "clause_text": "Unless otherwise agreed in an Order, Supplier grants Bank of America a perpetual, worldwide, irrevocable, nonexclusive royalty free license to any Pre-existing IP embedded in the Work Product, which shall permit Bank of America and any transferee or sublicensee of Bank of America, subject to the restrictions in this Agreement, to make, use, import, reproduce, display, distribute, make derivative works and modify such Pre-existing IP as necessary or desirable for the use of the Work Product.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Supplier must give up future control and royalty income on its pre‑existing IP, but no high or medium risk triggers apply."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Bank receives a broad, perpetual, royalty‑free license, which is a benefit and does not impose any cost or restriction."
+      }
+    },
+    "clause_index": 43,
+    "status": "success"
+  },
+  {
+    "clause_text": "Neither this Agreement nor any interest hereunder shall be assignable by a Party without the prior written consent of the other Party, except as follows: (a) such Party may assign its rights and obligations under this Agreement to any of its Affiliates, provided that the assignee shall expressly agree to be bound by such Party's obligations under this Agreement and that such Party shall remain liable for all of its rights and obligations under this Agreement, and (b) either Party may assign its rights and obligations hereunder to a Third Party in connection with a permitted assignment or other permitted transfer of the License Agreement. Each Party shall promptly notify the other Party of any assignment or transfer under the provisions of this Section 11.1.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only restricts the Licensor’s ability to assign the agreement without consent, which is a limitation but not a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause similarly restricts the Licensee’s ability to assign without consent, imposing no high or medium risk."
+      }
+    },
+    "clause_index": 44,
+    "status": "success"
+  },
+  {
+    "clause_text": "damages (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of this Agreement, even if advised of the possibility of such damages.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor cannot recover certain consequential damages such as lost profits or business interruption, limiting its compensation."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee is similarly barred from claiming those consequential damages, restricting its recovery rights."
+      }
+    },
+    "clause_index": 45,
+    "status": "success"
+  },
+  {
+    "clause_text": "Subject to the restrictions set out in Section 2.2, ENERGOUS hereby grants to DIALOG a non-exclusive (subject to Section 2.5), irrevocable, worldwide, sub-licensable (solely in accordance with Section 2.4), royalty-bearing license during the Term under all Product IP to: (a) repackage or have repackaged the Product Die into various package formats or layouts, and to integrate the Product Die into MCMs, which may incorporate DIALOG or third party intellectual property (such repackaged Product Die, MCMs and Products, are individually and/or collectively referred to as the \"Licensed Products\"); (b) have the Licensed Products manufactured, tested and packaged by Manufacturing Subcontractors; (c) Sell, offer for Sale, import, export and support the Licensed Products, including without limitation, providing system design, troubleshooting and failure analysis support for DIALOG's customers and their customers; (d) use and modify the Tooling and Documentation for the purposes of paragraphs (a) to (d) of this Section 2.1.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only requires ENERGOUS to grant a license and receive royalties, which is a benefit rather than a cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives DIALOG broad rights to use, modify, and sell the licensed products, which are advantages, not obligations."
+      }
+    },
+    "clause_index": 46,
+    "status": "success"
+  },
+  {
+    "clause_text": "terminate your employment forthwith and to make a payment to you in lieu of salary and the benefits set out in paragraph 5 of this Agreement for all or any unexpired part of the notice period.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must pay the employee salary and benefits for any remaining notice period, creating a defined payment obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives a payment in lieu of notice, which is a benefit and does not impose a cost or restriction."
+      }
+    },
+    "clause_index": 47,
+    "status": "success"
+  },
+  {
+    "clause_text": "VerticalNet hereby grants to LeadersOnline a non- exclusive, non-transferable, royalty-free right and license to link to the VerticalNet Site.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "VerticalNet only gives a license; it does not incur any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "LeadersOnline receives a royalty‑free, non‑exclusive, non‑transferable right to link, which is a benefit with no significant restriction."
+      }
+    },
+    "clause_index": 48,
+    "status": "success"
+  },
+  {
+    "clause_text": "Depomed agrees to grant and hereby grants to King an exclusive option (exercisable at King's sole discretion by providing written notice of intent at any time, but in no event later than 180 days after the Effective Date) to obtain an exclusive license in the Territory to certain of Depomed's proprietary drug delivery technology in combination with both metformin hydrochloride and any other active pharmaceutical ingredients (a \"Combination Product License\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "Depomed only gives King a right to later obtain an exclusive license; it does not create a liability or impose a duty on Depomed."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "King receives an exclusive option to obtain a license, which is a benefit and does not impose any cost or restriction."
+      }
+    },
+    "clause_index": 49,
+    "status": "success"
+  },
+  {
+    "clause_text": "Roche shall exclusively own, and FMI shall assign to Roche, all intellectual property arising from the Immunotherapy Testing Platform Development that Covers methods of treatment, stratifying patients, or identifying patients that would benefit from a particular treatment, and all other methods useful in connection with the therapeutic treatment of a patient.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "Roche gains exclusive ownership of the developed IP, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "FMI must assign all IP it creates to Roche, losing ownership rights, which is a high‑risk restriction."
+      }
+    },
+    "clause_index": 50,
+    "status": "success"
+  },
+  {
+    "clause_text": "The licenses granted hereunder do not include for the Grantee the right to grant sublicenses to any third party except as expressly provide in Section 6.03.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by limiting the Grantee’s ability to grant sublicenses."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause restricts the Licensee from sublicensing except as allowed in Section 6.03, but no high or medium risk triggers are present."
+      }
+    },
+    "clause_index": 51,
+    "status": "success"
+  },
+  {
+    "clause_text": "Defective or nonconforming Product shall be replaced by Seller without additional charge, or in lieu thereof, at Seller's option, Seller may refund the purchase price upon return of such Product at Seller's expense and such refund or replacement shall constitute Buyer's sole and exclusive remedy.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must replace or refund defective products at its own expense, but liability is limited to the purchase price."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can only seek replacement or refund for defects and cannot pursue any other damages."
+      }
+    },
+    "clause_index": 52,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement may be terminated by either Party upon six (6) months written notice following a Change of Control of Exact; provided that such notice is given within thirty (30) days of the consummation of such Change of Control.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can end the agreement after a Change of Control of Exact, but must give 6 months notice and must act within 30 days of the event."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee has the same right to terminate after a Change of Control of Exact, with the same 6‑month notice and 30‑day notice‑within requirement."
+      }
+    },
+    "clause_index": 53,
+    "status": "success"
+  },
+  {
+    "clause_text": "In the event the Company is unable to sell a minimum of 1,875,000 Shares on or before June 30, 2007, this Agreement shall terminate and the Company shall cause the Escrow Agent (as defined below) to refund to any persons who have subscribed for any of the Shares the full amount it received from them, without interest, as set forth in the Prospectus; and none of the parties to this Agreement shall have any obligation to the other parties hereunder, except as set forth in this Section 2 and in Sections 8, 10, and 11.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Company must refund the money received if the sales target is not met, which is a defined, limited cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Subscribers receive a full refund if the minimum shares are not sold, which is a benefit rather than a restriction."
+      }
+    },
+    "clause_index": 54,
+    "status": "success"
+  },
+  {
+    "clause_text": "No party will be liable to any other for any indirect, consequential, or special damages or for loss of profits.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor cannot claim indirect, consequential, special damages or lost profits from the Licensee, limiting its recovery."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee cannot claim indirect, consequential, special damages or lost profits from the Licensor, limiting its recovery."
+      }
+    },
+    "clause_index": 55,
+    "status": "success"
+  },
+  {
+    "clause_text": "Recipient further agrees to execute, acknowledge and deliver any documentation, instruments, specifications or disclosures necessary to assign, prosecute, protect, perfect or exploit the Company ownership of Intellectual Property.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive assistance with its IP, which is a benefit and not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Recipient must provide documents and actions to support the Company's IP ownership, creating an ongoing compliance obligation."
+      }
+    },
+    "clause_index": 56,
+    "status": "success"
+  },
+  {
+    "clause_text": "Pey Dirt has the right to terminate this Agreement immediately if Company's Endorsed Products are not being distributed in the Contract Territory to a significant number of stores by October 1, 1999.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives Pey Dirt the right to end the agreement, which is a protection for the Licensor."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee can lose the license instantly if distribution targets are not met, with no notice or wind‑down period."
+      }
+    },
+    "clause_index": 57,
+    "status": "success"
+  },
+  {
+    "clause_text": "The Contractor will have the ability to terminate this Agreement by giving 90 days' prior written notice to the Company.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor can end the agreement at will with notice, which is a protective right, not a burden."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee can be terminated without cause and without compensation, leaving them exposed to sudden loss of the licensed IP."
+      }
+    },
+    "clause_index": 58,
+    "status": "success"
+  },
+  {
+    "clause_text": "IN ADDITION, ENERGOUS' LIABILITY WITH RESPECT TO ITS OBLIGATIONS UNDER SECTION 12.1(b) SHALL IN NO EVENT EXCEED [***].",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor's liability is capped, which protects it from larger damages."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can only recover damages up to the specified cap, limiting its compensation."
+      }
+    },
+    "clause_index": 59,
+    "status": "success"
+  },
+  {
+    "clause_text": "THE FOREGOING WARRANTIES AND LIMITATIONS ARE EXCLUSIVE REMEDIES AND ARE IN LIEU OF ALL OTHER WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT ANY LIMITATION WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause limits the Licensor’s liability by disallowing any additional warranties, which protects the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause removes implied warranties (merchantability, fitness), restricting the Licensee’s ability to claim those warranties."
+      }
+    },
+    "clause_index": 60,
+    "status": "success"
+  },
+  {
+    "clause_text": "if such rights comprise any data specifically provided to the Group by Customers during the billing process (\"Billing Data\"), then such rights shall be owned exclusively by the Online Group and neither Skype nor the Company will grant, nor claim for itself or its affiliated entities, independent contractors, or employees, either expressly or impliedly, any rights, title, interest, or licenses to such rights and each assigns to Online BVI, with full title guarantee, all copyrights, patents, trade marks, service marks, rights of publicity, authors' rights, contract and licensing rights, goodwill and all other intellectual property rights in and to the same as may exist now and/or hereafter come into existence and arising under the laws of any jurisdiction for the entire term of such rights and all renewals, revivals and extensions thereof.",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "The Licensor must give up all IP rights to Billing Data and assign them to Online BVI, losing ownership and control."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives exclusive ownership of the Billing Data IP, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 61,
+    "status": "success"
+  },
+  {
+    "clause_text": "IN NO EVENT WILL IMNTV'S LIABILITY TO DISTRIBUTOR UNDER THIS AGREEMENT EXCEED THE AMOUNT ACTUALLY DUE TO IMNTV HEREIN.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects IMNTV by limiting its liability, so it does not impose a cost on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Distributor’s right to recover damages is capped to the amount owed to IMNTV, limiting its recovery."
+      }
+    },
+    "clause_index": 62,
+    "status": "success"
+  },
+  {
+    "clause_text": "Notwithstanding the foregoing, Power2Ship is obligated to pay the License Fee to WLI for a minimum of 36 months.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives WLI the right to receive payments, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Power2Ship must continue paying the License Fee for at least 36 months, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 63,
+    "status": "success"
+  },
+  {
+    "clause_text": "Any unauthorized attempt to assign or delegate any portion of this Agreement or any Work Order shall be void.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is simply prohibited from assigning the agreement without permission, which is a standard restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is likewise prohibited from assigning the agreement without permission, a standard restriction."
+      }
+    },
+    "clause_index": 64,
+    "status": "success"
+  },
+  {
+    "clause_text": "\"Distribution Term\" means the period commencing on the first Regulatory Approval of the Product in the Territory and continuing until [***], or if this Agreement is terminated earlier pursuant to Article 12, the effective date of such termination.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any obligation or cost for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 65,
+    "status": "success"
+  },
+  {
+    "clause_text": "In the event of the merger or consolidation of Company with any other entity, Pey Dirt shall have the right to terminate the Contract Period by so notifying Company in writing on or before sixty (60) days after Pey Dirt has received notice of such merger or consolidation.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Company could lose the license early if it merges, because Pey Dirt can terminate with 60‑day notice."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Pey Dirt receives a unilateral right to terminate, which is a protection, not a risk."
+      }
+    },
+    "clause_index": 66,
+    "status": "success"
+  },
+  {
+    "clause_text": "In the event of your death or incapacity, or the death or incapacity of any partner, any shareholder owning fifty percent (50%) or more of your capital stock, or any Member who owns a majority interest in a limited liability company, the heirs, beneficiaries, devisees, or legal representatives of said individual, partner or shareholders shall, within one hundred eighty (180) days of such event: 1. Apply to us for the right to continue to operate the franchise for the duration of the term of this Agreement and any renewals hereof, which right shall be granted upon the fulfillment of all of the conditions set forth in Paragraph XVIII. of this Agreement (except that no transfer fee shall be required); or 2. Sell, assign, transfer, or convey your interest in compliance with the provisions of Paragraphs XVIII and XX of this Agreement; provided, however, in the event a proper and timely application for the right to continue to operate has been made and rejected, the one hundred eighty (180) days to sell, assign, transfer or convey shall be computed from the date of said rejection. For purposes of this Paragraph, our silence on an application made pursuant to Paragraph XIX.A.1. through the one hundred and eighty (180) days following the event of death or incapacity shall be deemed a rejection made on the last day of such period.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to approve or reject a successor’s application, which is a protective benefit."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee’s heirs must apply to continue using the franchise, and the Licensor can reject the application, forcing a sale or transfer with no compensation, which can abruptly end the Licensee’s business."
+      }
+    },
+    "clause_index": 67,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) the Intellectual Property Rights are Performer Foreground-Undelivered IPR conceived or created in the course of services concerning which the Assignor Party or another member of the Assignor Group was the Requester, and the Assignee Party or another member of the Assignee Group was the Performer (collectively, \"Assigned Intellectual Property Rights\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a category of IP and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a category of IP and does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 68,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement may be terminated subject to the following clauses:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only introduces future termination rules and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause does not impose any obligation or penalty on the Licensee."
+      }
+    },
+    "clause_index": 69,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement can be terminated at any time prior to the expiry of the Term, as follows: (a) by the Consultant electing to give the Company not less than 3 months prior notice of such termination; (b) by the Company electing to give the Consultant 3 months prior notice of such termination along with a termination payment equal to the annual Consulting Fee;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor can terminate with notice and does not incur any cost, so it is a protective right."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can terminate with notice but must pay an amount equal to one year’s fee, creating a defined cost."
+      }
+    },
+    "clause_index": 70,
+    "status": "success"
+  },
+  {
+    "clause_text": "XC does hereby grant AJR a limited and non-transferable license and non-exclusive right to use XC's logo and trademarks and service marks set forth on Schedule A attached hereto (the \"Licensed Materials\") during the Term of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only lets XC grant a limited, non‑transferable, non‑exclusive license; it does not create any cost or restriction for XC."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives AJR a limited, non‑transferable, non‑exclusive right to use the materials, which is a benefit and imposes no obligation."
+      }
+    },
+    "clause_index": 71,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement is personal to each of the parties, and neither party may assign or delegate any of its rights or obligations under this Agreement without first obtaining the other party's written consent.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is simply prohibited from assigning its rights or obligations without the Licensee's consent, which is a mutual restriction and not a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is likewise prohibited from assigning its rights or obligations without the Licensor's consent, a mutual restriction with no high or medium risk triggers."
+      }
+    },
+    "clause_index": 72,
+    "status": "success"
+  },
+  {
+    "clause_text": "Except for preexisting IAC Property and any third party's Intellectual Property, IAC shall and does hereby irrevocably assign, and shall and does cause IAC Affiliates and IAC Subcontractors to irrevocably assign, to Sonos all of IAC's, IAC Affiliates' or IAC Subcontractors' worldwide right title and interest in and to the Sonos Property , if any, whether developed solely by Sonos or jointly between Sonos or a Sonos Affiliate and IAC, an IAC Affiliate, or an IAC Subcontractor, that",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "IAC must permanently transfer all rights to any IP created under the agreement to Sonos, losing ownership of that IP."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Sonos gains ownership of the IP, which is a benefit and does not impose a cost or restriction."
+      }
+    },
+    "clause_index": 73,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement may not be assigned by DeltaThree without the prior written consent of PrimeCall.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "DeltaThree cannot assign the agreement without PrimeCall's consent, which limits its flexibility but does not trigger any high or medium risk provisions."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "PrimeCall gains the right to approve any assignment, which is a protective benefit and does not create a risk."
+      }
+    },
+    "clause_index": 74,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement shall be automatically renewed for additional successive one (1) year periods, unless written notice of non-renewal is received no later than six (6) months prior to the expiration of the then current term.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is bound to another year unless it gives a six‑month notice, which is a reasonable way to opt out."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee faces the same condition and can avoid renewal by providing six‑month notice, so the risk is limited."
+      }
+    },
+    "clause_index": 75,
+    "status": "success"
+  },
+  {
+    "clause_text": "Except as agreed by the Parties in writing or as otherwise stated in the Exhibits, Company may terminate for convenience any Transition Service, and RGHI may terminate for convenience any Reverse Transition Service, upon 30 days' prior written notice of such termination; provided, (a) that, with respect to the Services described in Section G1 of Exhibit A, unless otherwise indicated therein, those Services may not be terminated independently except in accordance with an agreed Migration Plan and, (b) any unamortized costs associated with Provider's purchase of any license or other costs incurred specifically for the purpose of providing the Services hereunder will be passed through to the Terminating Party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can end Transition Services with 30 days' notice and must bear any unamortized costs it incurred, creating a moderate risk."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can end Reverse Transition Services with 30 days' notice and must bear any unamortized costs it incurred, creating a moderate risk."
+      }
+    },
+    "clause_index": 76,
+    "status": "success"
+  },
+  {
+    "clause_text": "RemainCo shall have, and SpinCo hereby grants to RemainCo, an unlimited, non-exclusive, perpetual, irrevocable, royalty free, worldwide right and license to use the content contained in the Steam Book, including the current edition and any past edition and any future edition to which RemainCo makes a contribution, for any purpose, including, without limitation, to reproduce, publicly display, modify, make derivative works, distribute, publicly perform and distribute for RemainCo's internal business purposes, including in connection with customer related activities, provided, however, that RemainCo shall (i) not use any non-nuclear content contained in the Steam Book in connection with publishing or distributing a publication which competes with the Steam Book and (ii) provide attribution and accreditation using a copyright notice having the format required by law in connection with the use of any protectable expression of the non-nuclear content contained in the Steam Book.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "SpinCo gives a broad, royalty‑free license and cannot revoke it, but the clause contains no high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "RemainCo receives an extensive license; the only obligations are modest attribution and a non‑competition restriction, which do not trigger high or medium risk."
+      }
+    },
+    "clause_index": 77,
+    "status": "success"
+  },
+  {
+    "clause_text": "University hereby grants to ArTara an exclusive Right of Reference to all Program Regulatory Filings by University in support of the Product.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The University must give ArTara an exclusive reference right, which limits the University's ability to use those filings elsewhere."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "ArTara receives an exclusive right to reference the filings, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 78,
+    "status": "success"
+  },
+  {
+    "clause_text": "All rights and title to Duesey Coffee Intellectual Property created pursuant to the Project shall belong to VAL and shall be subject to the terms and conditions of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor receives full ownership of the IP created, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee is denied any ownership rights to the IP created, which is a significant restriction."
+      }
+    },
+    "clause_index": 79,
+    "status": "success"
+  },
+  {
+    "clause_text": "Within fifteen (15) Business Days after the merger, consolidation, succession or assignment, such Person will (i) execute an agreement to assume the Servicer's obligations under this Agreement and each Transaction Document to which the Servicer is a party (unless the assumption happens by operation of Law), (ii) deliver to the Issuer, the Owner Trustee and the Indenture Trustee an Officer's Certificate and an Opinion of Counsel each stating that the merger, consolidation, succession or assignment and the assumption agreement comply with this Section 7.6 and (iii) notify the Rating Agencies of the merger, consolidation, succession or assignment.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor (or its successor) must quickly assume all obligations, provide certificates and notify rating agencies after a merger, which is a compliance burden."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause imposes no direct duties or costs on the Licensee."
+      }
+    },
+    "clause_index": 80,
+    "status": "success"
+  },
+  {
+    "clause_text": "to Section 10.4(c) and the Agent shall waive its right to exercise any other remedies otherwise available at law or in equity.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor gains protection because the Agent cannot pursue other legal or equitable remedies."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Agent (Licensee) must waive any other remedies, limiting its ability to enforce rights or seek relief."
+      }
+    },
+    "clause_index": 81,
+    "status": "success"
+  },
+  {
+    "clause_text": "If the Farids Group determines for any reason not to proceed with any proposed registration requested pursuant to Section 6.1, the Farids Group shall promptly notify the Company in writing.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Farids Group only has to give written notice if it decides not to proceed, which is a simple, low‑risk obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Company merely receives the notice and has no additional burden, so its risk is low."
+      }
+    },
+    "clause_index": 82,
+    "status": "success"
+  },
+  {
+    "clause_text": "Neither party will not assign or otherwise transfer any of its rights or obligations under this Agreement without the express prior written consent of the other party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is only restricted from assigning its rights without the other party's consent, which is a standard mutual limitation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is similarly restricted from assigning its rights without the other party's consent, a standard mutual limitation."
+      }
+    },
+    "clause_index": 83,
+    "status": "success"
+  },
+  {
+    "clause_text": "Without the prior written consent of the other Party hereto, neither Party will sell, transfer, assign, pledge or otherwise dispose of, whether voluntarily, involuntarily, by operation of law or otherwise, this Agreement or any of its rights or duties hereunder; provided, however, that either Party may assign, sublicense or transfer this Agreement and all of its rights and obligations hereunder, in their entirety, to any of its Affiliates or to a successor in connection with the sale or other transfer of all or substantially all of its business or assets to which this Agreement relates, whether by merger, sale of stock, sale of assets or otherwise, and",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is limited from assigning the agreement without consent, but the clause allows assignment to affiliates or a successor in a sale of substantially all of its business, so the restriction is modest."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee faces the same assignment restriction, with the same affiliate/successor exception, resulting in a modest limitation."
+      }
+    },
+    "clause_index": 84,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Agreement and the rights granted hereunder may not be assigned, sold, transferred, pledged or exchanged by Sponsor by operation of law or otherwise without the prior written consent of Forty Niners SC, which consent shall be in Forty Niners SC's sole discretion; provided, however, that Forty Niners SC shall consent to an assignment to any entity that acquires Sponsor (or a substantial portion of Sponsor's assets) via merger, acquisition or other similar transaction so long as (i) such entity's sponsorship would not cause Forty Niners SC to breach any existing agreement, (ii) Sponsor is not in default under this Agreements, and (iii) such sponsorship shall not otherwise cause a breach under this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives Forty Niners SC the right to approve assignments, which protects its interests and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Sponsor is restricted from assigning its rights without consent, a change‑of‑control limitation that creates a moderate risk, though an automatic‑consent exception for qualified acquisitions softens the impact."
+      }
+    },
+    "clause_index": 85,
+    "status": "success"
+  },
+  {
+    "clause_text": "(v) for the Products (including, without limitation, MGAH22), Green Cross shall assign and promptly transfer to MacroGenics, at no expense to MacroGenics, all of Green Cross' right, title and interest in and to (A) all regulatory filings (such as INDs, CTAs and drug master files), Regulatory Approvals, and clinical trial agreements (to the extent assignable and not cancelled) for such Products(s), to the extent that MacroGenics elects to continue development of such Product(s); (B) all data, including clinical data, materials and information of any kind",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "Green Cross must give up all its rights, title, and interest in regulatory filings, approvals, agreements, and data to MacroGenics without compensation, which is a significant loss."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "MacroGenics receives those rights and data for free, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 86,
+    "status": "success"
+  },
+  {
+    "clause_text": "sole ownership provided for in the second sentence of this Section 11.1.1.1(b).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensor exclusive ownership of the IP, which is a protective right."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause assigns sole ownership of the IP to the other party, restricting the Licensee from owning or controlling the work."
+      }
+    },
+    "clause_index": 87,
+    "status": "success"
+  },
+  {
+    "clause_text": "Accordingly, LBIO shall have available, in addition to any other right or remedy available to it, the right to seek an injunction from a court of competent jurisdiction restraining such a breach (or threatened breach) and to specific performance of any such Section.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "LBIO only gains the right to seek an injunction or specific performance, which is a protective right and does not impose a cost or restriction on it."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause allows LBIO to obtain an injunction if the Licensee breaches, but this remedy does not fall under any high or medium risk triggers, so the risk is considered low."
+      }
+    },
+    "clause_index": 88,
+    "status": "success"
+  },
+  {
+    "clause_text": "Supplier and/or Reseller may assign or novate this Agreement and the rights and obligations under it to any of its affiliates or upon any merger or acquisition or the sale of all or substantially all of its assets relating to the Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "The other party can transfer the agreement to an affiliate or a buyer at any time without consent, exposing the Licensor to an unknown counterpart."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The other party can transfer the agreement to an affiliate or a buyer at any time without consent, exposing the Licensee to an unknown counterpart."
+      }
+    },
+    "clause_index": 89,
+    "status": "success"
+  },
+  {
+    "clause_text": "FMM grants to iVillage, during the Initial Term of this Agreement, a royalty-free, non-exclusive, worldwide license to use, reproduce and display Ford's tradenames, trademarks, service marks and logos (collectively, the \"Marks\") in connection with this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "FMM only gives up the right to control its Marks for the Initial Term, which is a standard grant and does not create a significant burden."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "iVillage receives a royalty‑free, non‑exclusive worldwide right to use the Marks, which is a benefit rather than a restriction."
+      }
+    },
+    "clause_index": 90,
+    "status": "success"
+  },
+  {
+    "clause_text": "DCL will reimburse Redundancy Costs to SEV in accordance with Clause 11.6 up to a maximum total sum as set out in Schedule Two (\"the Redundancy Cap\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "DCL must pay reimbursement for redundancy costs but only up to a specified cap, limiting its exposure."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "SEV is entitled to receive reimbursement up to the cap, which is a benefit rather than a cost."
+      }
+    },
+    "clause_index": 91,
+    "status": "success"
+  },
+  {
+    "clause_text": "As regards Intellectual Property created by Rubicon, Rubicon acknowledges and agrees that those Works, as defined below, shall belong exclusively to ISA subject to payment in accordance with clause 4.2",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives ISA ownership of Rubicon's created works, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "Rubicon must assign all IP it creates to ISA, losing ownership and control of its own works."
+      }
+    },
+    "clause_index": 92,
+    "status": "success"
+  },
+  {
+    "clause_text": "In the event that, after the Effective Date, a Third Party (an \"Acquirer\") either (a) merges with Company, (b) acquires \"control\" (as defined in Section 1.4) of Company or (c) acquires substantially all the assets of the Company (each of (a), (b) and (c), an \"Acquisition\"), and such Acquirer or any of its Affiliates immediately prior to such Acquisition is commercializing a Competing Product in the Territory, then either Party shall have the right to terminate this Agreement on [***] ([***]) days written notice delivered within [***] ([***]) days of the closing of such Acquisition, and Company shall not be deemed to be marketing, promoting, selling, distributing or commercializing a Competing Product in breach of this Section for so long as it is conducting such activities solely through personnel who are not involved in any activities under this Agreement and do not have access to Janssen's Confidential Information hereunder.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor could have the agreement terminated by the other party if the Company is acquired by a competitor, which is a defined early termination right with notice."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee faces the same risk of termination under the same conditions, making it a medium‑level risk."
+      }
+    },
+    "clause_index": 93,
+    "status": "success"
+  },
+  {
+    "clause_text": "Vyera will, upon reasonable request of CytoDyn, and at CytoDyn's expense, execute or cause to be executed, any assignments, filings, applications or other documents that CytoDyn may require to evidence its rights in the Inventions.",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "Vyera must assign or document ownership of the Inventions to CytoDyn, which forces Vyera to give up its IP rights."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "CytoDyn gains the ability to request and obtain documentation that secures its rights in the Inventions, which is a benefit."
+      }
+    },
+    "clause_index": 94,
+    "status": "success"
+  },
+  {
+    "clause_text": "Roche shall have the right to terminate the Agreement in its entirety, or on a Work Stream-by-Work Stream basis, except for the ctDNA Work Stream, upon […***…] prior written notice, without cause.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives Roche (the Licensor) a unilateral right to end the agreement, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee can have the whole agreement or individual work streams terminated at Roche's discretion without cause, exposing it to abrupt loss of rights."
+      }
+    },
+    "clause_index": 95,
+    "status": "success"
+  },
+  {
+    "clause_text": "Neither this Agreement nor any part of this Agreement may be assigned or transferred by either party without the prior written consent of the other party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is only restricted from assigning the agreement without the other party’s consent, which is a standard limitation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is similarly restricted from assigning the agreement without the other party’s consent, a standard limitation."
+      }
+    },
+    "clause_index": 96,
+    "status": "success"
+  },
+  {
+    "clause_text": "Subject to the terms and conditions of this Agreement, PcoMed hereby grants to Integra and its Affiliates a sole and exclusive worldwide right to sell and commercialize Integra Products treated by PcoMed, with the PcoMed Surface Modification Technology (the \"Right\") for use in the Field in the Territory, including the right to conduct research and development in support of any of the foregoing.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "PcoMed gives up the ability to license its technology to others, but the clause contains no high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Integra receives an exclusive right to sell and develop the products, which is a benefit and carries no identified risk triggers."
+      }
+    },
+    "clause_index": 97,
+    "status": "success"
+  },
+  {
+    "clause_text": "For clarity and without limiting Section 8.8.1 (Non-Exclusive Manufacturing License; Covenant), the licenses granted to Ginkgo in Section 9.1.1 (Scope of Grants) and Section 9.1.2 (License Grant to Exploit [***]) do not include the right to make, have made, offer to sell or sell Consumables, [***], to or for Third Parties or any Ginkgo Affiliate or Ginkgo Subcontractor that are [***] on the Beacon Platform [***].",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only limits the Licensee’s rights, which protects the Licensor’s IP and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause bars the Licensee from making or selling certain Consumables to third parties or affiliates on the Beacon Platform, restricting core commercial use of the licensed IP."
+      }
+    },
+    "clause_index": 98,
+    "status": "success"
+  },
+  {
+    "clause_text": "Either party may assign or otherwise transfer all or part of this Agreement to any of its Affiliates, and for as long as it remains an Affiliate; provided that no such assignment shall relieve a party of any of its obligations under this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor can assign the agreement to an Affiliate but remains liable for its obligations, so the clause only gives a right, not a cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee can also assign to an Affiliate while staying liable for its obligations, so the clause only provides a right, not a cost."
+      }
+    },
+    "clause_index": 99,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Customer's exclusive remedy and Changepoint's sole obligation with respect to the breach of any of the foregoing warranties is for Changepoint to (i) make commercially reasonable efforts to correct or provide Customer with a workaround for the failure of the Licensed Software to conform substantially to the description thereof in the Documentation or to comply with the Y2K Warranty, as the case may be, or, at Changepoint's sole option, provide Customer with a refund for the License Fees paid with respect to such Licensed Software, and (ii) provide Customer with replacement media in the event there are defects in materials or workmanship in the media upon which the Licensed Software and Documentation are provided if the media is returned to Changepoint within the Warranty Period.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "Changepoint's liability for warranty breaches is limited to fixing the software, providing a workaround, or refunding only the license fees paid, which caps its financial exposure."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Customer receives an exclusive remedy (fix, workaround, refund, or replacement media) and faces no additional cost or restriction."
+      }
+    },
+    "clause_index": 100,
+    "status": "success"
+  },
+  {
+    "clause_text": "Customer may terminate this Agreement (including all Service Option Attachments) or any Service Option Attachment (with the exception of any Service Option Attachment that is a prerequisite for the provision of Services under a non-terminated Service Option Attachment) for convenience at the end of any calendar month by: a. providing at least one month's prior written notice to IBM; and b. paying the applicable early termination charges, if any, specified in Attachment A and applicable Service Option Attachments.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "IBM can be terminated by the Customer at any month with one‑month notice, which may disrupt revenue despite receiving any early‑termination fees."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Customer must pay defined early‑termination charges when exercising the convenience termination right."
+      }
+    },
+    "clause_index": 101,
+    "status": "success"
+  }
+]

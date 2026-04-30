@@ -1,0 +1,2642 @@
+[
+  {
+    "clause_text": "& VIRTUOSO SURGICAL, INC. JHU Agreement: A29889 Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019 1 May 3, 2016",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause is just a header identifying the agreement and does not create any obligations."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause is just a header identifying the agreement and does not create any obligations."
+      }
+    },
+    "clause_index": 1,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Non-Exclusive License Agreement (hereinafter “Agreement”) is entered into by and between The Johns Hopkins University (hereinafter “JHU”), a corporation of the State of Maryland, having a principal place of business 3400 N. Charles Street, Baltimore, Maryland 21218- 2695 and, Virtuoso Surgical, Inc. (hereinafter “Company”), a Tennessee corporation having an address at 5701 Old Harding Pike; Suite 200; Nashville, TN 37205. The parties hereto agree as follows:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only names the Licensor and does not create any obligation or cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only names the Licensee and does not create any obligation or cost."
+      }
+    },
+    "clause_index": 2,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.1 In the course of a fundamental research program at JHU, a valuable invention entitled Active Cannulas for Bio-Sensing and Surgical Intervention (JHU Ref. C04873) was developed by Drs. Robert Webster, III, Noah Cowan, Allison Okamura, and Russell Taylor (hereinafter “Inventors”).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the invention and inventors; it imposes no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only provides a definition and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 3,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.2 JHU has acquired all right, title and interest, with the exception of certain retained rights by the United States government, in said invention but is without the capacity to commercially develop, manufacture and distribute products and methods which embody the invention.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause confirms JHU's ownership of the invention and does not impose any cost or restriction on JHU."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause does not create any obligation or limitation for the Licensee."
+      }
+    },
+    "clause_index": 4,
+    "status": "success"
+  },
+  {
+    "clause_text": "Company is interested in providing such commercial products and methods to third parties on a non-exclusive basis and agrees to comply with the terms and conditions in this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Company must follow all agreement terms, and failure could be a material breach, creating a compliance risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause imposes no cost or restriction on the Licensee; it only confirms the Licensor’s non‑exclusive right."
+      }
+    },
+    "clause_index": 5,
+    "status": "success"
+  },
+  {
+    "clause_text": "All references to particular Exhibits or Paragraphs shall mean the Exhibits to, and Paragraphs of, this Agreement, unless otherwise specified.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines reference meanings and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines reference meanings and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 6,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.1 “EFFECTIVE DATE” of this Agreement shall mean the date the last party hereto has executed this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 7,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.3 “LICENSED PRODUCT(S)” as used herein in either singular or plural shall mean any material, compositions, or other product, the manufacture, use or sale of which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of PATENT RIGHT(S) (infringement shall include, but is not limited to, direct, contributory, or inducement to infringe).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the term and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines the term and does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 8,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.4 “LICENSED SERVICE(S)” as used herein in either singular or plural shall mean the performance on behalf of a third party of any method including cannulated surgical intervention or the manufacture of any product or the use of any product which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of the PATENT RIGHT(S), (infringement shall include, but not be limited to, direct, contributory or inducement to infringe).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 9,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.5 “NET SALES” shall mean gross sales revenues and fees billed by Company from the sale of LICENSED PRODUCT(S) less trade discounts allowed, refunds, returns and recalls, and sales taxes. In the event that Company sells a LICENSED PRODUCT(S) in combination with other ingredients or substances or as part of a kit, the NET SALES for purposes of royalty payments shall be based on the sales revenues and fees received from the entire combination or kit.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines how royalties are calculated; it does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely defines “Net Sales” and does not itself require payment or restrict the Licensee."
+      }
+    },
+    "clause_index": 10,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.6 “NET SERVICE REVENUES” shall mean gross service revenues and fees billed by Company for the performance of LICENSED SERVICE(S) less sales and/or use taxes imposed upon and with specific reference to the LICENSED SERVICE(S). In the event that Company sells a LICENSED SERVICE(S) in combination with other services or substances or as part of a kit, the NET SERVICE REVENUES for purposes of royalty payments shall be based on the sales revenues and fees received from the entire combination.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines how royalties are calculated and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely sets the formula for royalty payments and does not add additional costs or restrictions beyond the agreed royalty."
+      }
+    },
+    "clause_index": 11,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.7 “PATENT RIGHT(S)” shall mean, collectively, JHU’s interest in those set forth in EXHIBIT C of this Agreement and the inventions disclosed and claimed therein, and all continuations, divisions, and reissues based thereof, and any corresponding foreign patent applications, and any patents, or other equivalent foreign PATENT RIGHT(S) issuing, granted or registered thereon.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the term and does not create any obligation or cost for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines the term and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 12,
+    "status": "success"
+  },
+  {
+    "clause_text": "3.1 License Granted: Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the right to grant a non‑exclusive, non‑transferable license; it imposes no cost or restriction on JHU."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Company a non‑exclusive, non‑transferable right to use the patents; it does not create any cost or restrictive obligation for the Company."
+      }
+    },
+    "clause_index": 13,
+    "status": "success"
+  },
+  {
+    "clause_text": "3.2 No Sublicensing: Company shall not sublicense to others under this Agreement, nor extend the rights granted hereunder to any affiliated company.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by stopping the other party from sublicensing the IP."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause limits the Licensee’s ability to sublicense or extend the rights, which is a restriction but not a severe or high‑risk limitation."
+      }
+    },
+    "clause_index": 14,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.1 License Fee: As consideration for JHU’s grant of a License to Company under this Agreement, Company shall pay to JHU a license fee, cash and equity, as set forth in Exhibit A within thirty (30) days of the EFFECTIVE DATE. The license fee is nonrefundable and shall not be credited against royalties or other fees.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only receives payment and has no cost or restriction from this clause."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay a defined, nonrefundable cash and equity fee, creating a monetary cost."
+      }
+    },
+    "clause_index": 15,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.2 Minimum Annual Royalties: Company shall pay to JHU minimum annual royalties as set forth in Exhibit A. These minimum annual royalties shall be due within thirty (30) days of each anniversary of the EFFECTIVE DATE beginning with the first anniversary. Running royalties accrued under Paragraph 4.3 and paid to JHU during the one year period preceding an anniversary of the EFFECTIVE DATE shall be credited against the minimum annual royalties due on that anniversary date.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains the right to receive the agreed minimum royalties, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must pay a defined minimum royalty each year, creating a financial obligation."
+      }
+    },
+    "clause_index": 16,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.3 Running Royalties: Company shall pay to JHU, a running royalty as set forth in Exhibit A, for each LICENSED PRODUCT(S) sold and each LICENSED SERVICE(S) provided, based upon NET SALES and NET SERVICE REVENUES respectively, for the term of this Agreement. Such payments shall be made within thirty (30) days of the end of each calendar quarter following first commercial sale of LICENSED PRODUCT or providing LICENSED SERVICES. All non-US taxes related to LICENSED PRODUCT(S) and LICENSED SERVICE(S) sold under this Agreement shall be paid by Company and shall not be deducted from royalty or other payments due to JHU.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only receives royalties and tax payments; it does not incur any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must pay defined royalties on sales and all non‑US taxes, creating a financial obligation."
+      }
+    },
+    "clause_index": 17,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.4 Reporting and Payments: Upon achieving first commercial sale of LICENSED PRODUCTS and LICENSED SERVICES, Company shall provide a quarterly royalty report, substantially in the format of Exhibit B, accompanying each royalty payment as required in Paragraph 4.3. Royalty reports shall disclose the amount of LICENSED PRODUCT(S) and LICENSED SERVICE(S) sold, the total NET SALES and NET SERVICE REVENUES of such LICENSED PRODUCT(S) and LICENSED SERVICE(S), and the running royalties due to JHU as a result of NET SALES and NET SERVICE REVENUES by Company. In lieu of sending quarterly royalty reports to JHU via mail or courier, Company may provide all required reports in electronic format to the email address specified by JHU.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the right to receive reports and royalties, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must prepare quarterly royalty reports and pay royalties based on net sales, creating a financial and administrative burden."
+      }
+    },
+    "clause_index": 18,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.5 Late Payments: In the event that any payment due hereunder is not made when due, the payment shall accrue interest beginning on the tenth day following the due date thereof, calculated at the annual rate of six percent (6%), the interest being compounded on the last day of each calendar year. Each such royalty payment when made shall be accompanied by all interest so accrued. Said interest and the payment and acceptance thereof shall not negate or waive the right of JHU to seek any other remedy, legal or equitable, to which it may be entitled because of the delinquency of any payment.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the right to receive interest and pursue other remedies, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay interest at a defined 6% rate on late payments and cannot rely on that payment to waive JHU's other remedies, creating a defined financial cost."
+      }
+    },
+    "clause_index": 19,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.6 Records: The Company shall make and retain, for a period of three (3) years following the period of each report required by Paragraph 4.4, true and accurate records, files and books of account containing all the data reasonably required for the full computation and verification of sales and other information required in Paragraph 4.4. Such books and records shall be in accordance with generally accepted accounting principles consistently applied. The Company shall permit the inspection and copying of such records, files and books of account by JHU or its agents during regular business hours upon ten (10) business days’ written notice to the Company. Such inspection shall not be made more than once each calendar year. All costs of such inspection and copying shall be paid by JHU, provided that if any such inspection shall reveal that an error has been made in the amount equal to five percent (5%) or more of such payment, such costs shall be borne by the Company.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains a right to inspect records once a year and generally pays the inspection costs, so it faces no significant cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must keep detailed records for three years, allow annual inspections, and may have to pay inspection costs if a ≥5% error is found, creating a compliance and conditional financial burden."
+      }
+    },
+    "clause_index": 20,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.7 Non-Arms Length Transactions: In order to insure JHU the full royalty payments contemplated hereunder, the Company agrees that in the event any LICENSED PRODUCT(S) shall be sold to an affiliated company or to a corporation, firm or association with which Company shall have any agreement, understanding or arrangement with respect to consideration (such as, among other things, an option to purchase stock or actual stock ownership, or an arrangement involving division of profits or special rebates or allowances) the royalties to be paid hereunder for such LICENSED PRODUCT(S) shall be based upon the greater of: 1) the net selling price at which the purchaser of LICENSED PRODUCT(S) resells such product to the end user, 2) the NET SERVICE REVENUE received from using the LICENSED PRODUCT(S) in providing a service, 3) the fair market value of the LICENSED PRODUCT(S) or 4) the net selling price of LICENSED PRODUCT(S) paid by the purchaser.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor a right to receive potentially higher royalties; it does not impose any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay royalties based on the highest of several valuation methods for sales to affiliates, creating a financial burden without a cap."
+      }
+    },
+    "clause_index": 21,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.8 Method of Payment: All payments under this Agreement shall be made in U.S. Dollars by either check or wire transfer.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets how the Licensor will receive payment and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause limits the Licensee to pay in USD by check or wire, which is a simple procedural requirement without significant risk."
+      }
+    },
+    "clause_index": 22,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.9 Payment Information. All check payments from Company to JHU shall be sent to: Director Johns Hopkins Technology Ventures The Johns Hopkins University 100 N. Charles Street, 5th Floor Baltimore, MD 21201 Reference: JHU Agreement A29889 or such other addresses which JHU may designate in writing from time to time. Checks are to be made payable to “The Johns Hopkins University”. Wire transfers may be made through: ACH for U.S. Payments Johns Hopkins University Central Lockbox Bank of America 1400 Best Plaza Drive Richmond, VA 23227 Transit/routing/ABA number: 052001633 Account number: Type of account: depository CTX format is preferred; CCD+ is also accepted Reference: JHU Tech Transfer (JHU Agreement A29889) FED WIRE for International Payments Johns Hopkins University Central Lockbox Bank of America 100 West 33rd Street New York, NY 10001 SWIFT code: BOFAUS3N Account number: Type of account: depository",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only provides payment details for receiving money and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause requires the Licensee to follow specified payment instructions, which is a standard administrative duty with no additional risk."
+      }
+    },
+    "clause_index": 23,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.10 Invoices. Any invoice for payment sent by JHU to Company may be electronically provided by e-mail service. JHU will send invoices to an e-mail address provided by Company. Company will provide JHU with any updates to this e-mail address.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets a method for JHU to send invoices and does not limit JHU's rights or impose costs."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Company must supply and update an email address for invoices, which is a minimal procedural obligation."
+      }
+    },
+    "clause_index": 24,
+    "status": "success"
+  },
+  {
+    "clause_text": "5.1 Prosecution & Maintenance: JHU, at its sole option and discretion, shall file, prosecute and maintain all patents and patent applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU. JHU shall have full and complete control over all patent matters in connection therewith under the PATENT RIGHT(S).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must handle patent filing and maintenance, which is a duty but does not create a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only confirms the Licensor's ownership and control; it imposes no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 25,
+    "status": "success"
+  },
+  {
+    "clause_text": "5.2 Right to Enforce: JHU shall have the first right to enforce the PATENT RIGHTS against any infringement or alleged infringement thereof in the LICENSED FIELD OF USE.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives JHU a protective right to enforce its patents first, which does not cost or restrict JHU."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause imposes no duty or cost on the Licensee; it only grants JHU the first enforcement right."
+      }
+    },
+    "clause_index": 26,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.1 Expiration: This term of this Agreement shall commence on the EFFECTIVE DATE and shall continue, in each country, until the date of expiration of the last to expire patent within PATENT RIGHT(S) in that country.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets a fixed end date based on patent expiry, giving the Licensor certainty but no additional cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely defines the license duration; it does not impose extra costs or restrictions on the Licensee."
+      }
+    },
+    "clause_index": 27,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving JHU sixty (60) days written notice under Paragraph 8.1.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Company can end the agreement at will, which is a protective right and does not impose a cost on it."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "JHU can lose the license after only 60 days' notice for any reason, creating a risk of disruption."
+      }
+    },
+    "clause_index": 28,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.3 Termination by JHU: JHU, at its option, may terminate this Agreement and the license granted herein if Company has not made any sales of LICENSED PRODUCT(S) or LICENSED SERVICE(S) in any period of four consecutive quarters, after the initial commercial sale of the PRODUCT(S) or LICENSED SERVICE(S).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains a termination right, which protects it and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee can lose the license abruptly if it has no sales for four quarters, with no notice or compensation."
+      }
+    },
+    "clause_index": 29,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.4 Unpaid Royalty/Reversion of Rights: Termination or expiration of this Agreement shall not affect JHU’s right to recover unpaid royalties accrued prior to termination or expiration. Upon termination or expiration of this Agreement, all rights in and to the licensed technology shall revert to JHU at no cost to JHU.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the right to collect past royalties and to get back its technology, which are benefits, not costs."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay any royalties that accrued before termination and loses all rights to the technology immediately, creating a defined financial obligation and loss of use."
+      }
+    },
+    "clause_index": 30,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.5 Survival: All applicable provisions, including but not limited to Paragraphs 4.1 (License Fee), 9.3 (Severability), 9.4 (Use of Name),",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the benefit of continued fee payments and protects its name; it imposes no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must keep paying license fees after termination and must stop or limit use of the Licensor's name, creating ongoing monetary and usage burdens."
+      }
+    },
+    "clause_index": 31,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.6 (Disclaimer of Warranties), 9.7 (Indemnification), 9.8 (Product Liability), 9.13 (Binding Effect) and 9.14 (Governing Law) shall survive termination or expiration of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The surviving clauses only preserve protections for the Licensor and do not add any new obligations or costs."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee remains bound by the warranty disclaimer, potentially uncapped indemnification, and limited product‑liability rights after termination, creating significant ongoing liability."
+      }
+    },
+    "clause_index": 32,
+    "status": "success"
+  },
+  {
+    "clause_text": "7.1 Default & Termination: Upon breach or default of any term or condition of this Agreement by either party, the defaulting party shall be given written notice of such default in writing by the party not in default. The defaulting party shall have a period of sixty",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "If the Licensor breaches, they must fix the breach within 60 days after notice or risk termination, creating a cost and restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "If the Licensee breaches, they must cure the breach within 60 days after notice or face termination, imposing a similar cost and restriction."
+      }
+    },
+    "clause_index": 33,
+    "status": "success"
+  },
+  {
+    "clause_text": "(60) days after receipt of such notice to correct the default or breach. If the default or breach is not corrected within said sixty (60) day period, the party not in default shall have the right to terminate this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "If the Licensor breaches, they must fix it within 60 days or the Licensee can terminate the agreement."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "If the Licensee breaches, they must cure within 60 days or the Licensor can terminate the agreement."
+      }
+    },
+    "clause_index": 34,
+    "status": "success"
+  },
+  {
+    "clause_text": "8.1 Notice Information: All notices and/or other communications pertaining to this Agreement shall be in writing and sent by registered mail or certified mail, return receipt requested, or sent by overnight courier, such as Federal Express, to the parties at the following addresses or such other address as such party shall have furnished in writing to the other party in accordance with this Paragraph 8.1: FOR JHU: Director Johns Hopkins Technology Ventures The Johns Hopkins University 100 N. Charles Street, 5th Floor Baltimore, MD 21201 Reference: JHU Agreement A29889 FOR Company: VIRTUOSO SURGICAL, INC. 5701 Old Harding Pike; Suite 200 Nashville, TN 37205",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only specifies how the Licensor must receive notices; it does not create any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only specifies how the Licensee must receive notices; it does not create any cost or restriction."
+      }
+    },
+    "clause_index": 35,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.1 Audit: JHU shall have the right to audit any and all Company records related to this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains a right to audit, which is a protection and does not impose a cost on it."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must allow JHU to audit all its records related to the agreement, creating a compliance burden."
+      }
+    },
+    "clause_index": 36,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.2 Assignment: This Agreement is binding upon and shall inure to the benefit of JHU, its successors and assignees and shall not be assignable to another party, except that the Company shall have the right to assign this Agreement to another party in the case of the sale or transfer by the Company of all, or substantially all, of its assets relating to the LICENSED PRODUCT(S), LICENSED SERVICE(S) or PATENT RIGHT(S), to that party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only limits the Licensor’s ability to assign the agreement, which does not trigger any high or medium risk categories."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensee a limited right to assign the agreement when it sells or transfers substantially all related assets, which is a granted right, not a risk."
+      }
+    },
+    "clause_index": 37,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.3 Severability: In the event that any one or more of the provisions of this Agreement should for any reason be held by any court or authority having jurisdiction over this Agreement, or over any of the parties hereto to be invalid, illegal or unenforceable, such provision or provisions shall be reformed to approximate as nearly as possible the intent of the parties, and if unreformable, shall be divisible and deleted in such jurisdictions; elsewhere, this Agreement shall not be affected.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only preserves the rest of the agreement if a provision is invalid, giving no cost or restriction to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only preserves the rest of the agreement if a provision is invalid, giving no cost or restriction to the Licensee."
+      }
+    },
+    "clause_index": 38,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.4 Use of Name: The Company shall not use the name of The Johns Hopkins University or The Johns Hopkins Health System or any of its constituent parts, such as the Johns Hopkins Hospital or any contraction thereof or the name of Inventors in any advertising, promotional, sales literature or fundraising documents without prior written consent from an authorized representative of JHU. Company shall allow at least seven (7) business days notice of any proposed public disclosure for JHU’s review and comment or to provide written consent.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains the right to control use of its name, which is a protection and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must obtain written consent and give 7 days notice before using JHU’s name, restricting its marketing and promotional activities."
+      }
+    },
+    "clause_index": 39,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.5 Duties of the Parties: JHU is not a commercial organization. It is an institute of research and education. Therefore, JHU has no ability to evaluate the commercial potential of any PATENT RIGHT(S), LICENSED PRODUCT(S), LICENSED SERVICE(S) or other license or rights granted in this Agreement. It is therefore incumbent upon Company to evaluate the rights and products in question, to examine the materials and information provided by JHU, and to determine for itself the validity of any PATENT RIGHT(S), its freedom to operate, and the value of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) or other rights granted.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause relieves JHU of any duty to assess the IP, so it imposes no cost or restriction on JHU."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause requires the Company to evaluate and assess the IP, which is a duty but does not trigger any high or medium risk categories."
+      }
+    },
+    "clause_index": 40,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.6 Disclaimer of Warranties: JHU does not warrant the validity of any patents or that the practice under such patents, or the manufacture, use, sale or import of LICENSED PRODUCT(S) or LICENSED SERVICE(S), shall be free from patent infringement. EXCEPT AS EXPRESSLY SET FORTH IN THIS PARAGRAPH 9.6, COMPANY AGREES THAT THE PATENT RIGHT(S) ARE PROVIDED “AS IS”, AND THAT JHU MAKES NO REPRESENTATION OR WARRANTY WITH RESPECT TO THE",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by stating they give no warranties, so it imposes no cost or restriction on them."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee receives no warranty that the patents or licensed products are valid or non‑infringing, leaving them exposed to those risks."
+      }
+    },
+    "clause_index": 41,
+    "status": "success"
+  },
+  {
+    "clause_text": "COMMERCIAL VIABILITY. JHU DISCLAIMS ALL WARRANTIES WITH REGARD TO LICENSED PRODUCTS AND LICENSED",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by removing any warranty obligations."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee loses all warranty rights for the licensed products, leaving them without recourse if the IP is defective."
+      }
+    },
+    "clause_index": 42,
+    "status": "success"
+  },
+  {
+    "clause_text": "MERCHANTABILITY AND FITNESS FOR ANY PARTICULAR PURPOSE. NOTWITHSTANDING ANY OTHER PROVISION OF",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause protects the Licensor by discharging any implied warranties, so the Licensor faces no new cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause removes the Licensee's right to rely on warranties of merchantability or fitness, limiting their recourse if the IP is defective."
+      }
+    },
+    "clause_index": 43,
+    "status": "success"
+  },
+  {
+    "clause_text": "DAMAGES, ATTORNEYS’ AND EXPERTS’ FEES, AND COURT COSTS (EVEN IF JHU HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, FEES OR COSTS), ARISING OUT OF OR IN CONNECTION WITH THE MANUFACTURE, USE, OR SALE OF THE LICENSED PRODUCTS AND LICENSED SERVICES UNDER THIS AGREEMENT. COMPANY ASSUMES",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor faces no cost or restriction; the clause simply shifts liability to the other party."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee must pay all damages, attorneys’ fees, expert fees, and court costs arising from the licensed products/services with no limit."
+      }
+    },
+    "clause_index": 44,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.7 Indemnification: JHU and the Inventors will have no legal liability exposure to third parties if JHU does not license the LICENSED PRODUCT(S) and LICENSED SERVICE(S), and any royalties JHU and the Inventors may receive is not adequate compensation for such legal liability exposure. Therefore, JHU requires Company to protect JHU and Inventors from such exposure to the same manner and extent to which insurance, if available, would protect JHU and Inventors. JHU and the Inventors will not, under the provisions of this Agreement or otherwise, have control over the manner in which Company or those operating for its account or third parties who purchase LICENSED PRODUCT(S) or LICENSED SERVICE(S) from any of the foregoing entities, practice the inventions of LICENSED PRODUCT(S) and LICENSED SERVICE(S). The Company shall indemnify, defend with counsel reasonably acceptable to JHU, and hold JHU, The Johns Hopkins Health Systems, their representatives including but not limited to present and former, trustees, officers, Inventors, agents, faculty, employees and students harmless as against any judgments, fees, expenses, or other costs arising from or incidental to any product liability or other lawsuit, claim, demand or other action brought as a consequence of the practice of said inventions by any of the foregoing entities, whether or not JHU or said Inventors, either jointly or severally, is/are named as a party defendant in any such lawsuit. Practice of the inventions covered by LICENSED PRODUCT(S) or LICENSED SERVICE(S) by an agent or a third party on behalf of or for the account of the Company, or by a third party who purchases LICENSED PRODUCT(S) or LICENSED SERVICE(S) from the Company, shall be considered the Company’s practice of said inventions for purposes of this Paragraph 9.7. The obligation of the Company to defend and indemnify as set out in this Paragraph 9.7 shall survive the termination of this Agreement and shall not be limited by any other limitation of liability elsewhere in the Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU and the Inventors a right to be indemnified and held harmless, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Company must provide unlimited indemnification, defense, and hold harmless obligations for any third‑party product‑liability claims, with no cap and survival beyond termination."
+      }
+    },
+    "clause_index": 45,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.8 Product Liability: Prior to first commercial sale of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) as the case may be in any particular country, Company shall establish and maintain, in each country in which Company shall sell LICENSED PRODUCT(S) or LICENSED SERVICE(S), product liability or other appropriate insurance coverage appropriate to the risks involved in marketing LICENSED PRODUCT(S) and/or LICENSED SERVICE(S) and will annually present evidence to JHU that such coverage is being maintained. Upon JHU’s request, Company will furnish JHU with a Certificate of Insurance of each product liability insurance policy obtained. JHU shall be listed as an additional insured in Company’s said insurance policies. If such Product Liability insurance is underwritten on a ‘claims made’ basis, Company agrees that any change in underwriters during the term of this Agreement will require the purchase of ‘prior acts’ coverage to ensure that coverage will be continuous throughout the term of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the benefit of being an additional insured and receiving proof of coverage; it imposes no cost or restriction on JHU."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause requires the Company to obtain and maintain product liability insurance and provide evidence, which is a cost but does not trigger any High or Medium risk provisions."
+      }
+    },
+    "clause_index": 46,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.9 Entire Agreement: This Agreement constitutes the entire understanding between the parties with respect to the obligations of the parties with respect to the subject matter hereof, and supersedes and replaces all prior agreements, understandings, writings, and discussions between the parties relating to said subject matter.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only confirms that this contract is the whole agreement, which does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only confirms that this contract is the whole agreement, which does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 47,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.10 Amendment & Waiver: This Agreement may be amended and any of its terms or conditions may be waived only by a written instrument executed by the authorized officials of the parties or, in the case of a waiver, by the party waiving compliance. The failure of either party at any time or times to require performance of any provision hereof shall in no manner affect its right at a later time to enforce the same. No waiver by either party of any condition or term in any one or more instances shall be construed as a further or continuing waiver of such condition or term or of any other condition or term.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only requires written, mutually signed amendments or waivers, protecting the Licensor from unilateral changes."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The same written, mutually signed amendment and waiver requirement protects the Licensee from unilateral changes."
+      }
+    },
+    "clause_index": 48,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.11 Binding Effect: This Agreement shall be binding upon and inure to the benefit of and be enforceable by the parties hereto and their respective successors and permitted assigns.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only confirms that the Licensor and its successors are bound by the agreement, which is a standard protection."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only confirms that the Licensee and its successors are bound by the agreement, adding no new cost or restriction."
+      }
+    },
+    "clause_index": 49,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.12 Governing Law: This Agreement shall be construed, and legal relations between the parties hereto shall be determined, in accordance with the laws of the State of Maryland applicable to contracts solely executed and wholly to be performed within the State of Maryland without giving effect to the principles of conflicts of laws. Any disputes between the parties to the Agreement shall be brought in the state or federal courts of Maryland. Both parties agree to waive their right to a jury trial.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor may have to resolve disputes under Maryland law in Maryland courts, which could be inconvenient if they are not based there."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee may be required to litigate in Maryland under Maryland law, which could be burdensome if they are located elsewhere."
+      }
+    },
+    "clause_index": 50,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.13 Headings: Article headings are for convenient reference and are not a part of this Agreement. All Exhibits are incorporated herein by this reference.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only clarifies that headings are non-binding and incorporates exhibits, imposing no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause imposes no cost or restriction on the Licensee; it merely defines headings and incorporates exhibits."
+      }
+    },
+    "clause_index": 51,
+    "status": "success"
+  },
+  {
+    "clause_text": "9.14 Use of Name: Nothing contained in this Agreement confers any right to either party hereto to use in advertising, publicity, or other promotional activities any name, trade name, trademark, or other designation of the other party hereto (including any contraction, abbreviation or simulation of any of the foregoing). Unless otherwise required by law, LICENSEE is prohibited from using the name “The Johns Hopkins University” or the name of any affiliate of the Johns Hopkins University, including but not limited to The Johns Hopkins Health System Corporation, or any of its hospitals or affiliates, or the names of any of their respective faculty, employees, students or INVENTORS, in advertising, publicity, or other promotional activities, without JHU’s prior written approval of such use. JHU may disclose to all INVENTORS the terms and conditions of this Agreement upon their request. JHU may acknowledge to third parties the existence of this Agreement and the extent of the licenses granted to LICENSEE and AFFILIATES under Section 3 hereof, but JHU shall not disclose the financial terms of this Agreement to third parties, except where JHU is required by law to do so. LICENSEE hereby grants JHU permission to include LICENSEE’s name and a link to LICENSEE’s website in JHU’s annual reports and on JHU’s website to showcase technology transfer-related stories. JHU shall have the right to list LICENSEE and display the logotype or symbol of LICENSEE on JHU’s website and on JHU publications as a licensee startup company based upon JHU technology.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU the right to use the Licensee’s name and logo in its materials, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause restricts the Licensee from using JHU’s name in promotional activities, but this does not impede its core business and imposes no financial or liability burden."
+      }
+    },
+    "clause_index": 52,
+    "status": "success"
+  },
+  {
+    "clause_text": "By: /s/ Neil Veloso By: /s/ C. Mark Pickrell Neil Veloso Name:C. Mark Pickrell Executive Director Title: Attorney-in-Fact Johns Hopkins Technology Ventures Date:5/11/2016 Date::5/4/2016 Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019 11 May 3, 2016",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause is only a signature block and does not create any obligations or costs for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause is only a signature block and does not create any obligations or costs for the Licensee."
+      }
+    },
+    "clause_index": 53,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.1 The license fee due under Paragraph 4.1 is two-thousand dollars ($2000).",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets the amount the Licensor will receive, which is a benefit, not a restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause requires the Licensee to pay a fixed $2000 license fee, creating a monetary cost."
+      }
+    },
+    "clause_index": 54,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.2 In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the outstanding common and preferred shares on a fully diluted basis of COMPANY pursuant to an agreed upon stock purchase agreement between COMPANY and JHU. The stock purchase agreement shall contain provisions protecting JHU against dilution of its equity interest in the event the post-money valuation of any equity investment is less than two million dollars ($2,000,000), and it will also contain a provision for the piggy-back registration of common shares with any other class of stock in an initial public offering. If COMPANY proposes to sell any equity securities or securities that are convertible into equity securities of COMPANY (collectively, “Equity Securities”) in any new round of financing, then COMPANY shall offer JHU and/or its Assignee (as defined below) an opportunity to purchase either:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause requires COMPANY to issue equity and give JHU dilution protection, which limits COMPANY's financing flexibility but does not create uncapped liability or other high/medium triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause grants JHU equity, dilution protection, and a right of first offer, which are benefits rather than obligations."
+      }
+    },
+    "clause_index": 55,
+    "status": "success"
+  },
+  {
+    "clause_text": "(i) up to that portion of the Equity Securities that equals JHU’s then current, fully-diluted percentage ownership interest in COMPANY, or",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU is granted the right to receive up to its current ownership percentage of the equity, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Company is limited to dealing with equity only up to the amount that matches JHU’s ownership share, restricting its ability to issue or transfer additional equity."
+      }
+    },
+    "clause_index": 56,
+    "status": "success"
+  },
+  {
+    "clause_text": "(ii) if the percentage offered for sale by COMPANY is less, then up to five percent (5%) of the Equity Securities offered for sale. Such offer to purchase shall be on the same terms and conditions as are offered with respect to such Equity Securities sold in such financing. For purposes of this section 7 of Exhibit A, the term “Assignee” means: (a) any entity to which JHU’s preemptive rights have been assigned either by JHU or by another entity, or (b) any entity that is controlled by JHU.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives JHU a preemptive right to buy up to 5% of equity, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause forces COMPANY to allow JHU to purchase up to 5% of any equity it sells, restricting COMPANY’s ability to conduct its own financing."
+      }
+    },
+    "clause_index": 57,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.1 Annual Earned Royalty. COMPANY shall pay an annual EARNED ROYALTY as follows:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive royalty payments, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause requires the Licensee to pay an annual royalty, creating a financial cost."
+      }
+    },
+    "clause_index": 58,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.1 Four percent (4%) of the sum of NET REVENUES.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor a right to receive a royalty, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay the Licensor 4% of Net Revenues, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 59,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.2 Royalty Stacking. If COMPANY is required to pay running royalties on any patent rights not licensed hereunder (“Other Royalties”) in order to make, use or sell a particular LICENSED PRODUCT or LICENSED SERVICE, COMPANY shall be entitled to credit half (50%) of such Other Royalties against the Earned Royalty due, but the Earned Royalties shall not be reduced below fifty percent (50%) of those that would otherwise be due JHU for that LICENSED PRODUCT or LICENSED SERVICE.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The clause caps JHU’s royalty income by allowing a reduction of up to 50%, limiting the amount JHU can receive."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Company a right to offset half of other patent royalties against its payment, which is a benefit, not a new obligation."
+      }
+    },
+    "clause_index": 60,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.3 Least Developed Countries. EARNED ROYALTY shall not be due and payable to JHU on NET REVENUES generated from: (i) LICENSED PRODUCTS sold in Least Developed Countries as defined by the United Nations Country Classification in the most recent United Nations’ publication “Statistical Annex” (“LEAST DEVELOPED COUNTRIES”); or (ii) LICENSED PRODUCTS sold to the Public Sector providing LICENSED PRODUCTS at a Cost-Based Price in such Least Developed Countries, but only if COMPANY sells such LICENSED PRODUCTS at COMPANY’s cost of production thereof.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause reduces the Licensor’s royalty income by exempting sales in certain countries, but no high or medium risk triggers are present."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensee a right to avoid paying royalties on those sales, which is a benefit and not a risk."
+      }
+    },
+    "clause_index": 61,
+    "status": "success"
+  },
+  {
+    "clause_text": "3.1 The minimum annual royalties pursuant to the Agreement are: 1st anniversary of the EFFECTIVE DATE and each subsequent anniversary of the EFFECTIVE DATE during the term: Three-thousand dollars ($3000)",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive a set royalty each year, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay a minimum of $3,000 each year, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 62,
+    "status": "success"
+  },
+  {
+    "clause_text": "3.2 Earned Royalties payable for each calendar year are creditable on a non-cumulative basis against MINIMUM ANNUAL ROYALTIES for that year only.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive royalties; it does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause requires the Licensee to pay earned royalties each year and limits credit to that year only, which is a standard payment obligation without uncapped liability or other high/medium triggers."
+      }
+    },
+    "clause_index": 63,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.1 COMPANY will pay JHU a fee equal one percent (1%) of the Aggregate Consideration received by the COMPANY, or the total amount received by stockholders of COMPANY, upon the occurrence of a Liquidity Event. Such fee shall be paid after only the first to occur of either a Liquidation Event or an Initial Public Offering. The respective fees, when and if payable, shall be paid upon closing; except that if there are additional contingent amounts (“Trailing Consideration”) payable upon the occurrence of subsequent events, then the Trailing Consideration shall be due and payable to JHU within thirty (30) days after receipt thereof by COMPANY.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "JHU only gains the right to receive a defined fee, which is a benefit and does not impose a cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Company must pay JHU a 1% fee (and possible trailing amounts) on any Liquidity Event, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 64,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.2 For a Liquidity Event, the fee required under Section 4.1 of this Exhibit A above shall be payable to JHU by COMPANY in the same form as the proceeds paid or payable to either COMPANY or its security holders, whether in cash, securities or other property, and in the same proportion as such form of consideration is paid or payable to COMPANY or its security holders. Notwithstanding the foregoing, in the event the form of consideration paid or payable includes securities for which there is not an active public market, in lieu of paying that portion of the fee with such securities COMPANY will make a cash payment to JHU equal to the fair market value of such securities. The valuation of such securities shall be determined in accordance with the definition of “Aggregate Consideration” set forth below.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive a fee; it does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause requires the Licensee to pay a fee tied to the proceeds of a Liquidity Event, creating a financial cost; the cash‑in‑lieu provision for illiquid securities mitigates but does not limit the overall payment."
+      }
+    },
+    "clause_index": 65,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.3 For an Initial Public Offering, the fee shall be payable in the form of cash, and shall be based upon the Pre Money Valuation.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only receives a cash fee based on the IPO valuation, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay a cash fee tied to the pre‑money valuation of the IPO, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 66,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.1 In the case of an Asset Sale, the sum of: (a) all cash, and the fair market value of all securities or other property transferred to COMPANY at the time of the transaction, less all current and long-term liabilities (but not contingent liabilities) of COMPANY that are not discharged or assumed by the buyer (or its affiliates) in connection with the Asset Sale; and (b) all cash, and the fair market value of all securities and other property for Trailing Consideration payable to COMPANY, when and if actually paid;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines how the purchase price is calculated, which may reduce the amount the Licensor receives, but it does not create a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely sets the payment amount the Licensee must provide; it imposes a normal payment obligation without high or medium risk triggers."
+      }
+    },
+    "clause_index": 67,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.2 In the case of a Merger or Stock Sale, the sum of: (a) all cash, and the fair market value of all securities and other property transferred to the stockholders of COMPANY (and any option holders or warrant holders) in return for their stock (or options or warrants) in COMPANY at the time of the transaction, and (b) all cash, and the fair market value of all securities and other property transferred to the stockholders of COMPANY (and any option holders or warrant holders) for Trailing Consideration payable to the holders of COMPANY’s securities, when and if actually paid.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines how merger or stock sale consideration is calculated, giving no cost or restriction to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely provides a definition and does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 68,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.3 The valuation of any securities or other property shall be determined by reference to the operative transaction agreement for a respective Merger, Stock Sale or Asset Sale, provided that, if no such valuation is readily determinable from such operative transaction agreement, then for securities for which there is an active public market:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets a method for valuing securities or property and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely defines how valuation is calculated and does not create any liability or limitation for the Licensee."
+      }
+    },
+    "clause_index": 69,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) If traded on a securities exchange or the NASDAQ Stock Market, the value shall be deemed to be the average of the closing prices of the securities on such exchange or market over the thirty day (30) period ending three",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a valuation method and does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a valuation method and does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 70,
+    "status": "success"
+  },
+  {
+    "clause_text": "(3) days prior to the closing of such transaction; or",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The fragment does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The fragment does not impose any cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 71,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) If actively traded over-the-counter, the value shall be deemed to be the average of the closing bid prices over the thirty day (30) period ending three (3) days prior to the closing of such transaction.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a valuation method and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a valuation method and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 72,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) The method of valuation of securities subject to investment letters or other similar restrictions on free marketability shall take into account an appropriate discount from the market value as determined pursuant to clause (a) or (b) above so as to reflect the approximate fair market value thereof.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only has to follow a prescribed way to value certain securities, which is a routine procedural requirement."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee likewise must use the same discounted valuation method, which does not impose a significant burden or penalty."
+      }
+    },
+    "clause_index": 73,
+    "status": "success"
+  },
+  {
+    "clause_text": "(d) For securities for which there is no active public market, the value shall be the fair market value thereof as either: (i) determined in good faith by the Board of Directors of COMPANY; (ii) approved by JHU, such approval not to be unreasonably withheld; or (iii) determined by a third party appraiser appointed and paid for by COMPANY.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must determine value and may have to pay a third‑party appraiser, which is a normal cost and a limited restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee only receives a right to approve the valuation, which is a protective benefit."
+      }
+    },
+    "clause_index": 74,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.5 “Pre-Money Valuation” means the amount equal to the product of: (i) the price per share of common stock sold in the Initial Public Offering, and (ii) the total number of outstanding shares of common stock of COMPANY immediately prior to the closing of the Initial Public Offering, determined on a fully diluted, as converted into common stock basis, giving effect to any stock split, stock dividend, stock combination, recapitalization or similar action impacting COMPANY’s capitalization that occurs, or is deemed to occur, upon consummation of the Initial Public Offering.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines a term and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 75,
+    "status": "success"
+  },
+  {
+    "clause_text": "VIRTUOSO SURGICAL, INC. AND THE JOHNS HOPKINS UNIVERSITY EFFECTIVE DATE OF AGREEMENT _________________ FOR PERIOD OF _________ TO _________ TOTAL ROYALTIES DUE FOR THIS PERIOD$_________",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only specifies the royalty amount the Licensor will receive, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause requires the Licensee to pay a defined total royalty amount, creating a payment obligation."
+      }
+    },
+    "clause_index": 76,
+    "status": "success"
+  },
+  {
+    "clause_text": "ID NO. NAME NO. SALE DATE SALES/SERVICES RATE DUE * Please provide the JHU Ref. C04873 This report format is to be used to report quarterly royalty statements to JHU. It should be placed on Company letterhead and accompany any royalty payments due for the reporting period. This report shall be submitted even if no sales are reported.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only gains the right to receive regular royalty reports, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must submit a formatted quarterly report and accompany any payments, even with no sales, creating a compliance obligation that could be a material breach if not met."
+      }
+    },
+    "clause_index": 77,
+    "status": "success"
+  },
+  {
+    "clause_text": "JHU Ref Technology Title Inventors Country/# Number C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2008-541319 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura European Patent Office Intervention Noah J. Cowan 06844376.1 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Canada Intervention Noah J. Cowan 2,630,061 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2012-139088 Robert James Webster, III 5550682 Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2015-094824 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2014-000372 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura China Intervention Noah J. Cowan 200680050046.8 Robert James Webster, III ZL 200680050046.8 Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura United States Intervention Noah J. Cowan 8,152,756 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura United States Intervention Noah J. Cowan 8,715,226 Robert James Webster, III Russell H. Taylor Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only lists patents and inventors; it does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause does not impose any obligations or restrictions on the Licensee."
+      }
+    },
+    "clause_index": 78,
+    "status": "success"
+  },
+  {
+    "clause_text": "Exhibit 10.1 Oceanic Time Warner Cable and Watchit Media Content and License Agreement Effective Dates: September 1, 2006, August 31, 2007 Watchit agrees to provide Oceanic Time Warner Cable the following content: – Watchit Gaming Guides – Lunchtime with Ira segments every week Watchit will provide the content on BetaSp format and reserves the right to modify the content to reflect sponsorship by an advertiser and advertisers. Oceanic Time Warner Cable agrees to not edit or modify the above content. Oceanic Time Warner Cable will use the content solely on channel 777, the Las Vegas channel. In the event that Oceanic Time Warner Cable removes the above content and or terminates this agreement prior to December 31, 2006, Oceanic Time Warner Cable agrees to pay a cancellation fee of Five Thousand Dollars ($5,000) per month multiplied by the number of months remain on the agreement. Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under the Watchit brand and place a “bug” on the screen identifying the content with a Watchit trademark. Oceanic Time Warner Cable will include the following disclaimer on the Watchit Content: “The materials shown are for entertainment purposes only and does not provide any guarantees of winning or improving your odds of winning on this program. The rules of the games as shown may not apply to all properties and may change from time to time.” Ocean Time Warner Cable will provide Watchit with data on viewership to both Channel 777 and specifically to the content provided by Watchit. Ocean Time Warner Cable will be able to not include any content that it deems inappropriate or distasteful. This agreement will be in effect until the end of 2006 and will be evaluated at that time. Both parties agree to discuss use of information gathered form this arrangement before using it in any kind of promotional or public message. Accepted by:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "Watchit mainly receives rights to modify, brand, and sell ads for its content; the only limitation is Oceanic can refuse to air content it finds inappropriate, which does not impose a cost or liability on Watchit."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Oceanic must keep the content unchanged, use it only on one channel, provide data, include a disclaimer, and pay a defined cancellation fee if it ends the deal early—none of these are uncapped or severe obligations."
+      }
+    },
+    "clause_index": 79,
+    "status": "success"
+  },
+  {
+    "clause_text": "Oceanic Time Warner Cable/Date Watchit Media/Date Source: WATCHIT MEDIA, INC., 8-K, 12/1/2006",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The text is only a citation and does not create any obligation or cost for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The text is only a citation and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 80,
+    "status": "success"
+  },
+  {
+    "clause_text": "This Content License Agreement (this “Agreement”) is dated as of October 1, 2005 (the “Effective Date”) and is by and between Emdeon Corporation a Delaware corporation (“Emdeon”), with offices at at 669 River Drive, Center 2, Elmwood Park, New Jersey 07407 and WebMD, Inc. a Georgia Corporation (“WebMD”), with offices at 111 Eighth Avenue, New York, NY 10011. Emdeon and WebMD expressly agree that this Agreement incorporates the Terms and Conditions attached hereto. WebMD agrees to grant, and Emdeon agrees to accept, a license to use the Content (as defined below) in connection with various software products it has all right title and interest to (the “Software”) in accordance with the terms of this Agreement. Content to be provided under this Agreement is specified on Exhibit A (the “Content”). Expiration Date: August 31, 2006 AGREED TO AND ACCEPTED: WebMD, Inc. Emdeon Corporation By: By:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only grants a limited license and sets an expiration date, which is a standard grant and does not impose additional costs or liabilities."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon receives a right to use the Content in its software until the expiration date, which is a benefit with no extra obligations."
+      }
+    },
+    "clause_index": 81,
+    "status": "success"
+  },
+  {
+    "clause_text": "WebMD shall provide Content as follows: The entire set of Anatomical Line Drawings. Anatomical Line Drawings are printable line drawings intended for physicians to draw on and illustrate diseases and conditions to patients.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD must deliver the drawings, which is a simple performance duty without any harsh penalties or liabilities."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee simply receives the drawings, which is a benefit and does not impose any cost or restriction."
+      }
+    },
+    "clause_index": 82,
+    "status": "success"
+  },
+  {
+    "clause_text": "Fees for the Content shall be $5,000 per year. Additional anatomical line drawings shall be licensed to Emdeon at an incremental charge of $150 per drawing.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only receives fixed payments, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay a set annual fee and per‑drawing charges, creating a defined payment obligation."
+      }
+    },
+    "clause_index": 83,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD must deliver the specified content, which is a standard obligation without any high‑risk consequences."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon receives the right to obtain the content, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 84,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) License. Subject to Emdeon’s compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content by making such Content available to third parties verbatim or as source material via the Software. Such license is a non-exclusive, non-transferrable and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software. Emdeon may determine the placement and formatting of the Content in the Software, but may not change the substance of the Content to any extent whatsoever without WebMD’s written approval of the change.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only grants a license and retains approval over changes, so it faces no cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon receives a limited license with standard usage restrictions, which does not hinder its core business."
+      }
+    },
+    "clause_index": 85,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Updates. If WebMD should reprint, issue a new edition, change or modify the edition, or otherwise enhance or edit the Content Emdeon has licensed (collectively, “Updates”), Emdeon has the option, at no additional cost, to receive the most recent Update. WebMD shall promptly notify Emdeon when a new Update is available.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD must provide updates and notify Emdeon, which is a modest obligation but carries no high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon gets the right to receive updates at no extra cost, which is a benefit rather than a risk."
+      }
+    },
+    "clause_index": 86,
+    "status": "success"
+  },
+  {
+    "clause_text": "(d) Format. WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the “Format”). WebMD shall bear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear all the cost associated with the integration of the Content into the Software.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only has to pay for reformatting the Content, which is a simple cost without any additional liability or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon only has to pay for integrating the Content into its Software, which is a straightforward cost obligation."
+      }
+    },
+    "clause_index": 87,
+    "status": "success"
+  },
+  {
+    "clause_text": "(e) WebMD retains absolute editorial control over the Content. Nothing in this Agreement shall restrict WebMD’s right to place other marks (such as third party marks) within the Content.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause gives WebMD the right to control and add marks to the Content, which is a protection for WebMD."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The clause limits the Licensee’s ability to use the Content because WebMD can edit it and add other marks at any time."
+      }
+    },
+    "clause_index": 88,
+    "status": "success"
+  },
+  {
+    "clause_text": "(f) From time to time, WebMD will provide Content that supersedes and replaces Content previously provided (for example, a corrected news article). Promptly after receipt of replacement Content, Emdeon will either (a) remove the superseded Content and replace it with the replacement Content or (b) note at the top of the superseded Content that it has been replaced and give a hypertext link to the replacement Content.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only gains the right to supply updated content; it does not incur any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon must promptly update or annotate superseded content, which is a routine compliance task without significant liability or termination risk."
+      }
+    },
+    "clause_index": 89,
+    "status": "success"
+  },
+  {
+    "clause_text": "(g) WebMD does not provide medical or diagnostic advice or services. Emdeon agrees that the Content is to be used for informational and educational purposes only. Emdeon agrees that it shall not rely, or promote reliance, on the Content as a substitute for the professional judgment of a health care professional in diagnosing and treating patients.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects WebMD by limiting liability; it does not impose any cost or restriction on WebMD."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The clause restricts Emdeon from using the Content as medical advice, which could prevent Emdeon from conducting core business activities that rely on such content."
+      }
+    },
+    "clause_index": 90,
+    "status": "success"
+  },
+  {
+    "clause_text": "2. Intellectual Property. As between WebMD and Emdeon, WebMD or its suppliers retain all worldwide right, title, and interest in and to the Content. All rights in the Content not expressly granted by WebMD to Emdeon are reserved to WebMD. Except as expressly provided, no rights or licenses are intended or conveyed herein, whether by implication, estoppel, or otherwise.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects WebMD's IP by reserving all rights, giving it no new cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause limits Emdeon to only expressly granted rights, but it does not trigger any listed high or medium risk provisions."
+      }
+    },
+    "clause_index": 91,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Term. This Agreement shall be effective as of the Effective Date and shall expire on the Expiration Date set forth above (the “Initial Term”), unless earlier terminated in accordance with Section 3(b). Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1) year term upon the expiration of the Initial Term.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the contract length and allows renewal only if both parties agree, so it does not impose a cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely sets the term and requires mutual consent for renewal, imposing no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 92,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) Termination. In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such breach, if such breach is not cured by the party within such thirty (30) day period.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can be terminated if it breaches and does not cure within 30 days, creating a risk of losing the agreement."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can be terminated if it breaches and does not cure within 30 days, risking loss of the licensed rights."
+      }
+    },
+    "clause_index": 93,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Survival. All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to remove the Content from the Software.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor remains liable for its representations, warranties and indemnities even after the agreement ends, creating a post‑termination cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee also remains liable for its representations, warranties and indemnities after termination and must remove the Content within a reasonable time, both post‑termination obligations."
+      }
+    },
+    "clause_index": 94,
+    "status": "success"
+  },
+  {
+    "clause_text": "4. Fees and Payment. -4- Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause is only a heading and source reference, so it imposes no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause is only a heading and source reference, so it imposes no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 95,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Payments. In consideration for provision of the Content and all rights granted hereunder, Emdeon hereby agreed to pay WebMD the amounts set forth on Exhibit B of this Agreement. All amounts payable shall be due be due thirty (30) days after the receipt of WebMD’s invoice.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only gains the right to receive payment; it does not bear any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "Emdeon must pay the specified amounts within 30 days of invoicing, creating a monetary obligation."
+      }
+    },
+    "clause_index": 96,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) Taxes. All payments under the Agreement are exclusive of all federal, state, local and foreign taxes, levies and assessments. Emdeon agrees to bear and be responsible for the payment of all such taxes, levies and assessments imposed on WebMD arising out of this Agreement, excluding any tax based on WebMD’s net income. All fees charged hereunder by WebMD are net of any such taxes.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD is not required to pay any taxes; the clause shifts that burden to Emdeon, so WebMD faces no cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "Emdeon must pay all taxes arising from the agreement, an unlimited financial obligation with no cap."
+      }
+    },
+    "clause_index": 97,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor can collect interest on late payments, which is a benefit rather than a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay interest on any late payments, creating a defined additional cost."
+      }
+    },
+    "clause_index": 98,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD only grants a right to use its marks and controls their appearance; it incurs no cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "Emdeon must display the WebMD mark in agreed format, which is a modest obligation and does not hinder its core business."
+      }
+    },
+    "clause_index": 99,
+    "status": "success"
+  },
+  {
+    "clause_text": "6. Disclaimer. WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE ACCURACY OF THE CONTENT. WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE. IN NO EVENT WILL WEBMD OR ITS SUPPLIERS OR LICENSORS BE LIABLE UNDER",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by removing warranties and limiting liability, so it imposes no cost or restriction on them."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee receives no warranties and the Licensor is not liable for any issues, creating unlimited exposure for the Licensee."
+      }
+    },
+    "clause_index": 100,
+    "status": "success"
+  },
+  {
+    "clause_text": "ARISING OUT OF THIS AGREEMENT, OR THE PROVISION OR USE OF CONTENT, EVEN IF WEBMD HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WEBMD’S AGGREGATE LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION IN ANY WAY RELATED TO THIS AGREEMENT OR THE CONTENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EITHER JOINTLY OR SEVERALLY, SHALL NOT EXCEED FIFTY DOLLARS ($50). THIS SECTION REFLECTS AN ALLOCATION OF RISK BETWEEN THE PARTIES, IS NOT A PENALTY, AND SHALL BE EXCLUSIVE. THIS SECTION SHALL APPLY DESPITE ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED WARRANTY OR REMEDY.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "WebMD’s liability is limited to $50, which protects WebMD from larger damages."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee has no liability cap, exposing it to unlimited damages for any claim."
+      }
+    },
+    "clause_index": 101,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Confidential Information. “Confidential Information” means any data, materials or information that is disclosed by either party to the other party during the term hereof, in oral or written form, and which is marked or otherwise reasonably identified as “confidential” or “proprietary”. Confidential Information also includes any information described in this Section which either party obtains from a third party under an obligation of confidentiality. Confidential Information does not include any data or information which the receiving party can demonstrate with competent written proof: (i) was already known to it at the time of disclosure; (ii) was independently developed by it without reference to the disclosing party’s Confidential Information; (iii) is in the public domain; (iv) was rightfully disclosed to it by a third party without obligation of confidentiality; or (v) is required to be disclosed pursuant to any statutory or regulatory authority or court order, provided the disclosing party is given prompt written notice of such requirement and the scope of such disclosure is limited to the extent possible.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines confidential information and does not impose any direct obligation or cost on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines confidential information and does not impose any direct obligation or cost on the Licensee."
+      }
+    },
+    "clause_index": 102,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) Trade Secrets. “Trade Secrets” shall mean Confidential Information, including but not limited to technical or non-technical data, a formula, a pattern, a compilation, a program, a device, a method, a technique, a drawing, a process, financial data, financial plans, product plans, or a list of actual or potential customers or suppliers, in any form or format, which is not commonly known by or available to the public and which: (i) derives economic value, actual or potential, from not being generally known to and not being readily ascertainable by proper means by other persons who can obtain economic value from its disclosure or use, and (ii) is the subject of efforts that are reasonable under the circumstances to maintain its secrecy.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause merely defines “Trade Secrets” and does not create any obligation or cost for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely defines “Trade Secrets” and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 103,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Requirements. During the term of this Agreement and for so long as such information remains a trade secret under applicable law, neither party will, except as otherwise expressly directed by the other -5-",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must keep the other party's trade‑secret information confidential indefinitely, which limits its use of that information."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must keep the Licensor's trade‑secret information confidential indefinitely, which limits its use of that information."
+      }
+    },
+    "clause_index": 104,
+    "status": "success"
+  },
+  {
+    "clause_text": "(d) Return of Information. The receiving party will, at the request of the disclosing party, during the term of this Agreement or thereafter (i) promptly return all Confidential Information and Trade Secrets held or used by the receiving party in whatever form, or (ii) at the discretion of the disclosing party, promptly destroy all such Confidential Information and Trade Secrets, including all copies thereof, and those portions of all documents that incorporate such Confidential Information and/or Trade Secrets.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "If the Licensor receives the Licensee's confidential information, it must return or destroy it upon request, even after the agreement ends."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "If the Licensee receives the Licensor's confidential information, it must return or destroy it upon request, even after the agreement ends."
+      }
+    },
+    "clause_index": 105,
+    "status": "success"
+  },
+  {
+    "clause_text": "7. Assignment. Neither party shall have the right to sell, assign, transfer or hypothecate (all hereinafter referred to as “assign” or “assignment”) this Agreement, or delegate any of its obligations hereunder, voluntarily or by operation of law, without the prior written consent of the other party. Any such purported assignment or delegation without such prior written consent shall be null and void and have no force and effect.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor cannot assign or delegate the agreement without the Licensee's consent, which limits flexibility but does not create a cost or liability."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee also cannot assign or delegate the agreement without the Licensor's consent, imposing the same limitation without creating a cost or liability."
+      }
+    },
+    "clause_index": 106,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) Notices. All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given three (3) days after they are sent by first class mail, return receipt requested, and one (1) day after they are sent by overnight courier or upon receipt if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets how and when the Licensor must send notices; it does not create a cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only sets how and when the Licensee must send notices; it does not create a cost or restriction."
+      }
+    },
+    "clause_index": 107,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) Governing Law, Venue and Jurisdiction. This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without application of conflict of laws principles.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The agreement is governed by New York law, which may be unfamiliar or distant to the Licensor, creating a moderate procedural risk."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The agreement is governed by New York law, which may be unfamiliar or distant to the Licensee, creating a moderate procedural risk."
+      }
+    },
+    "clause_index": 108,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) Force Majeure. Neither party shall be held responsible for any inability to perform occasioned by labor strife, war, riot, fires, embargoes, floods, government requirements, or other similar events beyond the control of such party.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor is protected from liability if it cannot perform due to force majeure events."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is similarly protected from liability if performance is prevented by force majeure events."
+      }
+    },
+    "clause_index": 109,
+    "status": "success"
+  },
+  {
+    "clause_text": "(d) Relationship. WebMD’s relationship to Emdeon shall be that of an independent contractor. Nothing herein shall create any association, partnership, joint venture or agency relationship between WebMD and Emdeon. Without limiting the generality of the foregoing, it is expressly understood and agreed that WebMD shall have no authority whatsoever to make any representations or commitments to or enter into any agreements with any third party on behalf of Emdeon.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only limits the Licensor's ability to act for the other party; it does not create a cost or liability."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause protects the Licensee by preventing the other party from binding it; no cost or restriction is imposed."
+      }
+    },
+    "clause_index": 110,
+    "status": "success"
+  },
+  {
+    "clause_text": "(e) Severability and Non-Waiver. In the event any provision of this Agreement shall be found to be contrary to any law or regulation of any federal, state or municipal administrative agency or body, the other provisions of this Agreement shall not be affected thereby but shall notwithstanding continue in full force and effect. No waiver by either party hereto of any breach or default by the other party shall be construed to be a waiver of any other breach or default by such other party. Resort to any remedies referred to herein shall not be construed as a waiver of any other rights and remedies to which either party is entitled under this Agreement or otherwise nor shall an election to terminate be deemed an election of remedies or a waiver of any claim for damages or otherwise.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor’s rights and does not create any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensee’s rights and does not create any cost or restriction."
+      }
+    },
+    "clause_index": 111,
+    "status": "success"
+  },
+  {
+    "clause_text": "(f) Counterparts. This Agreement may be executed in one or more counterparts, each of which will be deemed original, but all of which will constitute one and the same instrument.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only allows signing in multiple copies and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only allows signing in multiple copies and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 112,
+    "status": "success"
+  },
+  {
+    "clause_text": "(g) Complete Agreement. This Agreement, including the attached Exhibits, constitutes the entire understanding between the parties with respect to the subject matter hereof and all prior understandings, whether oral or written, have been merged herein and are superseded hereby. This Agreement may not be altered or modified except in writing signed by both parties hereto. -6-",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only requires mutual written consent for any changes, protecting the Licensor from unilateral modifications."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause requires both parties to sign any amendment, protecting the Licensee from unilateral changes."
+      }
+    },
+    "clause_index": 113,
+    "status": "success"
+  },
+  {
+    "clause_text": "---------- BAKER & McKENZIE 14th Floor Hutchison House 10 Harcourt Road Hong Kong Tel: 2846-1888 Fax: 2845-0476",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only provides contact information and does not create any obligations or costs."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only provides contact information and does not create any obligations or costs."
+      }
+    },
+    "clause_index": 114,
+    "status": "success"
+  },
+  {
+    "clause_text": "16. Governing Law And Arbitration........................................ 7 Execution................................................................ 8 Schedule 1 - Contents -i- THIS AGREEMENT is made the 15th day of December 2001.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause is only a heading and date, giving no obligations or costs to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause is only a heading and date, giving no obligations or costs to the Licensee."
+      }
+    },
+    "clause_index": 115,
+    "status": "success"
+  },
+  {
+    "clause_text": "(1) CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation within the Xinhua News Agency that is responsible for news and information operations and business, registered in the People's Republic of China with offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China ( \"CEIS\");",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the CEIS party and does not create any obligations or costs for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines the CEIS party and does not create any obligations or costs for the Licensee."
+      }
+    },
+    "clause_index": 116,
+    "status": "success"
+  },
+  {
+    "clause_text": "(2) XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road Central, Hong Kong (\"XFN\"), (collectively referred to as \"PARTIES\"; individually, a \"PARTY\").",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines the parties and provides an address; it imposes no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines the parties and provides an address; it imposes no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 117,
+    "status": "success"
+  },
+  {
+    "clause_text": "CEIS is the owner and distributor of certain content of Xinhua News Agency relating to financial and economic information;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only states CEIS's ownership and distribution rights, which is a protective statement and does not impose any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause merely identifies the IP source and does not create any obligation or limitation for the Licensee."
+      }
+    },
+    "clause_index": 118,
+    "status": "success"
+  },
+  {
+    "clause_text": "(B) CEIS wishes to appoint XFN as its licensee to distribute the content to users throughout the world in accordance with the terms and conditions of this Agreement. IT IS HEREBY AGREED as follows:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only states CEIS's intention to grant a license and does not impose any cost or restriction on CEIS."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause simply gives XFN the right to distribute the content, which is a benefit and carries no imposed cost or restriction."
+      }
+    },
+    "clause_index": 119,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.1 In this Agreement unless the context otherwise requires the following words shall have the following meaning:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines terms and does not create any obligations or costs for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines terms and does not create any obligations or costs for the Licensee."
+      }
+    },
+    "clause_index": 120,
+    "status": "success"
+  },
+  {
+    "clause_text": "\"AFFILIATES\" means any company, corporation, partnership, joint venture or other entity that directly or indirectly controls, is controlled by or is under common control with XFN; \"CONTENT\" means real-time economic news including articles, reports, data, information and such materials that have or have been and/or will be published from time to time and that is or will be in the possession or control of CEIS from time to time, in respect of the subject matters as more particularly described in Schedule 1; EFFECTIVE DATE means 18 May 2000; \"INTELLECTUAL means patents, trade marks, service marks, trade names, PROPERTY RIGHTS\" design rights (whether registrable or not), any applications for the foregoing, copyright and other assignable intellectual property -1- rights (whether registrable or not) in any country, including but not limited to the format, layout, and the look and feel of any of the Content; \"TERM\" means the term as set out in Clause 7; and \"TERRITORY\" means the world excluding the People's Republic of China.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines terms and does not create any obligations or costs for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines terms and does not create any obligations or costs for the Licensee."
+      }
+    },
+    "clause_index": 121,
+    "status": "success"
+  },
+  {
+    "clause_text": "Words importing the singular number shall include the plural and vice versa.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines interpretation of singular and plural terms, giving no cost or restriction to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines interpretation of singular and plural terms, giving no cost or restriction to the Licensee."
+      }
+    },
+    "clause_index": 122,
+    "status": "success"
+  },
+  {
+    "clause_text": "Words importing any particular gender shall include all other genders.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines gender interpretation and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines gender interpretation and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 123,
+    "status": "success"
+  },
+  {
+    "clause_text": "1.4 References in this Agreement to Clauses and Schedules are to clauses of and schedules to this Agreement except where otherwise expressly stated.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only defines how references work and does not create any obligation or cost for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only defines how references work and does not create any obligation or cost for the Licensee."
+      }
+    },
+    "clause_index": 124,
+    "status": "success"
+  },
+  {
+    "clause_text": "Headings are used in this Agreement for the convenience of the Parties only and shall not be incorporated into this Agreement and shall not be deemed to be any indication of the meaning of the Clauses or Schedules to which they relate.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only clarifies that headings have no contractual effect, so it imposes no cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only clarifies that headings have no contractual effect, so it imposes no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 125,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.1 Exclusive Rights in the Territory: CEIS hereby grants XFN and its Affiliates an exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the Territory:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS must give XFN exclusive rights, limiting CEIS’s ability to license the IP to others, but the clause contains no high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives an exclusive license, which is a benefit and does not impose any cost or restriction on XFN."
+      }
+    },
+    "clause_index": 126,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor control over where the Content can be stored, which is a protective right, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee is limited to storing the Content only on XFN‑controlled computers, which can block its normal business use of other servers."
+      }
+    },
+    "clause_index": 127,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content; and",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor allows the Licensee to make many types of changes to the Content, which limits the Licensor’s control but does not create a specific obligation or liability."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives broad rights to adapt, translate, modify, and otherwise use the Content, which is a benefit and carries no imposed cost."
+      }
+    },
+    "clause_index": 128,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in media now or hereafter known.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must allow the Licensee to use the Content in any way, which limits the Licensor’s control but does not match any high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives an unrestricted right to exploit the Content, which is a benefit rather than a risk."
+      }
+    },
+    "clause_index": 129,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.2 Non-exclusive Rights in the People's Republic of China: CEIS hereby grants XFN and its Affiliates a non-exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the People's Republic of China:",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only requires CEIS to grant a non‑exclusive license, which limits exclusivity but imposes no liability or other burdens."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives a non‑exclusive, royalty‑free right to use the IP in China, which is a benefit rather than a risk."
+      }
+    },
+    "clause_index": 130,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to control where the Content is stored, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee is limited to storing or caching the Content only on XFN-controlled computers, which restricts its core business use of the Content."
+      }
+    },
+    "clause_index": 131,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content; and",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only allows the Licensee to use the Content in many ways; it does not create any new obligation for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause grants the Licensee broad rights to work with the Content, which is a benefit rather than a burden."
+      }
+    },
+    "clause_index": 132,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must allow the Content to be used in many ways, which limits its control but does not create a specific liability or termination risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives a broad right to exploit the Content, which is a benefit rather than a risk."
+      }
+    },
+    "clause_index": 133,
+    "status": "success"
+  },
+  {
+    "clause_text": "-2- media now or hereafter known. During the Term, CEIS agrees not to appoint any other licensees for the distribution of the Content in the People's Republic of China.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor exclusivity in China and does not impose any cost or restriction on them."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee is prohibited from appointing other licensees in China, which restricts its core business use of the licensed content."
+      }
+    },
+    "clause_index": 134,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.3 The Intellectual Property Rights to use \"Xinhua\" as the first name of XFN and its affiliates world-wide.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor gives up the exclusive right to use the name, but no high‑ or medium‑risk triggers are present."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives a right to use the name, which is a benefit rather than a risk."
+      }
+    },
+    "clause_index": 135,
+    "status": "success"
+  },
+  {
+    "clause_text": "All Intellectual Property Rights and other proprietary rights in any translated, amended, revised or updated Content independently created by XFN (\"AMENDED CONTENT\") shall automatically vest in XFN.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives XFN ownership of its own created content, which is a benefit, not a cost."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause simply limits the Licensee from owning IP in XFN‑created content, a standard provision with no heavy burden."
+      }
+    },
+    "clause_index": 136,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.5 XFN and/or its Affiliates have the right at any time to suspend or cease distributing or making the Content available to the public.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives XFN the ability to stop distribution, which is a protective right for the Licensor."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee can lose access to the Content at any time without notice or compensation, which can severely impact its operations."
+      }
+    },
+    "clause_index": 137,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.6 XFN and/or its Affiliates are entitled to publish or distribute content of any third party where such content is similar to or competitive with the Content.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to publish competing content, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "It lets the Licensor publish content that competes with the licensed material, restricting the Licensee’s ability to use the IP in its core business."
+      }
+    },
+    "clause_index": 138,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.7 XFN and/or its Affiliate(s) shall have the right to charge users to access or view the Content and/or sub-license the Content to third parties for re-distribution to users. Revenues generated thereby shall be for the account of XFN or its Affiliates, and CEIS shall not be entitled to, nor make any action, claim or demand in relation thereto. XFN's only payment obligation to CEIS in consideration of the rights granted pursuant to this Clause 2 is set forth in Clause 4.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause limits CEIS's ability to receive revenue from the Content, but this restriction does not trigger any high or medium risk categories."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives XFN the right to charge users and sub‑license the Content, which is a benefit and does not impose a risk."
+      }
+    },
+    "clause_index": 139,
+    "status": "success"
+  },
+  {
+    "clause_text": "2.8 XFN does not intend and is not under any obligation to edit or review the Content licensed herein for accuracy or appropriateness or compliance with any applicable laws or regulations.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor by stating it has no duty to review the content, so it imposes no cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee cannot rely on the Licensor for accuracy or legal compliance, leaving the Licensee exposed to potential defects or violations."
+      }
+    },
+    "clause_index": 140,
+    "status": "success"
+  },
+  {
+    "clause_text": "During the Term of this Agreement, CEIS shall supply the Content of XFN by such means of delivery or transmission as may be reasonably required by XFN including by online transmission.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS must deliver the content in any reasonable way XFN asks, which creates a duty but no high or medium risk triggers."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN gains the right to request delivery methods, which is a benefit and does not impose a risk."
+      }
+    },
+    "clause_index": 141,
+    "status": "success"
+  },
+  {
+    "clause_text": "3.2 CEIS shall use its best endeavours to ensure that the Content is made available to XFN on a continuous, uninterrupted real-time basis.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS must try to keep the content continuously available, which is a limited performance obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives the benefit of continuous access, but the clause does not impose any cost or restriction on XFN."
+      }
+    },
+    "clause_index": 142,
+    "status": "success"
+  },
+  {
+    "clause_text": "4.1 In consideration of the rights and obligations of the Parties, XFN shall pay to CEIS US$1.1 million (United States Dollars One Million and One Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2008)",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor simply receives a fixed payment, which is a benefit and does not impose a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must pay a defined amount of US$1.1 million, creating a financial obligation."
+      }
+    },
+    "clause_index": 143,
+    "status": "success"
+  },
+  {
+    "clause_text": "Hundred Thousand) for a term of twenty (20) years, in cash or such other consideration as the Parties may agree. The payment schedule shall be by five (5) instalments of US$220,000 each. The first instalment will be effect on condition that XFN can raise at least US$1.1 million additional funding in 2002.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to receive scheduled payments and does not impose any cost or restriction on them."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must make fixed payments of US$220,000 in five installments, which is a defined financial obligation."
+      }
+    },
+    "clause_index": 144,
+    "status": "success"
+  },
+  {
+    "clause_text": "5.1 CEIS represents and warrants to XFN that during the Term of this Agreement:",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must keep its representations true for the whole term; a breach could be a material breach and trigger termination."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee only receives the warranties, which is a benefit and does not impose a cost."
+      }
+    },
+    "clause_index": 145,
+    "status": "success"
+  },
+  {
+    "clause_text": "CEIS is and shall remain entitled to grant to XFN the license to use the Content and other rights contained herein, free of all third-party liens, claims and encumbrances;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS must keep the licensed content clear of third‑party claims, which is a standard duty and does not create significant liability."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives a guarantee that the license is free of third‑party claims, which is a benefit and imposes no cost."
+      }
+    },
+    "clause_index": 146,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) use of any Content by XFN in the manner contemplated by this Agreement does not and will not infringe any Intellectual Property Rights or other proprietary rights of any third party;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor a warranty that XFN’s use will not infringe third‑party rights, which is a protection."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "XFN must ensure its use does not infringe third‑party IP, creating a compliance obligation that could be a material breach if violated."
+      }
+    },
+    "clause_index": 147,
+    "status": "success"
+  },
+  {
+    "clause_text": "(c) neither the Content nor any part thereof contains anything which is obscene, indecent, seditious, offensive, defamatory, threatening, liable to incite racial hatred, discriminatory, menacing or in breach of confidence;",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must ensure the content avoids all listed prohibited material, creating a compliance burden that could lead to breach and termination."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives a guarantee that the content is free of prohibited material, which is a protective benefit."
+      }
+    },
+    "clause_index": 148,
+    "status": "success"
+  },
+  {
+    "clause_text": "(d) the Content complies with and will comply with all applicable laws and regulations;",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must ensure the Content always follows all laws, which could be costly and may lead to breach if not met."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee receives a warranty of lawful content and faces no direct obligation."
+      }
+    },
+    "clause_index": 149,
+    "status": "success"
+  },
+  {
+    "clause_text": "(e) with respect to the provision of the Content, CEIS has acquired all requisite licenses, permissions and clearances for XFN to exercise the rights granted herein;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS must ensure it has obtained all needed third‑party rights, which is a cost but does not create a high or medium risk."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives the benefit of cleared content and faces no new cost or restriction."
+      }
+    },
+    "clause_index": 150,
+    "status": "success"
+  },
+  {
+    "clause_text": "(f) the Content is and will be reasonably accurate at the time of each delivery to XFN;",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must guarantee the Content is reasonably accurate, creating a costly warranty that could lead to liability if the content is inaccurate."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee only receives a promise of accuracy, which is a benefit and does not impose a cost or restriction."
+      }
+    },
+    "clause_index": 151,
+    "status": "success"
+  },
+  {
+    "clause_text": "(g) CEIS is a statutory body with legal person status validly existing under the laws of the People's Republic of China, being its jurisdiction of organization, and the execution, delivery and performance of this Agreement for and on its behalf has been duly and properly authorised by all required action, and Mr. Wang Zhongming, the Legal Representative of CEIS has been duly authorised to execute and deliver this Agreement for and on behalf of CEIS;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only confirms CEIS's legal status and authority to sign; it does not create any cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause imposes no obligations or restrictions on the Licensee."
+      }
+    },
+    "clause_index": 152,
+    "status": "success"
+  },
+  {
+    "clause_text": "(h) this Agreement is a valid and binding legal obligation enforceable against it in accordance with its terms; and",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only confirms the agreement is enforceable, giving the Licensor a protective assurance and no new obligation."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause similarly assures the Licensee that the agreement is enforceable, without adding any cost or restriction."
+      }
+    },
+    "clause_index": 153,
+    "status": "success"
+  },
+  {
+    "clause_text": "(i) the execution, delivery and performance of this Agreement by it does not and will not:",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must ensure its performance does not violate the stated restriction; a breach could be a material breach leading to termination."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee has the same obligation to avoid the prohibited conduct; breach could also trigger termination."
+      }
+    },
+    "clause_index": 154,
+    "status": "success"
+  },
+  {
+    "clause_text": "(i) require any authorization, consent, filing, registration or notice of or with any government agency in the People's Republic of China or Hong Kong;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor the right to demand approvals; it does not impose any cost or restriction on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must obtain all required government authorizations in China or Hong Kong, creating a compliance burden that could be a material breach if not fulfilled."
+      }
+    },
+    "clause_index": 155,
+    "status": "success"
+  },
+  {
+    "clause_text": "(ii) result in any violation or breach of any agreement, obligation or order to which it is a party or to which it is subject.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must avoid actions that would breach its other agreements, and failing to do so could be a material breach of this license."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must avoid actions that would breach its other agreements, and failing to do so could be a material breach of this license."
+      }
+    },
+    "clause_index": 156,
+    "status": "success"
+  },
+  {
+    "clause_text": "6.1 CEIS shall fully indemnify XFN and hold XFN harmless from and against any and all costs, expenses, loss, damages, liabilities, claims and proceedings which may be incurred or suffered by or taken against XFN in relation to:",
+    "parties": {
+      "Licensor": {
+        "risk": "High",
+        "explanation": "CEIS must cover all possible costs and claims against XFN without any limit, creating unlimited liability."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "XFN receives full protection and will not have to pay any of those costs."
+      }
+    },
+    "clause_index": 157,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) the exercise by XFN of the rights granted herein; and",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only notes that the Licensee may use the granted rights, which does not add any new burden on the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause gives the Licensee the right to exercise the licensed rights, which is a benefit, not a risk."
+      }
+    },
+    "clause_index": 158,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) any breach by CEIS of any provision of this Agreement or any act,",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor a right to act if CEIS breaches, which is a protection."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "CEIS could lose the license for any breach, creating a risk of termination without shown safeguards."
+      }
+    },
+    "clause_index": 159,
+    "status": "success"
+  },
+  {
+    "clause_text": "7.1 This Agreement shall take effect from the Effective Date and continue in full force and effect for twenty (20) years thereafter, unless otherwise terminated in accordance with Clause 8.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets a 20‑year term, giving the Licensor no additional cost or restriction."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause binds the Licensee to a 20‑year term, but it does not impose a direct cost or penalty beyond the duration."
+      }
+    },
+    "clause_index": 160,
+    "status": "success"
+  },
+  {
+    "clause_text": "7.2 This Agreement may be renewed for an additional term of ten (10) years by notice in writing given by XFN to CEIS at the expiry of the Term, for a consideration to be mutually agreed.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only gives the Licensor (XFN) a unilateral right to renew, which is a benefit and does not impose a cost or restriction."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee (CEIS) can be forced into a ten‑year renewal without a reasonable opt‑out, creating a significant lock‑in risk."
+      }
+    },
+    "clause_index": 161,
+    "status": "success"
+  },
+  {
+    "clause_text": "8.1 XFN may terminate this Agreement by giving thirty (30) days written notice to the CEIS.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor (XFN) only gains a right to end the agreement with notice, which is a protection, not a cost."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee (CEIS) can have the agreement terminated unilaterally after just 30 days, which may disrupt its business."
+      }
+    },
+    "clause_index": 162,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) if the other Party commits a material breach of this Agreement which is not capable of being remedied;",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor could be terminated by the Licensee if the Licensor breaches, creating a risk of losing the agreement."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee could be terminated by the Licensor if the Licensee breaches, exposing it to loss of the license."
+      }
+    },
+    "clause_index": 163,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) if the other Party commits a material breach of this Agreement which is capable of being remedied but not remedied within thirty (30) days upon receiving written notice from the non-breaching party requiring remedy; and",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor can be terminated by the Licensee if the Licensor fails to cure a material breach within 30 days after notice."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee can be terminated by the Licensor if the Licensee fails to cure a material breach within 30 days after notice."
+      }
+    },
+    "clause_index": 164,
+    "status": "success"
+  },
+  {
+    "clause_text": "(a) CEIS shall terminate the transmission of the Content with immediate effect;",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "CEIS (the Licensor) can stop the content transmission at any time, which is a protective right for them."
+      },
+      "Licensee": {
+        "risk": "High",
+        "explanation": "The Licensee loses access to the Content immediately with no notice or transition period, which can severely disrupt its operations."
+      }
+    },
+    "clause_index": 165,
+    "status": "success"
+  },
+  {
+    "clause_text": "(b) in the event that this Agreement is terminated prior to the expiry of the Term, XFN shall recover any sums paid to CEIS in advance for the unexpired Term of this Agreement, together with interest from the date those sums were paid until the date of full refund.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must refund any advance payments for the remaining term plus interest, creating a limited monetary loss."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee gains the right to get back prepaid amounts with interest if the agreement ends early."
+      }
+    },
+    "clause_index": 166,
+    "status": "success"
+  },
+  {
+    "clause_text": "9. FURTHER ASSURANCE Each Party agrees, at its own expense, to take any further action and to execute any further documents or instruments as the other Party may reasonably request to give effect to the transactions contemplated by, and to the terms of, this Agreement. In particular, and without limiting the foregoing, the Parties agree to amend this Agreement as may be necessary to comply with applicable laws, including without limitation the laws of the People's Republic of China.",
+    "parties": {
+      "Licensor": {
+        "risk": "Medium",
+        "explanation": "The Licensor must, at its own cost, comply with any reasonable amendment or document requests from the Licensee, which could force contract changes."
+      },
+      "Licensee": {
+        "risk": "Medium",
+        "explanation": "The Licensee must, at its own cost, comply with any reasonable amendment or document requests from the Licensor, which could force contract changes."
+      }
+    },
+    "clause_index": 167,
+    "status": "success"
+  },
+  {
+    "clause_text": "10. ENTIRE AGREEMENT; AMENDMENTS This Agreement constitutes the entire agreement between CEIS and XFN and supersedes any prior written or oral agreement between them in relation to its subject matter. Any amendment of this Agreement shall be in writing and signed by CEIS and XFN.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only confirms the agreement is complete and requires any changes to be signed by both parties, which does not create a cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause similarly requires mutual written signatures for any amendment, imposing no cost or restriction on the Licensee."
+      }
+    },
+    "clause_index": 168,
+    "status": "success"
+  },
+  {
+    "clause_text": "11. SEVERANCE If at any time any provision of this Agreement is or becomes illegal, invalid or unenforceable in any respect, the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only preserves the rest of the agreement if a part is invalid, giving no cost or restriction to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only preserves the rest of the agreement if a part is invalid, giving no cost or restriction to the Licensee."
+      }
+    },
+    "clause_index": 169,
+    "status": "success"
+  },
+  {
+    "clause_text": "12. NO WAIVER Failure of either Party to require strict performance of any of the terms and conditions herein shall not be deemed a waiver of any rights or remedies that either Party shall have and shall not be deemed a waiver of any subsequent default of terms and conditions thereof.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensor's rights and does not create any new obligations or costs."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only protects the Licensee's rights and does not create any new obligations or costs."
+      }
+    },
+    "clause_index": 170,
+    "status": "success"
+  },
+  {
+    "clause_text": "13. COSTS AND EXPENSES Each party shall bear its own costs (including but not limited to legal costs) and disbursements of and incidental to the preparation, negotiation and execution of this Agreement and all ancillary documentation.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor must pay its own legal and other costs for preparing and executing the agreement, which is a routine expense."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee must pay its own legal and other costs for preparing and executing the agreement, which is a routine expense."
+      }
+    },
+    "clause_index": 171,
+    "status": "success"
+  },
+  {
+    "clause_text": "14. COUNTERPARTS This Agreement may be executed in any number of counterparts all of which taken together shall constitute one and the same instrument.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only allows signing in multiple copies and does not create any cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only allows signing in multiple copies and does not create any cost or restriction for the Licensee."
+      }
+    },
+    "clause_index": 172,
+    "status": "success"
+  },
+  {
+    "clause_text": "15. NOTICE Each notice, demand or other communication given or made under this Agreement shall -6- be in writing and delivered or sent to the relevant Party's Managing Director or General Manager at its aforesaid address (or such other address as the addressee may specify by five days' prior written notice to the other Party). Any notice, demand or other communication so addressed to the relevant Party shall be deemed to have been delivered (a) if given or made by letter by hand, when actually delivered to the relevant address against receipt; (b) if given or made by letter by post, two business days after posting; and (c) if given or made by fax, when dispatched and received in good order.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets how the Licensor receives notices, which is a procedural requirement, not a burden."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only sets how the Licensee must send notices, which is a standard procedural rule."
+      }
+    },
+    "clause_index": 173,
+    "status": "success"
+  },
+  {
+    "clause_text": "16.1 The English language version shall prevail in the event of any discrepancy between the interpretation of the English and the Chinese versions of this Agreement. This Agreement is governed by and shall be construed in accordance with the laws of Hong Kong",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause only sets the controlling language and Hong Kong law, which does not create a cost or restriction for the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause only determines the governing law and language hierarchy, imposing no direct cost or limitation on the Licensee."
+      }
+    },
+    "clause_index": 174,
+    "status": "success"
+  },
+  {
+    "clause_text": "16.2 The Parties shall attempt to resolve any dispute, controversy or claim arising out of this Agreement through good faith consultation and negotiations. If the Parties fail to resolve the dispute through negotiation, such dispute shall be referred to and be resolved by arbitration in accordance with the UNCITRAL Arbitration Rules as may be amended from time to time. The place of arbitration shall be in Hong Kong. The language to be used in the arbitral proceedings shall be English. There shall be one arbitrator to be agreed by Parties. If the Parties are unable to agree on an arbitrator, the International Chamber of Commerce shall appoint one.",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The Licensor only has to follow the agreed negotiation and arbitration process, which does not impose a cost or restriction beyond normal dispute resolution."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The Licensee is subject to the same negotiation and arbitration requirements, creating no additional cost or restriction."
+      }
+    },
+    "clause_index": 175,
+    "status": "success"
+  },
+  {
+    "clause_text": "-7- IN WITNESS WHEREOF this Agreement has been executed on the day and year first above written. SIGNED BY ) ) for and on behalf of ) CHINA ECONOMIC INFORMATION ) /s/ SERVICE OF XINHUA NEWS ) ---------------------------------- AGENCY ) in the presence of:- ) ) ) /s/ ) --------------------------- Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007 SIGNED BY ) ) for and on behalf of ) XINHUA FINANCIAL NETWORK ) /s/ LIMITED ) ---------------------------------- in the presence of:- ) ) ) /s/ ) --------------------------- -8- SCHEDULE 1 - CONTENT -9- Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007",
+    "parties": {
+      "Licensor": {
+        "risk": "Low",
+        "explanation": "The clause is only a signature block and schedule reference, giving no cost or restriction to the Licensor."
+      },
+      "Licensee": {
+        "risk": "Low",
+        "explanation": "The clause is only a signature block and schedule reference, giving no cost or restriction to the Licensee."
+      }
+    },
+    "clause_index": 176,
+    "status": "success"
+  }
+]

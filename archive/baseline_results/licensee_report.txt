@@ -1,0 +1,53 @@
+================================================================
+  BASELINE  ·  LICENSEE PERSPECTIVE  ·  Llama 8B  (zero-shot)
+================================================================
+
+  Model               : llama3.1:8b
+  Clauses evaluated   : 117
+  Parse failures      : 0  (defaulted to 'low')
+
+  Overall accuracy    : 0.402
+  Balanced accuracy   : 0.457  (macro-averaged recall)
+
+  Note: if balanced accuracy << overall accuracy, the model is
+  leaning on the majority class rather than learning risk signals.
+
+── Per-class metrics ───────────────────────────────────────────
+
+              precision    recall  f1-score   support
+
+         Low      1.000     0.098     0.179        51
+      Medium      0.316     0.939     0.473        33
+        High      0.786     0.333     0.468        33
+
+    accuracy                          0.402       117
+   macro avg      0.701     0.457     0.373       117
+weighted avg      0.747     0.402     0.343       117
+
+── Confusion matrix ────────────────────────────────────────────
+
+             pred_low  pred_medium  pred_high
+true_low            5           45          1
+true_medium         0           31          2
+true_high           0           22         11
+
+  Rows = ground truth   Columns = model prediction
+
+── Misclassification breakdown ─────────────────────────────────
+
+ground_truth predicted  count
+         low    medium     45
+        high    medium     22
+      medium      high      2
+         low      high      1
+
+── High ↔ Low flip errors  (1 found) ─────────────────────
+  These are the highest-priority errors — model called a High-risk
+  clause Low (or vice versa). Prioritise these in fine-tuning.
+
+  clause 125  gt=low  pred=high
+  text   : (c) Any recovery obtained in connection with or as a result of any action to terminate any Licensed Product Infringement...
+  reason : Vyera must wait for CytoDyn’s costs to be paid before its own costs are covered and shares only ordinary damages, but this restriction does 
+
+
+================================================================

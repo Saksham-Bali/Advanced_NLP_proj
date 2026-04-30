@@ -1,0 +1,56 @@
+================================================================
+  BASELINE  ·  LICENSEE PERSPECTIVE  ·  Llama 8B  (zero-shot)
+================================================================
+
+  Model               : llama3.1:8b
+  Clauses evaluated   : 117
+  Parse failures      : 0  (defaulted to 'low')
+
+  Overall accuracy    : 0.427
+  Balanced accuracy   : 0.473  (macro-averaged recall)
+
+  Note: if balanced accuracy << overall accuracy, the model is
+  leaning on the majority class rather than learning risk signals.
+
+── Per-class metrics ───────────────────────────────────────────
+
+              precision    recall  f1-score   support
+
+         Low      0.818     0.176     0.290        51
+      Medium      0.337     1.000     0.504        33
+        High      1.000     0.242     0.390        33
+
+    accuracy                          0.427       117
+   macro avg      0.718     0.473     0.395       117
+weighted avg      0.734     0.427     0.379       117
+
+── Confusion matrix ────────────────────────────────────────────
+
+             pred_low  pred_medium  pred_high
+true_low            9           42          0
+true_medium         0           33          0
+true_high           2           23          8
+
+  Rows = ground truth   Columns = model prediction
+
+── Misclassification breakdown ─────────────────────────────────
+
+ground_truth predicted  count
+         low    medium     42
+        high    medium     23
+        high       low      2
+
+── High ↔ Low flip errors  (2 found) ─────────────────────
+  These are the highest-priority errors — model called a High-risk
+  clause Low (or vice versa). Prioritise these in fine-tuning.
+
+  clause 168  gt=high  pred=low
+  text   : 8.9 Third Party Financial Obligations. CytoDyn will be solely responsible for, and shall indemnify Vyera for, the paymen...
+  reason : CytoDyn must pay all third‑party royalties, milestones, etc., and indemnify Vyera for those amounts, with no cap, creating an unlimited fina
+
+  clause  36  gt=high  pred=low
+  text   : i. It has the right to grant the licenses granted to Licensee hereunder; and...
+  reason : The clause allows the Licensor to grant the same licenses to third parties, limiting the Licensee's exclusivity and potentially harming its 
+
+
+================================================================

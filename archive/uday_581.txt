@@ -1,0 +1,351 @@
+& VIRTUOSO SURGICAL, INC. JHU Agreement: A29889 Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019 1 May 3, 2016
+
+This Non-Exclusive License Agreement (hereinafter “Agreement”) is entered into by and between The Johns Hopkins University (hereinafter “JHU”), a corporation of the State of Maryland, having a principal place of business 3400 N. Charles Street, Baltimore, Maryland 21218- 2695 and, Virtuoso Surgical, Inc. (hereinafter “Company”), a Tennessee corporation having an address at 5701 Old Harding Pike; Suite 200; Nashville, TN 37205. The parties hereto agree as follows:
+
+1.1 In the course of a fundamental research program at JHU, a valuable invention entitled Active Cannulas for Bio-Sensing and Surgical Intervention (JHU Ref. C04873) was developed by Drs. Robert Webster, III, Noah Cowan, Allison Okamura, and Russell Taylor (hereinafter “Inventors”).
+
+1.2 JHU has acquired all right, title and interest, with the exception of certain retained rights by the United States government, in said invention but is without the capacity to commercially develop, manufacture and distribute products and methods which embody the invention.
+
+1.3 Company is interested in providing such commercial products and methods to third parties on a non-exclusive basis and agrees to comply with the terms and conditions in this Agreement.
+
+1.4 All references to particular Exhibits or Paragraphs shall mean the Exhibits to, and Paragraphs of, this Agreement, unless otherwise specified.
+
+2.1 “EFFECTIVE DATE” of this Agreement shall mean the date the last party hereto has executed this Agreement.
+
+2.3 “LICENSED PRODUCT(S)” as used herein in either singular or plural shall mean any material, compositions, or other product, the manufacture, use or sale of which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of PATENT RIGHT(S) (infringement shall include, but is not limited to, direct, contributory, or inducement to infringe).
+
+2.4 “LICENSED SERVICE(S)” as used herein in either singular or plural shall mean the performance on behalf of a third party of any method including cannulated surgical intervention or the manufacture of any product or the use of any product which would constitute, but for the license granted to Company pursuant to this Agreement, an infringement of a claim of the PATENT RIGHT(S), (infringement shall include, but not be limited to, direct, contributory or inducement to infringe).
+
+2.5 “NET SALES” shall mean gross sales revenues and fees billed by Company from the sale of LICENSED PRODUCT(S) less trade discounts allowed, refunds, returns and recalls, and sales taxes. In the event that Company sells a LICENSED PRODUCT(S) in combination with other ingredients or substances or as part of a kit, the NET SALES for purposes of royalty payments shall be based on the sales revenues and fees received from the entire combination or kit.
+
+2.6 “NET SERVICE REVENUES” shall mean gross service revenues and fees billed by Company for the performance of LICENSED SERVICE(S) less sales and/or use taxes imposed upon and with specific reference to the LICENSED SERVICE(S). In the event that Company sells a LICENSED SERVICE(S) in combination with other services or substances or as part of a kit, the NET SERVICE REVENUES for purposes of royalty payments shall be based on the sales revenues and fees received from the entire combination.
+
+2.7 “PATENT RIGHT(S)” shall mean, collectively, JHU’s interest in those set forth in EXHIBIT C of this Agreement and the inventions disclosed and claimed therein, and all continuations, divisions, and reissues based thereof, and any corresponding foreign patent applications, and any patents, or other equivalent foreign PATENT RIGHT(S) issuing, granted or registered thereon.
+
+3.1 License Granted: Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD.
+
+3.2 No Sublicensing: Company shall not sublicense to others under this Agreement, nor extend the rights granted hereunder to any affiliated company.
+
+4.1 License Fee: As consideration for JHU’s grant of a License to Company under this Agreement, Company shall pay to JHU a license fee, cash and equity, as set forth in Exhibit A within thirty (30) days of the EFFECTIVE DATE. The license fee is nonrefundable and shall not be credited against royalties or other fees.
+
+4.2 Minimum Annual Royalties: Company shall pay to JHU minimum annual royalties as set forth in Exhibit A. These minimum annual royalties shall be due within thirty (30) days of each anniversary of the EFFECTIVE DATE beginning with the first anniversary. Running royalties accrued under Paragraph 4.3 and paid to JHU during the one year period preceding an anniversary of the EFFECTIVE DATE shall be credited against the minimum annual royalties due on that anniversary date.
+
+4.3 Running Royalties: Company shall pay to JHU, a running royalty as set forth in Exhibit A, for each LICENSED PRODUCT(S) sold and each LICENSED SERVICE(S) provided, based upon NET SALES and NET SERVICE REVENUES respectively, for the term of this Agreement. Such payments shall be made within thirty (30) days of the end of each calendar quarter following first commercial sale of LICENSED PRODUCT or providing LICENSED SERVICES. All non-US taxes related to LICENSED PRODUCT(S) and LICENSED SERVICE(S) sold under this Agreement shall be paid by Company and shall not be deducted from royalty or other payments due to JHU.
+
+4.4 Reporting and Payments: Upon achieving first commercial sale of LICENSED PRODUCTS and LICENSED SERVICES, Company shall provide a quarterly royalty report, substantially in the format of Exhibit B, accompanying each royalty payment as required in Paragraph 4.3. Royalty reports shall disclose the amount of LICENSED PRODUCT(S) and LICENSED SERVICE(S) sold, the total NET SALES and NET SERVICE REVENUES of such LICENSED PRODUCT(S) and LICENSED SERVICE(S), and the running royalties due to JHU as a result of NET SALES and NET SERVICE REVENUES by Company. In lieu of sending quarterly royalty reports to JHU via mail or courier, Company may provide all required reports in electronic format to the email address specified by JHU.
+
+4.5 Late Payments: In the event that any payment due hereunder is not made when due, the payment shall accrue interest beginning on the tenth day following the due date thereof, calculated at the annual rate of six percent (6%), the interest being compounded on the last day of each calendar year. Each such royalty payment when made shall be accompanied by all interest so accrued. Said interest and the payment and acceptance thereof shall not negate or waive the right of JHU to seek any other remedy, legal or equitable, to which it may be entitled because of the delinquency of any payment.
+
+4.6 Records: The Company shall make and retain, for a period of three (3) years following the period of each report required by Paragraph 4.4, true and accurate records, files and books of account containing all the data reasonably required for the full computation and verification of sales and other information required in Paragraph 4.4. Such books and records shall be in accordance with generally accepted accounting principles consistently applied. The Company shall permit the inspection and copying of such records, files and books of account by JHU or its agents during regular business hours upon ten (10) business days’ written notice to the Company. Such inspection shall not be made more than once each calendar year. All costs of such inspection and copying shall be paid by JHU, provided that if any such inspection shall reveal that an error has been made in the amount equal to five percent (5%) or more of such payment, such costs shall be borne by the Company.
+
+4.7 Non-Arms Length Transactions: In order to insure JHU the full royalty payments contemplated hereunder, the Company agrees that in the event any LICENSED PRODUCT(S) shall be sold to an affiliated company or to a corporation, firm or association with which Company shall have any agreement, understanding or arrangement with respect to consideration (such as, among other things, an option to purchase stock or actual stock ownership, or an arrangement involving division of profits or special rebates or allowances) the royalties to be paid hereunder for such LICENSED PRODUCT(S) shall be based upon the greater of: 1) the net selling price at which the purchaser of LICENSED PRODUCT(S) resells such product to the end user, 2) the NET SERVICE REVENUE received from using the LICENSED PRODUCT(S) in providing a service, 3) the fair market value of the LICENSED PRODUCT(S) or 4) the net selling price of LICENSED PRODUCT(S) paid by the purchaser.
+
+4.8 Method of Payment: All payments under this Agreement shall be made in U.S. Dollars by either check or wire transfer.
+
+4.9 Payment Information. All check payments from Company to JHU shall be sent to: Director Johns Hopkins Technology Ventures The Johns Hopkins University 100 N. Charles Street, 5th Floor Baltimore, MD 21201 Reference: JHU Agreement A29889 or such other addresses which JHU may designate in writing from time to time. Checks are to be made payable to “The Johns Hopkins University”. Wire transfers may be made through: ACH for U.S. Payments Johns Hopkins University Central Lockbox Bank of America 1400 Best Plaza Drive Richmond, VA 23227 Transit/routing/ABA number: 052001633 Account number: Type of account: depository CTX format is preferred; CCD+ is also accepted Reference: JHU Tech Transfer (JHU Agreement A29889) FED WIRE for International Payments Johns Hopkins University Central Lockbox Bank of America 100 West 33rd Street New York, NY 10001 SWIFT code: BOFAUS3N Account number: Type of account: depository
+
+4.10 Invoices. Any invoice for payment sent by JHU to Company may be electronically provided by e-mail service. JHU will send invoices to an e-mail address provided by Company. Company will provide JHU with any updates to this e-mail address.
+
+5.1 Prosecution & Maintenance: JHU, at its sole option and discretion, shall file, prosecute and maintain all patents and patent applications specified under PATENT RIGHT(S). Title to all such patents and patent applications shall reside in JHU. JHU shall have full and complete control over all patent matters in connection therewith under the PATENT RIGHT(S).
+
+5.2 Right to Enforce: JHU shall have the first right to enforce the PATENT RIGHTS against any infringement or alleged infringement thereof in the LICENSED FIELD OF USE.
+
+6.1 Expiration: This term of this Agreement shall commence on the EFFECTIVE DATE and shall continue, in each country, until the date of expiration of the last to expire patent within PATENT RIGHT(S) in that country.
+
+6.2 Termination by Company: Company may terminate this Agreement and the license granted herein, for any reason, upon giving JHU sixty (60) days written notice under Paragraph 8.1.
+
+6.3 Termination by JHU: JHU, at its option, may terminate this Agreement and the license granted herein if Company has not made any sales of LICENSED PRODUCT(S) or LICENSED SERVICE(S) in any period of four consecutive quarters, after the initial commercial sale of the PRODUCT(S) or LICENSED SERVICE(S).
+
+6.4 Unpaid Royalty/Reversion of Rights: Termination or expiration of this Agreement shall not affect JHU’s right to recover unpaid royalties accrued prior to termination or expiration. Upon termination or expiration of this Agreement, all rights in and to the licensed technology shall revert to JHU at no cost to JHU.
+
+6.5 Survival: All applicable provisions, including but not limited to Paragraphs 4.1 (License Fee), 9.3 (Severability), 9.4 (Use of Name),
+
+9.6 (Disclaimer of Warranties), 9.7 (Indemnification), 9.8 (Product Liability), 9.13 (Binding Effect) and 9.14 (Governing Law) shall survive termination or expiration of this Agreement.
+
+7.1 Default & Termination: Upon breach or default of any term or condition of this Agreement by either party, the defaulting party shall be given written notice of such default in writing by the party not in default. The defaulting party shall have a period of sixty
+
+(60) days after receipt of such notice to correct the default or breach. If the default or breach is not corrected within said sixty (60) day period, the party not in default shall have the right to terminate this Agreement.
+
+8.1 Notice Information: All notices and/or other communications pertaining to this Agreement shall be in writing and sent by registered mail or certified mail, return receipt requested, or sent by overnight courier, such as Federal Express, to the parties at the following addresses or such other address as such party shall have furnished in writing to the other party in accordance with this Paragraph 8.1: FOR JHU: Director Johns Hopkins Technology Ventures The Johns Hopkins University 100 N. Charles Street, 5th Floor Baltimore, MD 21201 Reference: JHU Agreement A29889 FOR Company: VIRTUOSO SURGICAL, INC. 5701 Old Harding Pike; Suite 200 Nashville, TN 37205
+
+9.1 Audit: JHU shall have the right to audit any and all Company records related to this Agreement.
+
+9.2 Assignment: This Agreement is binding upon and shall inure to the benefit of JHU, its successors and assignees and shall not be assignable to another party, except that the Company shall have the right to assign this Agreement to another party in the case of the sale or transfer by the Company of all, or substantially all, of its assets relating to the LICENSED PRODUCT(S), LICENSED SERVICE(S) or PATENT RIGHT(S), to that party.
+
+9.3 Severability: In the event that any one or more of the provisions of this Agreement should for any reason be held by any court or authority having jurisdiction over this Agreement, or over any of the parties hereto to be invalid, illegal or unenforceable, such provision or provisions shall be reformed to approximate as nearly as possible the intent of the parties, and if unreformable, shall be divisible and deleted in such jurisdictions; elsewhere, this Agreement shall not be affected.
+
+9.4 Use of Name: The Company shall not use the name of The Johns Hopkins University or The Johns Hopkins Health System or any of its constituent parts, such as the Johns Hopkins Hospital or any contraction thereof or the name of Inventors in any advertising, promotional, sales literature or fundraising documents without prior written consent from an authorized representative of JHU. Company shall allow at least seven (7) business days notice of any proposed public disclosure for JHU’s review and comment or to provide written consent.
+
+9.5 Duties of the Parties: JHU is not a commercial organization. It is an institute of research and education. Therefore, JHU has no ability to evaluate the commercial potential of any PATENT RIGHT(S), LICENSED PRODUCT(S), LICENSED SERVICE(S) or other license or rights granted in this Agreement. It is therefore incumbent upon Company to evaluate the rights and products in question, to examine the materials and information provided by JHU, and to determine for itself the validity of any PATENT RIGHT(S), its freedom to operate, and the value of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) or other rights granted.
+
+9.6 Disclaimer of Warranties: JHU does not warrant the validity of any patents or that the practice under such patents, or the manufacture, use, sale or import of LICENSED PRODUCT(S) or LICENSED SERVICE(S), shall be free from patent infringement. EXCEPT AS EXPRESSLY SET FORTH IN THIS PARAGRAPH 9.6, COMPANY AGREES THAT THE PATENT RIGHT(S) ARE PROVIDED “AS IS”, AND THAT JHU MAKES NO REPRESENTATION OR WARRANTY WITH RESPECT TO THE
+
+COMMERCIAL VIABILITY. JHU DISCLAIMS ALL WARRANTIES WITH REGARD TO LICENSED PRODUCTS AND LICENSED
+
+MERCHANTABILITY AND FITNESS FOR ANY PARTICULAR PURPOSE. NOTWITHSTANDING ANY OTHER PROVISION OF
+
+DAMAGES, ATTORNEYS’ AND EXPERTS’ FEES, AND COURT COSTS (EVEN IF JHU HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, FEES OR COSTS), ARISING OUT OF OR IN CONNECTION WITH THE MANUFACTURE, USE, OR SALE OF THE LICENSED PRODUCTS AND LICENSED SERVICES UNDER THIS AGREEMENT. COMPANY ASSUMES
+
+9.7 Indemnification: JHU and the Inventors will have no legal liability exposure to third parties if JHU does not license the LICENSED PRODUCT(S) and LICENSED SERVICE(S), and any royalties JHU and the Inventors may receive is not adequate compensation for such legal liability exposure. Therefore, JHU requires Company to protect JHU and Inventors from such exposure to the same manner and extent to which insurance, if available, would protect JHU and Inventors. JHU and the Inventors will not, under the provisions of this Agreement or otherwise, have control over the manner in which Company or those operating for its account or third parties who purchase LICENSED PRODUCT(S) or LICENSED SERVICE(S) from any of the foregoing entities, practice the inventions of LICENSED PRODUCT(S) and LICENSED SERVICE(S). The Company shall indemnify, defend with counsel reasonably acceptable to JHU, and hold JHU, The Johns Hopkins Health Systems, their representatives including but not limited to present and former, trustees, officers, Inventors, agents, faculty, employees and students harmless as against any judgments, fees, expenses, or other costs arising from or incidental to any product liability or other lawsuit, claim, demand or other action brought as a consequence of the practice of said inventions by any of the foregoing entities, whether or not JHU or said Inventors, either jointly or severally, is/are named as a party defendant in any such lawsuit. Practice of the inventions covered by LICENSED PRODUCT(S) or LICENSED SERVICE(S) by an agent or a third party on behalf of or for the account of the Company, or by a third party who purchases LICENSED PRODUCT(S) or LICENSED SERVICE(S) from the Company, shall be considered the Company’s practice of said inventions for purposes of this Paragraph 9.7. The obligation of the Company to defend and indemnify as set out in this Paragraph 9.7 shall survive the termination of this Agreement and shall not be limited by any other limitation of liability elsewhere in the Agreement.
+
+9.8 Product Liability: Prior to first commercial sale of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) as the case may be in any particular country, Company shall establish and maintain, in each country in which Company shall sell LICENSED PRODUCT(S) or LICENSED SERVICE(S), product liability or other appropriate insurance coverage appropriate to the risks involved in marketing LICENSED PRODUCT(S) and/or LICENSED SERVICE(S) and will annually present evidence to JHU that such coverage is being maintained. Upon JHU’s request, Company will furnish JHU with a Certificate of Insurance of each product liability insurance policy obtained. JHU shall be listed as an additional insured in Company’s said insurance policies. If such Product Liability insurance is underwritten on a ‘claims made’ basis, Company agrees that any change in underwriters during the term of this Agreement will require the purchase of ‘prior acts’ coverage to ensure that coverage will be continuous throughout the term of this Agreement.
+
+9.9 Entire Agreement: This Agreement constitutes the entire understanding between the parties with respect to the obligations of the parties with respect to the subject matter hereof, and supersedes and replaces all prior agreements, understandings, writings, and discussions between the parties relating to said subject matter.
+
+9.10 Amendment & Waiver: This Agreement may be amended and any of its terms or conditions may be waived only by a written instrument executed by the authorized officials of the parties or, in the case of a waiver, by the party waiving compliance. The failure of either party at any time or times to require performance of any provision hereof shall in no manner affect its right at a later time to enforce the same. No waiver by either party of any condition or term in any one or more instances shall be construed as a further or continuing waiver of such condition or term or of any other condition or term.
+
+9.11 Binding Effect: This Agreement shall be binding upon and inure to the benefit of and be enforceable by the parties hereto and their respective successors and permitted assigns.
+
+9.12 Governing Law: This Agreement shall be construed, and legal relations between the parties hereto shall be determined, in accordance with the laws of the State of Maryland applicable to contracts solely executed and wholly to be performed within the State of Maryland without giving effect to the principles of conflicts of laws. Any disputes between the parties to the Agreement shall be brought in the state or federal courts of Maryland. Both parties agree to waive their right to a jury trial.
+
+9.13 Headings: Article headings are for convenient reference and are not a part of this Agreement. All Exhibits are incorporated herein by this reference.
+
+9.14 Use of Name: Nothing contained in this Agreement confers any right to either party hereto to use in advertising, publicity, or other promotional activities any name, trade name, trademark, or other designation of the other party hereto (including any contraction, abbreviation or simulation of any of the foregoing). Unless otherwise required by law, LICENSEE is prohibited from using the name “The Johns Hopkins University” or the name of any affiliate of the Johns Hopkins University, including but not limited to The Johns Hopkins Health System Corporation, or any of its hospitals or affiliates, or the names of any of their respective faculty, employees, students or INVENTORS, in advertising, publicity, or other promotional activities, without JHU’s prior written approval of such use. JHU may disclose to all INVENTORS the terms and conditions of this Agreement upon their request. JHU may acknowledge to third parties the existence of this Agreement and the extent of the licenses granted to LICENSEE and AFFILIATES under Section 3 hereof, but JHU shall not disclose the financial terms of this Agreement to third parties, except where JHU is required by law to do so. LICENSEE hereby grants JHU permission to include LICENSEE’s name and a link to LICENSEE’s website in JHU’s annual reports and on JHU’s website to showcase technology transfer-related stories. JHU shall have the right to list LICENSEE and display the logotype or symbol of LICENSEE on JHU’s website and on JHU publications as a licensee startup company based upon JHU technology.
+
+By: /s/ Neil Veloso By: /s/ C. Mark Pickrell Neil Veloso Name:C. Mark Pickrell Executive Director Title: Attorney-in-Fact Johns Hopkins Technology Ventures Date:5/11/2016 Date::5/4/2016 Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019 11 May 3, 2016
+
+1.1 The license fee due under Paragraph 4.1 is two-thousand dollars ($2000).
+
+1.2 In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the outstanding common and preferred shares on a fully diluted basis of COMPANY pursuant to an agreed upon stock purchase agreement between COMPANY and JHU. The stock purchase agreement shall contain provisions protecting JHU against dilution of its equity interest in the event the post-money valuation of any equity investment is less than two million dollars ($2,000,000), and it will also contain a provision for the piggy-back registration of common shares with any other class of stock in an initial public offering. If COMPANY proposes to sell any equity securities or securities that are convertible into equity securities of COMPANY (collectively, “Equity Securities”) in any new round of financing, then COMPANY shall offer JHU and/or its Assignee (as defined below) an opportunity to purchase either:
+
+(i) up to that portion of the Equity Securities that equals JHU’s then current, fully-diluted percentage ownership interest in COMPANY, or
+
+(ii) if the percentage offered for sale by COMPANY is less, then up to five percent (5%) of the Equity Securities offered for sale. Such offer to purchase shall be on the same terms and conditions as are offered with respect to such Equity Securities sold in such financing. For purposes of this section 7 of Exhibit A, the term “Assignee” means: (a) any entity to which JHU’s preemptive rights have been assigned either by JHU or by another entity, or (b) any entity that is controlled by JHU.
+
+2.1 Annual Earned Royalty. COMPANY shall pay an annual EARNED ROYALTY as follows:
+
+1.1 Four percent (4%) of the sum of NET REVENUES.
+
+2.2 Royalty Stacking. If COMPANY is required to pay running royalties on any patent rights not licensed hereunder (“Other Royalties”) in order to make, use or sell a particular LICENSED PRODUCT or LICENSED SERVICE, COMPANY shall be entitled to credit half (50%) of such Other Royalties against the Earned Royalty due, but the Earned Royalties shall not be reduced below fifty percent (50%) of those that would otherwise be due JHU for that LICENSED PRODUCT or LICENSED SERVICE.
+
+2.3 Least Developed Countries. EARNED ROYALTY shall not be due and payable to JHU on NET REVENUES generated from: (i) LICENSED PRODUCTS sold in Least Developed Countries as defined by the United Nations Country Classification in the most recent United Nations’ publication “Statistical Annex” (“LEAST DEVELOPED COUNTRIES”); or (ii) LICENSED PRODUCTS sold to the Public Sector providing LICENSED PRODUCTS at a Cost-Based Price in such Least Developed Countries, but only if COMPANY sells such LICENSED PRODUCTS at COMPANY’s cost of production thereof.
+
+3.1 The minimum annual royalties pursuant to the Agreement are: 1st anniversary of the EFFECTIVE DATE and each subsequent anniversary of the EFFECTIVE DATE during the term: Three-thousand dollars ($3000)
+
+3.2 Earned Royalties payable for each calendar year are creditable on a non-cumulative basis against MINIMUM ANNUAL ROYALTIES for that year only.
+
+4.1 COMPANY will pay JHU a fee equal one percent (1%) of the Aggregate Consideration received by the COMPANY, or the total amount received by stockholders of COMPANY, upon the occurrence of a Liquidity Event. Such fee shall be paid after only the first to occur of either a Liquidation Event or an Initial Public Offering. The respective fees, when and if payable, shall be paid upon closing; except that if there are additional contingent amounts (“Trailing Consideration”) payable upon the occurrence of subsequent events, then the Trailing Consideration shall be due and payable to JHU within thirty (30) days after receipt thereof by COMPANY.
+
+4.2 For a Liquidity Event, the fee required under Section 4.1 of this Exhibit A above shall be payable to JHU by COMPANY in the same form as the proceeds paid or payable to either COMPANY or its security holders, whether in cash, securities or other property, and in the same proportion as such form of consideration is paid or payable to COMPANY or its security holders. Notwithstanding the foregoing, in the event the form of consideration paid or payable includes securities for which there is not an active public market, in lieu of paying that portion of the fee with such securities COMPANY will make a cash payment to JHU equal to the fair market value of such securities. The valuation of such securities shall be determined in accordance with the definition of “Aggregate Consideration” set forth below.
+
+4.3 For an Initial Public Offering, the fee shall be payable in the form of cash, and shall be based upon the Pre Money Valuation.
+
+4.1 In the case of an Asset Sale, the sum of: (a) all cash, and the fair market value of all securities or other property transferred to COMPANY at the time of the transaction, less all current and long-term liabilities (but not contingent liabilities) of COMPANY that are not discharged or assumed by the buyer (or its affiliates) in connection with the Asset Sale; and (b) all cash, and the fair market value of all securities and other property for Trailing Consideration payable to COMPANY, when and if actually paid; or
+
+4.2 In the case of a Merger or Stock Sale, the sum of: (a) all cash, and the fair market value of all securities and other property transferred to the stockholders of COMPANY (and any option holders or warrant holders) in return for their stock (or options or warrants) in COMPANY at the time of the transaction, and (b) all cash, and the fair market value of all securities and other property transferred to the stockholders of COMPANY (and any option holders or warrant holders) for Trailing Consideration payable to the holders of COMPANY’s securities, when and if actually paid.
+
+4.3 The valuation of any securities or other property shall be determined by reference to the operative transaction agreement for a respective Merger, Stock Sale or Asset Sale, provided that, if no such valuation is readily determinable from such operative transaction agreement, then for securities for which there is an active public market:
+
+(a) If traded on a securities exchange or the NASDAQ Stock Market, the value shall be deemed to be the average of the closing prices of the securities on such exchange or market over the thirty day (30) period ending three
+
+(3) days prior to the closing of such transaction; or
+
+(b) If actively traded over-the-counter, the value shall be deemed to be the average of the closing bid prices over the thirty day (30) period ending three (3) days prior to the closing of such transaction.
+
+(c) The method of valuation of securities subject to investment letters or other similar restrictions on free marketability shall take into account an appropriate discount from the market value as determined pursuant to clause (a) or (b) above so as to reflect the approximate fair market value thereof.
+
+(d) For securities for which there is no active public market, the value shall be the fair market value thereof as either: (i) determined in good faith by the Board of Directors of COMPANY; (ii) approved by JHU, such approval not to be unreasonably withheld; or (iii) determined by a third party appraiser appointed and paid for by COMPANY.
+
+4.5 “Pre-Money Valuation” means the amount equal to the product of: (i) the price per share of common stock sold in the Initial Public Offering, and (ii) the total number of outstanding shares of common stock of COMPANY immediately prior to the closing of the Initial Public Offering, determined on a fully diluted, as converted into common stock basis, giving effect to any stock split, stock dividend, stock combination, recapitalization or similar action impacting COMPANY’s capitalization that occurs, or is deemed to occur, upon consummation of the Initial Public Offering.
+
+VIRTUOSO SURGICAL, INC. AND THE JOHNS HOPKINS UNIVERSITY EFFECTIVE DATE OF AGREEMENT _________________ FOR PERIOD OF _________ TO _________ TOTAL ROYALTIES DUE FOR THIS PERIOD$_________
+
+ID NO. NAME NO. SALE DATE SALES/SERVICES RATE DUE * Please provide the JHU Ref. C04873 This report format is to be used to report quarterly royalty statements to JHU. It should be placed on Company letterhead and accompany any royalty payments due for the reporting period. This report shall be submitted even if no sales are reported.
+
+JHU Ref Technology Title Inventors Country/# Number C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2008-541319 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura European Patent Office Intervention Noah J. Cowan 06844376.1 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Canada Intervention Noah J. Cowan 2,630,061 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2012-139088 Robert James Webster, III 5550682 Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2015-094824 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura Japan Intervention Noah J. Cowan 2014-000372 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura China Intervention Noah J. Cowan 200680050046.8 Robert James Webster, III ZL 200680050046.8 Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura United States Intervention Noah J. Cowan 8,152,756 Robert James Webster, III Russell H. Taylor C04873 Active Cannulas for Bio-sensing and Surgical Allison M. Okamura United States Intervention Noah J. Cowan 8,715,226 Robert James Webster, III Russell H. Taylor Source: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019
+
+Exhibit 10.1 Oceanic Time Warner Cable and Watchit Media Content and License Agreement Effective Dates: September 1, 2006, August 31, 2007 Watchit agrees to provide Oceanic Time Warner Cable the following content: – Watchit Gaming Guides – Lunchtime with Ira segments every week Watchit will provide the content on BetaSp format and reserves the right to modify the content to reflect sponsorship by an advertiser and advertisers. Oceanic Time Warner Cable agrees to not edit or modify the above content. Oceanic Time Warner Cable will use the content solely on channel 777, the Las Vegas channel. In the event that Oceanic Time Warner Cable removes the above content and or terminates this agreement prior to December 31, 2006, Oceanic Time Warner Cable agrees to pay a cancellation fee of Five Thousand Dollars ($5,000) per month multiplied by the number of months remain on the agreement. Watchit shall have the exclusive right to sell third party advertising as sponsors of their content and will have the right to brand the content under the Watchit brand and place a “bug” on the screen identifying the content with a Watchit trademark. Oceanic Time Warner Cable will include the following disclaimer on the Watchit Content: “The materials shown are for entertainment purposes only and does not provide any guarantees of winning or improving your odds of winning on this program. The rules of the games as shown may not apply to all properties and may change from time to time.” Ocean Time Warner Cable will provide Watchit with data on viewership to both Channel 777 and specifically to the content provided by Watchit. Ocean Time Warner Cable will be able to not include any content that it deems inappropriate or distasteful. This agreement will be in effect until the end of 2006 and will be evaluated at that time. Both parties agree to discuss use of information gathered form this arrangement before using it in any kind of promotional or public message. Accepted by:
+
+Oceanic Time Warner Cable/Date Watchit Media/Date Source: WATCHIT MEDIA, INC., 8-K, 12/1/2006
+
+This Content License Agreement (this “Agreement”) is dated as of October 1, 2005 (the “Effective Date”) and is by and between Emdeon Corporation a Delaware corporation (“Emdeon”), with offices at at 669 River Drive, Center 2, Elmwood Park, New Jersey 07407 and WebMD, Inc. a Georgia Corporation (“WebMD”), with offices at 111 Eighth Avenue, New York, NY 10011. Emdeon and WebMD expressly agree that this Agreement incorporates the Terms and Conditions attached hereto. WebMD agrees to grant, and Emdeon agrees to accept, a license to use the Content (as defined below) in connection with various software products it has all right title and interest to (the “Software”) in accordance with the terms of this Agreement. Content to be provided under this Agreement is specified on Exhibit A (the “Content”). Expiration Date: August 31, 2006 AGREED TO AND ACCEPTED: WebMD, Inc. Emdeon Corporation By: By:
+
+WebMD shall provide Content as follows: The entire set of Anatomical Line Drawings. Anatomical Line Drawings are printable line drawings intended for physicians to draw on and illustrate diseases and conditions to patients. -2- Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005
+
+Fees for the Content shall be $5,000 per year. Additional anatomical line drawings shall be licensed to Emdeon at an incremental charge of $150 per drawing. -3- Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005
+
+(a) Description. WebMD hereby agrees to provide Emdeon the Content described on Exhibit A in accordance with the terms of this Agreement.
+
+(b) License. Subject to Emdeon’s compliance with the provisions of this Agreement, Emdeon is hereby authorized and licensed to use the Content by making such Content available to third parties verbatim or as source material via the Software. Such license is a non-exclusive, non-transferrable and worldwide license and shall include the right to use, reproduce, copy and publish the Content solely in connection with the Software. Emdeon may determine the placement and formatting of the Content in the Software, but may not change the substance of the Content to any extent whatsoever without WebMD’s written approval of the change.
+
+(c) Updates. If WebMD should reprint, issue a new edition, change or modify the edition, or otherwise enhance or edit the Content Emdeon has licensed (collectively, “Updates”), Emdeon has the option, at no additional cost, to receive the most recent Update. WebMD shall promptly notify Emdeon when a new Update is available.
+
+(d) Format. WebMD agrees to provide Emdeon the Content, including any Updates, in a mutually agreeable format (the “Format”). WebMD shall bear the cost of any reformatting necessary to provide the Content in the Format. Emdeon shall bear all the cost associated with the integration of the Content into the Software.
+
+(e) WebMD retains absolute editorial control over the Content. Nothing in this Agreement shall restrict WebMD’s right to place other marks (such as third party marks) within the Content.
+
+(f) From time to time, WebMD will provide Content that supersedes and replaces Content previously provided (for example, a corrected news article). Promptly after receipt of replacement Content, Emdeon will either (a) remove the superseded Content and replace it with the replacement Content or (b) note at the top of the superseded Content that it has been replaced and give a hypertext link to the replacement Content.
+
+(g) WebMD does not provide medical or diagnostic advice or services. Emdeon agrees that the Content is to be used for informational and educational purposes only. Emdeon agrees that it shall not rely, or promote reliance, on the Content as a substitute for the professional judgment of a health care professional in diagnosing and treating patients.
+
+2. Intellectual Property. As between WebMD and Emdeon, WebMD or its suppliers retain all worldwide right, title, and interest in and to the Content. All rights in the Content not expressly granted by WebMD to Emdeon are reserved to WebMD. Except as expressly provided, no rights or licenses are intended or conveyed herein, whether by implication, estoppel, or otherwise.
+
+(a) Term. This Agreement shall be effective as of the Effective Date and shall expire on the Expiration Date set forth above (the “Initial Term”), unless earlier terminated in accordance with Section 3(b). Upon mutual agreement, this Agreement may be renewed for one (1) additional one (1) year term upon the expiration of the Initial Term.
+
+(b) Termination. In addition to expiration of this Agreement as set forth in Section 3(a) hereof in the event either party fails to perform any of its material obligations hereunder, the other party may terminate this Agreement at its election after thirty (30) days written notice to the party of such breach, if such breach is not cured by the party within such thirty (30) day period.
+
+(c) Survival. All representations, warranties and indemnities shall survive the execution, delivery, suspension, expiration and/or termination of this Agreement or any provision hereof. Upon any expiration or termination of this Agreement, Emdeon shall have a reasonable period of time to remove the Content from the Software.
+
+4. Fees and Payment. -4- Source: WEBMD HEALTH CORP., S-1/A, 9/8/2005
+
+(a) Payments. In consideration for provision of the Content and all rights granted hereunder, Emdeon hereby agreed to pay WebMD the amounts set forth on Exhibit B of this Agreement. All amounts payable shall be due be due thirty (30) days after the receipt of WebMD’s invoice.
+
+(b) Taxes. All payments under the Agreement are exclusive of all federal, state, local and foreign taxes, levies and assessments. Emdeon agrees to bear and be responsible for the payment of all such taxes, levies and assessments imposed on WebMD arising out of this Agreement, excluding any tax based on WebMD’s net income. All fees charged hereunder by WebMD are net of any such taxes.
+
+(c) Late payments are subject to an interest charge, at the lower rate of (i) one and one-half percent (1.5%) per month, or (ii) the maximum legal rate.
+
+(a) Emdeon is hereby granted a non-exclusive and worldwide right to use WebMD’s trademarks and logos (“Marks”) for the purpose of identifying the origin of the Content during the term of this Agreement. These Marks may be used by Emdeon, in its sole discretion, in connection with the Content in the Software, and in any form, format, forum, media, medium, means or method by which the Content is delivered. Notwithstanding the foregoing, portions of the Software that contain Content shall include a WebMD Mark in appearance and format mutually agreed to by the parties.
+
+6. Disclaimer. WebMD MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO THE CONTENT OR THE ACCURACY OF THE CONTENT. WEBMD EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING FROM CONDUCT, COURSE OF DEALING OR CUSTOM OF TRADE. IN NO EVENT WILL WEBMD OR ITS SUPPLIERS OR LICENSORS BE LIABLE UNDER
+
+ARISING OUT OF THIS AGREEMENT, OR THE PROVISION OR USE OF CONTENT, EVEN IF WEBMD HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. WEBMD’S AGGREGATE LIABILITY FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION IN ANY WAY RELATED TO THIS AGREEMENT OR THE CONTENT, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, EITHER JOINTLY OR SEVERALLY, SHALL NOT EXCEED FIFTY DOLLARS ($50). THIS SECTION REFLECTS AN ALLOCATION OF RISK BETWEEN THE PARTIES, IS NOT A PENALTY, AND SHALL BE EXCLUSIVE. THIS SECTION SHALL APPLY DESPITE ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED WARRANTY OR REMEDY.
+
+(a) Confidential Information. “Confidential Information” means any data, materials or information that is disclosed by either party to the other party during the term hereof, in oral or written form, and which is marked or otherwise reasonably identified as “confidential” or “proprietary”. Confidential Information also includes any information described in this Section which either party obtains from a third party under an obligation of confidentiality. Confidential Information does not include any data or information which the receiving party can demonstrate with competent written proof: (i) was already known to it at the time of disclosure; (ii) was independently developed by it without reference to the disclosing party’s Confidential Information; (iii) is in the public domain; (iv) was rightfully disclosed to it by a third party without obligation of confidentiality; or (v) is required to be disclosed pursuant to any statutory or regulatory authority or court order, provided the disclosing party is given prompt written notice of such requirement and the scope of such disclosure is limited to the extent possible.
+
+(b) Trade Secrets. “Trade Secrets” shall mean Confidential Information, including but not limited to technical or non-technical data, a formula, a pattern, a compilation, a program, a device, a method, a technique, a drawing, a process, financial data, financial plans, product plans, or a list of actual or potential customers or suppliers, in any form or format, which is not commonly known by or available to the public and which: (i) derives economic value, actual or potential, from not being generally known to and not being readily ascertainable by proper means by other persons who can obtain economic value from its disclosure or use, and (ii) is the subject of efforts that are reasonable under the circumstances to maintain its secrecy.
+
+(c) Requirements. During the term of this Agreement and for so long as such information remains a trade secret under applicable law, neither party will, except as otherwise expressly directed by the other -5-
+
+(d) Return of Information. The receiving party will, at the request of the disclosing party, during the term of this Agreement or thereafter (i) promptly return all Confidential Information and Trade Secrets held or used by the receiving party in whatever form, or (ii) at the discretion of the disclosing party, promptly destroy all such Confidential Information and Trade Secrets, including all copies thereof, and those portions of all documents that incorporate such Confidential Information and/or Trade Secrets.
+
+7. Assignment. Neither party shall have the right to sell, assign, transfer or hypothecate (all hereinafter referred to as “assign” or “assignment”) this Agreement, or delegate any of its obligations hereunder, voluntarily or by operation of law, without the prior written consent of the other party. Any such purported assignment or delegation without such prior written consent shall be null and void and have no force and effect.
+
+(a) Notices. All material notices and other communications required or permitted under this Agreement shall be in writing and notices will be deemed given three (3) days after they are sent by first class mail, return receipt requested, and one (1) day after they are sent by overnight courier or upon receipt if delivered by hand delivery, to the receiving party’s address as set forth in the first paragraph above, or to such other address that the receiving party may have provided in writing to the other party for purposes of receiving notices as provided in this Section.
+
+(b) Governing Law, Venue and Jurisdiction. This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without application of conflict of laws principles.
+
+(c) Force Majeure. Neither party shall be held responsible for any inability to perform occasioned by labor strife, war, riot, fires, embargoes, floods, government requirements, or other similar events beyond the control of such party.
+
+(d) Relationship. WebMD’s relationship to Emdeon shall be that of an independent contractor. Nothing herein shall create any association, partnership, joint venture or agency relationship between WebMD and Emdeon. Without limiting the generality of the foregoing, it is expressly understood and agreed that WebMD shall have no authority whatsoever to make any representations or commitments to or enter into any agreements with any third party on behalf of Emdeon.
+
+(e) Severability and Non-Waiver. In the event any provision of this Agreement shall be found to be contrary to any law or regulation of any federal, state or municipal administrative agency or body, the other provisions of this Agreement shall not be affected thereby but shall notwithstanding continue in full force and effect. No waiver by either party hereto of any breach or default by the other party shall be construed to be a waiver of any other breach or default by such other party. Resort to any remedies referred to herein shall not be construed as a waiver of any other rights and remedies to which either party is entitled under this Agreement or otherwise nor shall an election to terminate be deemed an election of remedies or a waiver of any claim for damages or otherwise.
+
+(f) Counterparts. This Agreement may be executed in one or more counterparts, each of which will be deemed original, but all of which will constitute one and the same instrument.
+
+(g) Complete Agreement. This Agreement, including the attached Exhibits, constitutes the entire understanding between the parties with respect to the subject matter hereof and all prior understandings, whether oral or written, have been merged herein and are superseded hereby. This Agreement may not be altered or modified except in writing signed by both parties hereto. -6-
+
+---------- BAKER & McKENZIE 14th Floor Hutchison House 10 Harcourt Road Hong Kong Tel: 2846-1888 Fax: 2845-0476
+
+16. Governing Law And Arbitration........................................ 7 Execution................................................................ 8 Schedule 1 - Contents -i- THIS AGREEMENT is made the 15th day of December 2001.
+
+(1) CHINA ECONOMIC INFORMATION SERVICE OF XINHUA NEWS AGENCY, the organisation within the Xinhua News Agency that is responsible for news and information operations and business, registered in the People's Republic of China with offices at 57 Xuanwumen Xidajie, Beijing, the People's Republic of China ( "CEIS"); and
+
+(2) XINHUA FINANCIAL NETWORK LIMITED, a company incorporated in Hong Kong whose registered office is at Room 2003-4, Vicwood Plaza, 199 Des Voeux Road Central, Hong Kong ("XFN"), (collectively referred to as "PARTIES"; individually, a "PARTY").
+
+(A) CEIS is the owner and distributor of certain content of Xinhua News Agency relating to financial and economic information;
+
+(B) CEIS wishes to appoint XFN as its licensee to distribute the content to users throughout the world in accordance with the terms and conditions of this Agreement. IT IS HEREBY AGREED as follows:
+
+1.1 In this Agreement unless the context otherwise requires the following words shall have the following meaning:
+
+"AFFILIATES" means any company, corporation, partnership, joint venture or other entity that directly or indirectly controls, is controlled by or is under common control with XFN; "CONTENT" means real-time economic news including articles, reports, data, information and such materials that have or have been and/or will be published from time to time and that is or will be in the possession or control of CEIS from time to time, in respect of the subject matters as more particularly described in Schedule 1; EFFECTIVE DATE means 18 May 2000; "INTELLECTUAL means patents, trade marks, service marks, trade names, PROPERTY RIGHTS" design rights (whether registrable or not), any applications for the foregoing, copyright and other assignable intellectual property -1- rights (whether registrable or not) in any country, including but not limited to the format, layout, and the look and feel of any of the Content; "TERM" means the term as set out in Clause 7; and "TERRITORY" means the world excluding the People's Republic of China.
+
+1.2 Words importing the singular number shall include the plural and vice versa.
+
+1.3 Words importing any particular gender shall include all other genders.
+
+1.4 References in this Agreement to Clauses and Schedules are to clauses of and schedules to this Agreement except where otherwise expressly stated.
+
+1.5 Headings are used in this Agreement for the convenience of the Parties only and shall not be incorporated into this Agreement and shall not be deemed to be any indication of the meaning of the Clauses or Schedules to which they relate.
+
+2.1 Exclusive Rights in the Territory: CEIS hereby grants XFN and its Affiliates an exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the Territory:
+
+(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates;
+
+(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content; and
+
+(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in media now or hereafter known.
+
+2.2 Non-exclusive Rights in the People's Republic of China: CEIS hereby grants XFN and its Affiliates a non-exclusive license (free of all third-party liens, claims and encumbrances) to, and to permit others to, during the Term in the People's Republic of China:
+
+(a) store or cache the Content in one or more host computers controlled directly or indirectly by XFN or its Affiliates;
+
+(b) adapt, translate, modify, reproduce, copy, amend, revise or encode the Content; and
+
+(c) publish, broadcast, distribute, re-distribute, transmit, display, make available to the public or otherwise exploit the Content in any manner by any device or in
+
+-2- media now or hereafter known. During the Term, CEIS agrees not to appoint any other licensees for the distribution of the Content in the People's Republic of China.
+
+2.3 The Intellectual Property Rights to use "Xinhua" as the first name of XFN and its affiliates world-wide.
+
+2.4 All Intellectual Property Rights and other proprietary rights in any translated, amended, revised or updated Content independently created by XFN ("AMENDED CONTENT") shall automatically vest in XFN.
+
+2.5 XFN and/or its Affiliates have the right at any time to suspend or cease distributing or making the Content available to the public.
+
+2.6 XFN and/or its Affiliates are entitled to publish or distribute content of any third party where such content is similar to or competitive with the Content.
+
+2.7 XFN and/or its Affiliate(s) shall have the right to charge users to access or view the Content and/or sub-license the Content to third parties for re-distribution to users. Revenues generated thereby shall be for the account of XFN or its Affiliates, and CEIS shall not be entitled to, nor make any action, claim or demand in relation thereto. XFN's only payment obligation to CEIS in consideration of the rights granted pursuant to this Clause 2 is set forth in Clause 4.
+
+2.8 XFN does not intend and is not under any obligation to edit or review the Content licensed herein for accuracy or appropriateness or compliance with any applicable laws or regulations.
+
+3.1 During the Term of this Agreement, CEIS shall supply the Content of XFN by such means of delivery or transmission as may be reasonably required by XFN including by online transmission.
+
+3.2 CEIS shall use its best endeavours to ensure that the Content is made available to XFN on a continuous, uninterrupted real-time basis.
+
+4.1 In consideration of the rights and obligations of the Parties, XFN shall pay to CEIS US$1.1 million (United States Dollars One Million and One Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007
+
+Hundred Thousand) for a term of twenty (20) years, in cash or such other consideration as the Parties may agree. The payment schedule shall be by five (5) instalments of US$220,000 each. The first instalment will be effect on condition that XFN can raise at least US$1.1 million additional funding in 2002.
+
+5.1 CEIS represents and warrants to XFN that during the Term of this Agreement:
+
+(a) CEIS is and shall remain entitled to grant to XFN the license to use the Content and other rights contained herein, free of all third-party liens, claims and encumbrances;
+
+(b) use of any Content by XFN in the manner contemplated by this Agreement does not and will not infringe any Intellectual Property Rights or other proprietary rights of any third party;
+
+(c) neither the Content nor any part thereof contains anything which is obscene, indecent, seditious, offensive, defamatory, threatening, liable to incite racial hatred, discriminatory, menacing or in breach of confidence;
+
+(d) the Content complies with and will comply with all applicable laws and regulations;
+
+(e) with respect to the provision of the Content, CEIS has acquired all requisite licenses, permissions and clearances for XFN to exercise the rights granted herein;
+
+(f) the Content is and will be reasonably accurate at the time of each delivery to XFN;
+
+(g) CEIS is a statutory body with legal person status validly existing under the laws of the People's Republic of China, being its jurisdiction of organization, and the execution, delivery and performance of this Agreement for and on its behalf has been duly and properly authorised by all required action, and Mr. Wang Zhongming, the Legal Representative of CEIS has been duly authorised to execute and deliver this Agreement for and on behalf of CEIS;
+
+(h) this Agreement is a valid and binding legal obligation enforceable against it in accordance with its terms; and
+
+(i) the execution, delivery and performance of this Agreement by it does not and will not:
+
+(i) require any authorization, consent, filing, registration or notice of or with any government agency in the People's Republic of China or Hong Kong; or
+
+(ii) result in any violation or breach of any agreement, obligation or order to which it is a party or to which it is subject.
+
+6.1 CEIS shall fully indemnify XFN and hold XFN harmless from and against any and all costs, expenses, loss, damages, liabilities, claims and proceedings which may be incurred or suffered by or taken against XFN in relation to:
+
+(a) the exercise by XFN of the rights granted herein; and
+
+(b) any breach by CEIS of any provision of this Agreement or any act,
+
+7.1 This Agreement shall take effect from the Effective Date and continue in full force and effect for twenty (20) years thereafter, unless otherwise terminated in accordance with Clause 8.
+
+7.2 This Agreement may be renewed for an additional term of ten (10) years by notice in writing given by XFN to CEIS at the expiry of the Term, for a consideration to be mutually agreed.
+
+8.1 XFN may terminate this Agreement by giving thirty (30) days written notice to the CEIS.
+
+(a) if the other Party commits a material breach of this Agreement which is not capable of being remedied;
+
+(b) if the other Party commits a material breach of this Agreement which is capable of being remedied but not remedied within thirty (30) days upon receiving written notice from the non-breaching party requiring remedy; and
+
+(a) CEIS shall terminate the transmission of the Content with immediate effect; and
+
+(b) in the event that this Agreement is terminated prior to the expiry of the Term, XFN shall recover any sums paid to CEIS in advance for the unexpired Term of this Agreement, together with interest from the date those sums were paid until the date of full refund.
+
+9. FURTHER ASSURANCE Each Party agrees, at its own expense, to take any further action and to execute any further documents or instruments as the other Party may reasonably request to give effect to the transactions contemplated by, and to the terms of, this Agreement. In particular, and without limiting the foregoing, the Parties agree to amend this Agreement as may be necessary to comply with applicable laws, including without limitation the laws of the People's Republic of China.
+
+10. ENTIRE AGREEMENT; AMENDMENTS This Agreement constitutes the entire agreement between CEIS and XFN and supersedes any prior written or oral agreement between them in relation to its subject matter. Any amendment of this Agreement shall be in writing and signed by CEIS and XFN.
+
+11. SEVERANCE If at any time any provision of this Agreement is or becomes illegal, invalid or unenforceable in any respect, the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby.
+
+12. NO WAIVER Failure of either Party to require strict performance of any of the terms and conditions herein shall not be deemed a waiver of any rights or Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007 remedies that either Party shall have and shall not be deemed a waiver of any subsequent default of terms and conditions thereof.
+
+13. COSTS AND EXPENSES Each party shall bear its own costs (including but not limited to legal costs) and disbursements of and incidental to the preparation, negotiation and execution of this Agreement and all ancillary documentation.
+
+14. COUNTERPARTS This Agreement may be executed in any number of counterparts all of which taken together shall constitute one and the same instrument.
+
+15. NOTICE Each notice, demand or other communication given or made under this Agreement shall -6- be in writing and delivered or sent to the relevant Party's Managing Director or General Manager at its aforesaid address (or such other address as the addressee may specify by five days' prior written notice to the other Party). Any notice, demand or other communication so addressed to the relevant Party shall be deemed to have been delivered (a) if given or made by letter by hand, when actually delivered to the relevant address against receipt; (b) if given or made by letter by post, two business days after posting; and (c) if given or made by fax, when dispatched and received in good order.
+
+16.1 The English language version shall prevail in the event of any discrepancy between the interpretation of the English and the Chinese versions of this Agreement. This Agreement is governed by and shall be construed in accordance with the laws of Hong Kong
+
+16.2 The Parties shall attempt to resolve any dispute, controversy or claim arising out of this Agreement through good faith consultation and negotiations. If the Parties fail to resolve the dispute through negotiation, such dispute shall be referred to and be resolved by arbitration in accordance with the UNCITRAL Arbitration Rules as may be amended from time to time. The place of arbitration shall be in Hong Kong. The language to be used in the arbitral proceedings shall be English. There shall be one arbitrator to be agreed by Parties. If the Parties are unable to agree on an arbitrator, the International Chamber of Commerce shall appoint one.
+
+-7- IN WITNESS WHEREOF this Agreement has been executed on the day and year first above written. SIGNED BY ) ) for and on behalf of ) CHINA ECONOMIC INFORMATION ) /s/ SERVICE OF XINHUA NEWS ) ---------------------------------- AGENCY ) in the presence of:- ) ) ) /s/ ) --------------------------- Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007 SIGNED BY ) ) for and on behalf of ) XINHUA FINANCIAL NETWORK ) /s/ LIMITED ) ---------------------------------- in the presence of:- ) ) ) /s/ ) --------------------------- -8- SCHEDULE 1 - CONTENT -9- Source: XINHUA SPORTS & ENTERTAINMENT LTD, F-1, 2/21/2007

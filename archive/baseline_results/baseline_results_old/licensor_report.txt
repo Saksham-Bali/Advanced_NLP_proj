@@ -1,0 +1,71 @@
+================================================================
+  BASELINE  ·  LICENSOR PERSPECTIVE  ·  Llama 8B  (zero-shot)
+================================================================
+
+  Model               : llama3.1:8b
+  Clauses evaluated   : 117
+  Parse failures      : 0  (defaulted to 'low')
+
+  Overall accuracy    : 0.248
+  Balanced accuracy   : 0.443  (macro-averaged recall)
+
+  Note: if balanced accuracy << overall accuracy, the model is
+  leaning on the majority class rather than learning risk signals.
+
+── Per-class metrics ───────────────────────────────────────────
+
+              precision    recall  f1-score   support
+
+         Low      0.900     0.101     0.182        89
+      Medium      0.177     0.895     0.296        19
+        High      0.273     0.333     0.300         9
+
+    accuracy                          0.248       117
+   macro avg      0.450     0.443     0.259       117
+weighted avg      0.734     0.248     0.209       117
+
+── Confusion matrix ────────────────────────────────────────────
+
+             pred_low  pred_medium  pred_high
+true_low            9           73          7
+true_medium         1           17          1
+true_high           0            6          3
+
+  Rows = ground truth   Columns = model prediction
+
+── Misclassification breakdown ─────────────────────────────────
+
+ground_truth predicted  count
+         low    medium     73
+         low      high      7
+        high    medium      6
+      medium      high      1
+      medium       low      1
+
+── High ↔ Low flip errors  (7 found) ─────────────────────
+  These are the highest-priority errors — model called a High-risk
+  clause Low (or vice versa). Prioritise these in fine-tuning.
+
+  clause 118  gt=low  pred=high
+  text   : (b) Inventions. All right, title and interest in and to any and all Inventions that would be necessary or useful to Deve...
+  reason : CytoDyn only gains ownership of inventions and faces no new cost or restriction.
+
+  clause  14  gt=low  pred=high
+  text   : (c) contest, challenge or otherwise make any claim or take any action adverse to Licensor’s interest in the Licensed Dom...
+  reason : The clause only gives the Licensor a right to demand the Licensee stop prohibited uses, which is a protection, not a cost.
+
+  clause 100  gt=low  pred=high
+  text   : a. WPT shall indemnify, defend, and hold harmless Zynga and its Affiliates, and the respective directors, officers and e...
+  reason : Zynga only receives a protection to be indemnified; it faces no new cost or restriction.
+
+  clause  72  gt=low  pred=high
+  text   : f. July 1, 2020: $1.5M...
+  reason : The clause only gives the Licensor the right to receive a payment, which is a benefit, not a cost.
+
+  clause 134  gt=low  pred=high
+  text   : 3. INDEMNIFICATION. Licensee shall defend, indemnify and hold harmless Licensor and its officers, directors, employees, ...
+  reason : The Licensor is protected from all third‑party claims and only has a minor duty to cooperate, which does not create a cost or significant re
+
+  ... and 2 more (see predictions JSON)
+
+================================================================

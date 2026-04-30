@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ContractGuard</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg:        #0d0f14;
+    --surface:   #13161e;
+    --border:    #1f2433;
+    --gold:      #c9a84c;
+    --gold-dim:  #8a6f2e;
+    --red:       #c0392b;
+    --green:     #1e7e5a;
+    --text:      #e8e4d9;
+    --muted:     #6b7280;
+    --radius:    6px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Grain overlay ── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: .5;
+  }
+
+  /* ── Top bar ── */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0;
+    background: rgba(13,15,20,.9);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: .04em;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-icon {
+    width: 28px; height: 28px;
+    border: 1.5px solid var(--gold);
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
+
+  .role-badge {
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 4px 12px;
+    border-radius: 20px;
+    transition: all .2s;
+  }
+
+  .role-badge.active { color: var(--gold); border-color: var(--gold-dim); }
+
+  /* ── Screens ── */
+  .screen { display: none; }
+  .screen.visible { display: block; }
+
+  /* ── Role selection screen ── */
+  #screen-role {
+    min-height: calc(100vh - 65px);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+  }
+  #screen-role.visible { display: flex; }
+
+  .role-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .role-sub {
+    color: var(--muted);
+    text-align: center;
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 52px;
+  }
+
+  .role-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .role-card {
+    width: 240px;
+    padding: 32px 28px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    cursor: pointer;
+    transition: all .25s;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .role-card::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(201,168,76,.06) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity .25s;
+  }
+
+  .role-card:hover { border-color: var(--gold-dim); transform: translateY(-2px); }
+  .role-card:hover::before { opacity: 1; }
+
+  .role-card-icon {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .role-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  .role-card-desc {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  /* ── Main screen ── */
+  #screen-main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* ── Upload area ── */
+  .upload-zone {
+    border: 1.5px dashed var(--border);
+    border-radius: 10px;
+    padding: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    background: var(--surface);
+    margin-bottom: 24px;
+    position: relative;
+  }
+
+  .upload-zone:hover, .upload-zone.drag { border-color: var(--gold-dim); background: rgba(201,168,76,.04); }
+  .upload-zone input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+
+  .upload-icon { font-size: 28px; margin-bottom: 10px; opacity: .6; }
+  .upload-label { font-size: 14px; color: var(--muted); }
+  .upload-label strong { color: var(--gold); }
+  .upload-filename {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 500;
+    display: none;
+  }
+
+  /* ── Analyze button ── */
+  .btn-analyze {
+    width: 100%;
+    padding: 14px;
+    background: var(--gold);
+    color: #0d0f14;
+    border: none;
+    border-radius: var(--radius);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+    margin-bottom: 32px;
+  }
+
+  .btn-analyze:hover { background: #d4b05c; }
+  .btn-analyze:disabled { opacity: .4; cursor: not-allowed; }
+
+  /* ── Progress bar ── */
+  .progress-wrap {
+    margin-bottom: 24px;
+    display: none;
+  }
+
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    letter-spacing: .04em;
+  }
+
+  .progress-bar {
+    height: 2px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--gold);
+    width: 0%;
+    transition: width .3s;
+  }
+
+  /* ── Section label ── */
+  .section-label {
+    font-size: 10px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── Clause cards ── */
+  #clause-list { margin-bottom: 48px; }
+
+  .clause-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    margin-bottom: 10px;
+    overflow: hidden;
+    animation: fadeUp .3s ease both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .clause-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .risk-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .risk-dot.high   { background: var(--red); box-shadow: 0 0 6px rgba(192,57,43,.5); }
+  .risk-dot.low    { background: var(--green); box-shadow: 0 0 6px rgba(30,126,90,.5); }
+  .risk-dot.medium { background: #d4900a; }
+
+  .clause-meta {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .clause-id {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+
+  .clause-preview {
+    font-size: 13px;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .85;
+  }
+
+  .risk-badge {
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .risk-badge.high   { background: rgba(192,57,43,.15); color: #e05c4e; border: 1px solid rgba(192,57,43,.3); }
+  .risk-badge.low    { background: rgba(30,126,90,.15);  color: #2ecc8e; border: 1px solid rgba(30,126,90,.3); }
+  .risk-badge.medium { background: rgba(212,144,10,.15); color: #e6a020; border: 1px solid rgba(212,144,10,.3); }
+
+  .chevron {
+    color: var(--muted);
+    font-size: 12px;
+    transition: transform .2s;
+    flex-shrink: 0;
+  }
+
+  .clause-card.open .chevron { transform: rotate(90deg); }
+
+  .clause-body {
+    display: none;
+    padding: 0 16px 16px;
+    border-top: 1px solid var(--border);
+  }
+
+  .clause-card.open .clause-body { display: block; }
+
+  .clause-full-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text);
+    opacity: .8;
+    padding: 14px 0 12px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 12px;
+  }
+
+  .explanation-label {
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .explanation-text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--gold);
+    opacity: .9;
+  }
+
+  /* ── Chat ── */
+  #chat-section { display: none; }
+
+  .chat-messages {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    min-height: 120px;
+    max-height: 420px;
+    overflow-y: auto;
+    padding: 16px;
+    margin-bottom: 12px;
+    scroll-behavior: smooth;
+  }
+
+  .chat-messages::-webkit-scrollbar { width: 4px; }
+  .chat-messages::-webkit-scrollbar-track { background: transparent; }
+  .chat-messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .msg {
+    margin-bottom: 16px;
+    animation: fadeUp .2s ease;
+  }
+
+  .msg-role {
+    font-size: 10px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .msg.user .msg-role   { color: var(--gold-dim); }
+  .msg.assistant .msg-role { color: var(--muted); }
+
+  .msg-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text);
+  }
+
+  .msg.user .msg-text { opacity: .75; }
+
+  .sources-block {
+    margin-top: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: rgba(255,255,255,.02);
+  }
+
+  .sources-label {
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .source-item {
+    font-size: 12px;
+    color: var(--muted);
+    padding: 3px 0;
+    border-bottom: 1px solid var(--border);
+    opacity: .8;
+  }
+
+  .source-item:last-child { border-bottom: none; }
+
+  .thinking {
+    display: flex;
+    gap: 4px;
+    padding: 4px 0;
+  }
+
+  .thinking span {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--muted);
+    animation: pulse 1.2s infinite;
+  }
+
+  .thinking span:nth-child(2) { animation-delay: .2s; }
+  .thinking span:nth-child(3) { animation-delay: .4s; }
+
+  @keyframes pulse {
+    0%, 80%, 100% { opacity: .3; transform: scale(.8); }
+    40% { opacity: 1; transform: scale(1); }
+  }
+
+  .chat-input-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+  }
+
+  .chat-input {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    padding: 12px 14px;
+    resize: none;
+    outline: none;
+    min-height: 46px;
+    max-height: 120px;
+    transition: border-color .2s;
+    line-height: 1.5;
+  }
+
+  .chat-input:focus { border-color: var(--gold-dim); }
+  .chat-input::placeholder { color: var(--muted); opacity: .7; }
+
+  .btn-ask {
+    background: transparent;
+    border: 1px solid var(--gold-dim);
+    color: var(--gold);
+    border-radius: var(--radius);
+    width: 46px; height: 46px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all .2s;
+    font-size: 16px;
+  }
+
+  .btn-ask:hover { background: rgba(201,168,76,.1); }
+  .btn-ask:disabled { opacity: .3; cursor: not-allowed; }
+
+  /* ── Empty state ── */
+  .empty-hint {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 40px 0;
+    opacity: .6;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">⚖</div>
+    ContractGuard
+  </div>
+  <div class="role-badge" id="header-role">No role selected</div>
+</header>
+
+<!-- ── Screen 1: Role selection ── -->
+<div id="screen-role" class="screen visible">
+  <div class="role-headline">Who are you in this agreement?</div>
+  <p class="role-sub">Your perspective determines how each clause is assessed for risk.</p>
+  <div class="role-cards">
+    <div class="role-card" onclick="selectRole('Licensee')">
+      <div class="role-card-icon">📥</div>
+      <div class="role-card-title">Licensee</div>
+      <div class="role-card-desc">You are receiving the license rights. Review clauses for obligations, restrictions, and termination exposure.</div>
+    </div>
+    <div class="role-card" onclick="selectRole('Licensor')">
+      <div class="role-card-icon">📤</div>
+      <div class="role-card-title">Licensor</div>
+      <div class="role-card-desc">You are granting the license rights. Review clauses for enforcement, IP protection, and revenue risk.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Screen 2: Main app ── -->
+<div id="screen-main" class="screen">
+
+  <!-- Upload -->
+  <div class="section-label">Upload Contract</div>
+  <div class="upload-zone" id="upload-zone">
+    <input type="file" id="file-input" accept=".pdf"/>
+    <div class="upload-icon">📄</div>
+    <div class="upload-label">Drop PDF here or <strong>browse</strong></div>
+    <div class="upload-filename" id="upload-filename"></div>
+  </div>
+
+  <button class="btn-analyze" id="btn-analyze" disabled onclick="analyzeDoc()">
+    Analyze Contract
+  </button>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-label">
+      <span id="progress-text">Extracting clauses…</span>
+      <span id="progress-count"></span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  </div>
+
+  <!-- Results -->
+  <div id="results-section" style="display:none">
+    <div class="section-label" id="results-label">Analysis Results</div>
+    <div id="clause-list"></div>
+
+    <!-- Chat -->
+    <div id="chat-section">
+      <div class="section-label">Follow-up Questions</div>
+      <div class="chat-messages" id="chat-messages">
+        <div class="empty-hint">Ask anything about the contract…</div>
+      </div>
+      <div class="chat-input-row">
+        <textarea
+          class="chat-input"
+          id="chat-input"
+          placeholder="e.g. Why is clause 5 high risk? What are my termination obligations?"
+          rows="1"
+          onkeydown="handleKey(event)"
+        ></textarea>
+        <button class="btn-ask" id="btn-ask" onclick="sendQuestion()">➤</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const API_BASE = 'https://abiding-jarring-semisweet.ngrok-free.dev';
+
+  let selectedRole = null;
+  let uploadedFile = null;
+
+  // ── Role selection ────────────────────────────────────────
+  function selectRole(role) {
+    selectedRole = role;
+    document.getElementById('header-role').textContent = role;
+    document.getElementById('header-role').classList.add('active');
+    document.getElementById('screen-role').classList.remove('visible');
+    document.getElementById('screen-main').classList.add('visible');
+  }
+
+  // ── File upload ───────────────────────────────────────────
+  const fileInput  = document.getElementById('file-input');
+  const uploadZone = document.getElementById('upload-zone');
+
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files[0]) setFile(fileInput.files[0]);
+  });
+
+  uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('drag'); });
+  uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('drag'));
+  uploadZone.addEventListener('drop', e => {
+    e.preventDefault();
+    uploadZone.classList.remove('drag');
+    if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]);
+  });
+
+  function setFile(file) {
+    uploadedFile = file;
+    const fn = document.getElementById('upload-filename');
+    fn.textContent = file.name;
+    fn.style.display = 'block';
+    document.getElementById('btn-analyze').disabled = false;
+  }
+
+  // ── Analyze ───────────────────────────────────────────────
+  async function analyzeDoc() {
+    if (!uploadedFile) return;
+
+    const btn      = document.getElementById('btn-analyze');
+    const progWrap = document.getElementById('progress-wrap');
+    const progFill = document.getElementById('progress-fill');
+    const progText = document.getElementById('progress-text');
+    const progCount= document.getElementById('progress-count');
+    const clauseList = document.getElementById('clause-list');
+
+    btn.disabled = true;
+    btn.textContent = 'Analyzing…';
+    clauseList.innerHTML = '';
+    document.getElementById('results-section').style.display = 'none';
+    document.getElementById('chat-section').style.display = 'none';
+    progWrap.style.display = 'block';
+    progText.textContent = 'Extracting clauses…';
+    progFill.style.width = '5%';
+    progCount.textContent = '';
+
+    const formData = new FormData();
+    formData.append('file', uploadedFile, uploadedFile.name);
+    formData.append('role', selectedRole);
+
+    try {
+      const resp = await fetch(`${API_BASE}/analyze`, { method: 'POST', body: formData });
+      if (!resp.ok) throw new Error(`Server error ${resp.status}`);
+      const result = await resp.json();
+      const clauses = result.clauses;
+
+      document.getElementById('results-section').style.display = 'block';
+      document.getElementById('results-label').textContent =
+        `Analysis Results — ${clauses.length} clauses · ${selectedRole} perspective`;
+
+      clauses.forEach((c, i) => {
+        const pct = Math.round(((i + 1) / clauses.length) * 100);
+        progFill.style.width = pct + '%';
+        progText.textContent = `Classified ${i + 1} of ${clauses.length} clauses`;
+        progCount.textContent = pct + '%';
+        clauseList.appendChild(buildCard(c, i));
+      });
+
+      progText.textContent = 'Complete';
+      progFill.style.width = '100%';
+      setTimeout(() => { progWrap.style.display = 'none'; }, 800);
+
+      document.getElementById('chat-section').style.display = 'block';
+
+    } catch(e) {
+      progText.textContent = 'Error: ' + e.message;
+      progFill.style.width = '100%';
+      progFill.style.background = 'var(--red)';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Analyze Contract';
+    }
+  }
+
+  function buildCard(clause, idx) {
+    const risk  = clause.risk_level.toLowerCase();
+    const div   = document.createElement('div');
+    div.className = 'clause-card';
+    div.style.animationDelay = (idx * 30) + 'ms';
+    div.innerHTML = `
+      <div class="clause-header" onclick="toggleCard(this)">
+        <div class="risk-dot ${risk}"></div>
+        <div class="clause-meta">
+          <div class="clause-id">Clause ${clause.clause_index}</div>
+          <div class="clause-preview">${escHtml(clause.clause_text.slice(0, 110))}…</div>
+        </div>
+        <div class="risk-badge ${risk}">${clause.risk_level}</div>
+        <div class="chevron">›</div>
+      </div>
+      <div class="clause-body">
+        <div class="clause-full-text">${escHtml(clause.clause_text)}</div>
+        <div class="explanation-label">Assessment</div>
+        <div class="explanation-text">${escHtml(clause.explanation)}</div>
+      </div>`;
+    return div;
+  }
+
+  function toggleCard(header) {
+    header.parentElement.classList.toggle('open');
+  }
+
+  // ── Chat ──────────────────────────────────────────────────
+  let chatReady = false;
+
+  async function sendQuestion() {
+    const input   = document.getElementById('chat-input');
+    const messagesEl = document.getElementById('chat-messages');
+    const question = input.value.trim();
+    if (!question) return;
+
+    // Clear empty hint on first message
+    if (!chatReady) {
+      messagesEl.innerHTML = '';
+      chatReady = true;
+    }
+
+    appendMsg('user', question);
+    input.value = '';
+    autoResize(input);
+    document.getElementById('btn-ask').disabled = true;
+
+    const thinkId = appendThinking();
+
+    try {
+      const resp = await fetch(`${API_BASE}/ask`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question, role: selectedRole, domain: 'General' }),
+      });
+      const data = await resp.json();
+      removeThinking(thinkId);
+      appendMsg('assistant', data.answer, data.sources || []);
+    } catch(e) {
+      removeThinking(thinkId);
+      appendMsg('assistant', 'Request failed: ' + e.message);
+    } finally {
+      document.getElementById('btn-ask').disabled = false;
+    }
+  }
+
+  function appendMsg(role, text, sources) {
+    const el = document.getElementById('chat-messages');
+    const div = document.createElement('div');
+    div.className = `msg ${role}`;
+    const sourceHtml = (sources && sources.length) ? `
+      <div class="sources-block">
+        <div class="sources-label">Sources</div>
+        ${sources.map(s => `<div class="source-item">${escHtml(s.slice(0, 120))}…</div>`).join('')}
+      </div>` : '';
+    div.innerHTML = `
+      <div class="msg-role">${role === 'user' ? selectedRole : 'ContractGuard'}</div>
+      <div class="msg-text">${escHtml(text)}</div>
+      ${sourceHtml}`;
+    el.appendChild(div);
+    el.scrollTop = el.scrollHeight;
+  }
+
+  function appendThinking() {
+    const el = document.getElementById('chat-messages');
+    const id = 'think-' + Date.now();
+    const div = document.createElement('div');
+    div.className = 'msg assistant'; div.id = id;
+    div.innerHTML = `<div class="msg-role">ContractGuard</div>
+      <div class="thinking"><span></span><span></span><span></span></div>`;
+    el.appendChild(div);
+    el.scrollTop = el.scrollHeight;
+    return id;
+  }
+
+  function removeThinking(id) {
+    const el = document.getElementById(id);
+    if (el) el.remove();
+  }
+
+  function handleKey(e) {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendQuestion(); }
+    autoResize(e.target);
+  }
+
+  function autoResize(el) {
+    el.style.height = 'auto';
+    el.style.height = Math.min(el.scrollHeight, 120) + 'px';
+  }
+
+  function escHtml(str) {
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');
+  }
+</script>
+</body>
+</html>
