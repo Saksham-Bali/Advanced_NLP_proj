@@ -149,3 +149,6 @@ Test set: 826 clauses (597 Low, 229 High)
 ## GitHub Repository
 
 [https://github.com/SakshamBali/Advanced_NLP_proj](https://github.com/SakshamBali/Advanced_NLP_proj)
+
+## Video Link
+[https://plakshauniversity1-my.sharepoint.com/:f:/g/personal/saksham_bali_ug23_plaksha_edu_in/IgDR4y8BBW0uQLczIzsdHmzCAXp0SU3bt506vb7oP8hc_cc?e=veuVPz](https://plakshauniversity1-my.sharepoint.com/:f:/g/personal/saksham_bali_ug23_plaksha_edu_in/IgDR4y8BBW0uQLczIzsdHmzCAXp0SU3bt506vb7oP8hc_cc?e=veuVPz)
